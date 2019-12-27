@@ -1,0 +1,30 @@
+PODS:
+  - CenteredCollectionView (2.2.1)
+  - Kingfisher (5.9.0):
+    - Kingfisher/Core (= 5.9.0)
+  - Kingfisher/Core (5.9.0)
+  - SwiftKeychainWrapper (3.4.0)
+  - UPCarouselFlowLayout (1.1.2)
+
+DEPENDENCIES:
+  - CenteredCollectionView
+  - Kingfisher (~> 5.0)
+  - SwiftKeychainWrapper
+  - UPCarouselFlowLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CenteredCollectionView
+    - Kingfisher
+    - SwiftKeychainWrapper
+    - UPCarouselFlowLayout
+
+SPEC CHECKSUMS:
+  CenteredCollectionView: ba6e45fb7774627890621d73c8dd7dbd33391da9
+  Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
+  SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
+
+PODFILE CHECKSUM: df36035c53f32d2f73acb4bb34a124a6b2c69edd
+
+COCOAPODS: 1.5.2
