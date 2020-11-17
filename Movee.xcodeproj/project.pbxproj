@@ -76,6 +76,15 @@
 		22C343FE236B15F30083645B /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C343FD236B15F30083645B /* MoviesViewController.swift */; };
 		22C757432396BAD4003DA010 /* StringLengthCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C757422396BAD4003DA010 /* StringLengthCalculator.swift */; };
 		22C757472396CDA7003DA010 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C757462396CDA7003DA010 /* Colors.swift */; };
+		22CA7D6C256411EF0091FD79 /* WireframeNavigationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D63256411EE0091FD79 /* WireframeNavigationType.swift */; };
+		22CA7D6D256411EF0091FD79 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D64256411EE0091FD79 /* ViewInterface.swift */; };
+		22CA7D6E256411EF0091FD79 /* AssemblerWireframeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D65256411EF0091FD79 /* AssemblerWireframeInteractorProtocol.swift */; };
+		22CA7D6F256411EF0091FD79 /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D66256411EF0091FD79 /* StoryboardExtension.swift */; };
+		22CA7D70256411EF0091FD79 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D67256411EF0091FD79 /* PresenterInterface.swift */; };
+		22CA7D71256411EF0091FD79 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D68256411EF0091FD79 /* InteractorInterface.swift */; };
+		22CA7D72256411EF0091FD79 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D69256411EF0091FD79 /* Typealiases.swift */; };
+		22CA7D73256411EF0091FD79 /* Wireframes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D6A256411EF0091FD79 /* Wireframes.swift */; };
+		22CA7D74256411EF0091FD79 /* FormatterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D6B256411EF0091FD79 /* FormatterInterface.swift */; };
 		22E196F523856BDE001EDF17 /* DateFixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E196F423856BDE001EDF17 /* DateFixer.swift */; };
 		22E2778F239FE38D006474DD /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2778E239FE38D006474DD /* RegisterPageViewController.swift */; };
 		22E27793239FE3B6006474DD /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27792239FE3B6006474DD /* LoginPageViewController.swift */; };
@@ -166,6 +175,15 @@
 		22C343FD236B15F30083645B /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		22C757422396BAD4003DA010 /* StringLengthCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLengthCalculator.swift; sourceTree = "<group>"; };
 		22C757462396CDA7003DA010 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		22CA7D63256411EE0091FD79 /* WireframeNavigationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeNavigationType.swift; sourceTree = "<group>"; };
+		22CA7D64256411EE0091FD79 /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		22CA7D65256411EF0091FD79 /* AssemblerWireframeInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssemblerWireframeInteractorProtocol.swift; sourceTree = "<group>"; };
+		22CA7D66256411EF0091FD79 /* StoryboardExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
+		22CA7D67256411EF0091FD79 /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		22CA7D68256411EF0091FD79 /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+		22CA7D69256411EF0091FD79 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		22CA7D6A256411EF0091FD79 /* Wireframes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframes.swift; sourceTree = "<group>"; };
+		22CA7D6B256411EF0091FD79 /* FormatterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatterInterface.swift; sourceTree = "<group>"; };
 		22E196F423856BDE001EDF17 /* DateFixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFixer.swift; sourceTree = "<group>"; };
 		22E2778E239FE38D006474DD /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		22E27792239FE3B6006474DD /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
@@ -593,6 +611,15 @@
 		A10C15FF2563E78A0034E76D /* BaseViperModules */ = {
 			isa = PBXGroup;
 			children = (
+				22CA7D65256411EF0091FD79 /* AssemblerWireframeInteractorProtocol.swift */,
+				22CA7D6B256411EF0091FD79 /* FormatterInterface.swift */,
+				22CA7D68256411EF0091FD79 /* InteractorInterface.swift */,
+				22CA7D67256411EF0091FD79 /* PresenterInterface.swift */,
+				22CA7D66256411EF0091FD79 /* StoryboardExtension.swift */,
+				22CA7D69256411EF0091FD79 /* Typealiases.swift */,
+				22CA7D64256411EE0091FD79 /* ViewInterface.swift */,
+				22CA7D63256411EE0091FD79 /* WireframeNavigationType.swift */,
+				22CA7D6A256411EF0091FD79 /* Wireframes.swift */,
 				A10C16002563E79E0034E76D /* BaseWireframe.swift */,
 			);
 			path = BaseViperModules;
@@ -729,22 +756,27 @@
 				2297246F2375551600222BDD /* TmDBService.swift in Sources */,
 				2220C36F237AC77800206CBA /* MovieUIModel.swift in Sources */,
 				224E44F7236C15CD000E4D57 /* MoveeCollectionCell.swift in Sources */,
+				22CA7D70256411EF0091FD79 /* PresenterInterface.swift in Sources */,
 				2252E0022397FC5E00E2F27A /* SearchingModel.swift in Sources */,
 				22193CFD237C171B005D3851 /* SeriesModel.swift in Sources */,
 				A10C15FC2563E71D0034E76D /* LoginWireframe.swift in Sources */,
 				22C343FE236B15F30083645B /* MoviesViewController.swift in Sources */,
+				22CA7D6C256411EF0091FD79 /* WireframeNavigationType.swift in Sources */,
 				22E57D7223A0C810002D3B29 /* TokenModel.swift in Sources */,
 				A10C15F72563E71D0034E76D /* LoginInterfaces.swift in Sources */,
 				22193D03237C1765005D3851 /* SeriesUIModel.swift in Sources */,
 				22393D7E237C46C4004069BA /* TopRatedSeriesCollectionViewCell.swift in Sources */,
 				22E196F523856BDE001EDF17 /* DateFixer.swift in Sources */,
+				22CA7D71256411EF0091FD79 /* InteractorInterface.swift in Sources */,
 				2229C0AE238E880500548C47 /* CreditsDetailsModel.swift in Sources */,
 				223CF2BE23B114D600DB47B5 /* AccountStates.swift in Sources */,
+				22CA7D74256411EF0091FD79 /* FormatterInterface.swift in Sources */,
 				223CF2BC23B0A20800DB47B5 /* FavoriteListTableView.swift in Sources */,
 				22C343EA236B11540083645B /* AppDelegate.swift in Sources */,
 				221652682398089B00D74773 /* MoviesSearchingTableViewCell.swift in Sources */,
 				A10C16012563E79E0034E76D /* BaseWireframe.swift in Sources */,
 				22829304238EB5CF0095A8B3 /* CreditsDetailsUIModel.swift in Sources */,
+				22CA7D6E256411EF0091FD79 /* AssemblerWireframeInteractorProtocol.swift in Sources */,
 				22C757432396BAD4003DA010 /* StringLengthCalculator.swift in Sources */,
 				224FD988239E7AE60018A6A1 /* NoResultsBackgroundView.swift in Sources */,
 				2220C36D237AC75A00206CBA /* MovieGenreModel.swift in Sources */,
@@ -765,6 +797,7 @@
 				2262508F2387FDD40013DE7A /* MoviesDetailsCreditsCollectionViewCell.swift in Sources */,
 				2229C0B6238E909C00548C47 /* KnownForTableView.swift in Sources */,
 				22193CFF237C174D005D3851 /* SeriesDetailModel.swift in Sources */,
+				22CA7D6D256411EF0091FD79 /* ViewInterface.swift in Sources */,
 				22122AA223A7CE980096BBF0 /* Constants.swift in Sources */,
 				22437FFD238DB53400A54AB0 /* SeriesDetailsCreditsCollectionViewCell.swift in Sources */,
 				2262508D2387EFCF0013DE7A /* CreditsUIModel.swift in Sources */,
@@ -773,12 +806,15 @@
 				2252E0042397FEE900E2F27A /* SearchingUIModel.swift in Sources */,
 				2216526C23994A6D00D74773 /* SeriesSearchingTableViewCell.swift in Sources */,
 				2262508B2387BC160013DE7A /* CreditsModel.swift in Sources */,
+				22CA7D72256411EF0091FD79 /* Typealiases.swift in Sources */,
 				223BA40C23A762F300071616 /* ForgotPasswordViewController.swift in Sources */,
+				22CA7D73256411EF0091FD79 /* Wireframes.swift in Sources */,
 				229C52612370035C0087DBF7 /* MoveeTableCell.swift in Sources */,
 				222922FD23AB6D2D0041659C /* FavoriteModel.swift in Sources */,
 				A10C15FB2563E71D0034E76D /* LoginInteractor.swift in Sources */,
 				22E2778F239FE38D006474DD /* RegisterPageViewController.swift in Sources */,
 				2249F3BC237EE14500BE7DCB /* PopularSeriesCollectionViewCell.swift in Sources */,
+				22CA7D6F256411EF0091FD79 /* StoryboardExtension.swift in Sources */,
 				22393D76237C463B004069BA /* SeriesViewController.swift in Sources */,
 				22E27793239FE3B6006474DD /* LoginPageViewController.swift in Sources */,
 				2229C0B1238E900B00548C47 /* CreditsViewController.swift in Sources */,
