@@ -11,6 +11,8 @@
 		221A295A25641A5C00107716 /* MoveeComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A295925641A5C00107716 /* MoveeComponentsTests.swift */; };
 		221A296525641A5C00107716 /* MoveeComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A296425641A5C00107716 /* MoveeComponentsUITests.swift */; };
 		221A298225641F4000107716 /* GenericDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A298125641F4000107716 /* GenericDataProtocol.swift */; };
+		221A298A256420DB00107716 /* GenericDescriptorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2989256420DB00107716 /* GenericDescriptorProtocol.swift */; };
+		221A298F2564210E00107716 /* InteractivePopGestureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A298E2564210E00107716 /* InteractivePopGestureDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		221A296425641A5C00107716 /* MoveeComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveeComponentsUITests.swift; sourceTree = "<group>"; };
 		221A296625641A5C00107716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221A298125641F4000107716 /* GenericDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataProtocol.swift; sourceTree = "<group>"; };
+		221A2989256420DB00107716 /* GenericDescriptorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDescriptorProtocol.swift; sourceTree = "<group>"; };
+		221A298E2564210E00107716 /* InteractivePopGestureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopGestureDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				221A298125641F4000107716 /* GenericDataProtocol.swift */,
+				221A2989256420DB00107716 /* GenericDescriptorProtocol.swift */,
+				221A298E2564210E00107716 /* InteractivePopGestureDelegate.swift */,
 			);
 			path = BaseProtocols;
 			sourceTree = "<group>";
@@ -285,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221A298F2564210E00107716 /* InteractivePopGestureDelegate.swift in Sources */,
+				221A298A256420DB00107716 /* GenericDescriptorProtocol.swift in Sources */,
 				221A298225641F4000107716 /* GenericDataProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
