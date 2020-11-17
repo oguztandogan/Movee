@@ -1,2 +1,8 @@
 
 *.xcuserstate
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/CenteredCollectionView.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/Kingfisher.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/Pods-Movee.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/SwiftKeychainWrapper.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/UPCarouselFlowLayout.xcscheme
