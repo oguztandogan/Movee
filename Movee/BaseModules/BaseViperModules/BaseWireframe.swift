@@ -63,6 +63,7 @@ public class BaseWireframe {
             }
         }
     }
+    
     public func popToDestinationWireframe(destinationView: WireframeDestinationType) {
         guard let vc = navigationController?.viewControllers.filter({ (controller) -> Bool in
             if controller.isKind(of: destinationView.value) {
@@ -74,4 +75,91 @@ public class BaseWireframe {
         navigationController?.popToViewController(vc, animatec: true)
     }
     
+    public func displayWarningPopup(data:WarningPopupWireframeData, completion: @escaping () -> Void) {
+        let wireframe = WarningPopupWireframe(data: data)
+        wireframe.viewController.modelPresentationStyle = .overCurrentContext
+        wireframe.viewController.modelTransitionStyle = .crossDissolve
+        navigationController?.presentWireframe(wireframe, animated: true, completion: completion)
+    }
+    
+}
+
+extension BaseWireframe: WireframeInterface {
+    public func pushAndRemoveYourself(to wireframeType: Wireframes) {
+        let wireframe = wireframeType.value
+        navigationController?.pushWireframe(wireframe)
+        navigationController?.viewControllers = navigationController?.viewControllers.filter({ (viewConroller) -> Bool in
+            if viewConroller.isKind(of: type(of: self.viewController)) {return false}
+            return true
+        }) ?? [UIViewController.init()]
+    }
+    
+    public func dissmissYourself() {
+        navigationController?.dismiss(animated: true, completion: nil)
+    }
+    //    public func pushWireframeFromViewController(_ wireframe: BaseWireframe, animated: Bool) {
+    //        viewController.pushWireframeFromViewController(wireframe)
+    //    }
+    //    public func presentWireframeFromViewController(_ wireframe: BaseWireframe, animated: Bool) {
+    //        viewController.presentWireframeFromViewController(wireframe)
+    //    }
+    public func show(type: Wireframes) {
+        viewController.show(type.value.viewController, sender: nil)
+    }
+}
+
+extension BaseWireframe{
+    
+    var viewController: UIViewController {
+        defer { _temporaryStoredViewController = nil }
+        return _viewController
+    }
+    
+    var navigationController: UINavigationController? {
+        return viewController.navigationController
+    }
+    
+}
+
+extension UIViewController {
+    
+    func presentWireframe(_ wireframe: BaseWireframe, animated: Bool = true, completion: (() -> Void)? = nil) {
+        present(wireframe.viewController, animated: animated, completion: completion)
+    }
+    
+}
+
+extension UINavigationController {
+    func presentWireframe(_ wireframe: Wireframes, animated: Bool = true) {
+        self.present(wireframe.value.viewController, animated: animated, completion: nil)
+    }
+    func pushWireframe(_ wireframe: BaseWireframe, animated: Bool = true) {
+        self.pushViewController(wireframe.viewController, animated: animated)
+    }
+    func setRootWireframe(_ wireframe: BaseWireframe, animated: Bool = true) {
+        self.setViewControllers([wireframe.viewController], animated: animated)
+    }
+    
+    //    func popDestinationWireframe() {
+    //        guard let vc = navigationController?.viewControllers.filter({ (controller) -> Bool in
+    //            if controller.isKind(of: ViewController1.self) {
+    //                return true
+    //            } else {
+    //                return false
+    //            }
+    //        })[0] else { return }
+    //
+    //        navigationController?.popToViewController(vc, animated: true)
+    //    }
+}
+
+extension UIViewController {
+    func pushWireframeFromViewController(_ wireframes: BaseWireframe, animated: Bool = true) {
+        guard let nav = self as? UINavigationController else { return }
+        nav.pushViewController(wireframe.viewController, animated: animated)
+    }
+    func presentWireframeFromViewController(_ wireframes: BaseWireframe, animated: Bool = true) {
+        guard let nav = self as? UINavigationController else { return }
+        nav.pushViewController(wireframe.viewController, animated: animated, completion: nil)
+    }
 }
