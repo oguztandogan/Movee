@@ -31,4 +31,5 @@ final class LoginWireframe: BaseWireframe {
 // MARK: - Extensions -
 
 extension LoginWireframe: LoginWireframeInterface {
+    
 }
