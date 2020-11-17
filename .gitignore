@@ -9,3 +9,6 @@ Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/UPCarouselFlowLayo
 Movee.xcworkspace/xcuserdata/tandogan.xcuserdatad/UserInterfaceState.xcuserstate
 *.xcscheme
 *.xcscheme
+Movee/BaseModules/.DS_Store
+Movee/.DS_Store
+.DS_Store
