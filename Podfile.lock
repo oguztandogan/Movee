@@ -13,7 +13,7 @@ DEPENDENCIES:
   - UPCarouselFlowLayout
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - CenteredCollectionView
     - Kingfisher
     - SwiftKeychainWrapper
@@ -27,4 +27,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: df36035c53f32d2f73acb4bb34a124a6b2c69edd
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.10.0
