@@ -5,6 +5,9 @@
       location = "group:Movee.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:MoveeComponents/MoveeComponents.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

@@ -100,6 +100,19 @@
 		A10C16012563E79E0034E76D /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C16002563E79E0034E76D /* BaseWireframe.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		22CA7D95256417110091FD79 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		18796AB54DD00773A1441E63 /* Pods_Movee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2202F4B923A0D50C00AABDFB /* SessionIdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionIdModel.swift; sourceTree = "<group>"; };
@@ -637,6 +650,7 @@
 				22C343E3236B11540083645B /* Frameworks */,
 				22C343E4236B11540083645B /* Resources */,
 				3F626026FEAA55399A6EC52A /* [CP] Embed Pods Frameworks */,
+				22CA7D95256417110091FD79 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -653,7 +667,7 @@
 		22C343DE236B11540083645B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Oguz Tandogan";
 				TargetAttributes = {

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Movee.xcodeproj">
+      location = "group:../MoveeComponents">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -9,13 +9,13 @@
 import UIKit
 
 public protocol WireframeInterface: class {
-    func push(to type: Wirefames, navigationType: WireframeNavigationType)
-    func popToDestinationWireFrame(destinationView: WireframeDestinationType)
+    func push(to type: Wireframes, navigationType: WireframeNavigationType)
+//    func popToDestinationWireFrame(destinationView: WireframeDestinationType)
     func pushAndRemoveYourself(to type: Wireframes)
     func dissmissYourself()
     func show(type: Wireframes)
     func changeRoot(to wireframe: Wireframes)
-    func displayWarningPopup(data : WarningPopupWireframeData, completion: @escaping () -> Void)
+//    func displayWarningPopup(data : WarningPopupWireframeData, completion: @escaping () -> Void)
 }
 
 extension WireframeInterface {
@@ -57,31 +57,30 @@ public class BaseWireframe {
             }
         case .present:
             if let navigationController = navigationController {
-                navigationController.presentWireFrame(wireFrame)
+                navigationController.presentWireframe(wireFrame)
             } else {
                 viewController.presentWireframeFromViewController(wireFrame)
             }
         }
     }
     
-    public func popToDestinationWireframe(destinationView: WireframeDestinationType) {
-        guard let vc = navigationController?.viewControllers.filter({ (controller) -> Bool in
-            if controller.isKind(of: destinationView.value) {
-                return true
-            } else {
-                return false
-            }
-        }).first else { return }
-        navigationController?.popToViewController(vc, animatec: true)
-    }
+//    public func popToDestinationWireframe(destinationView: WireframeDestinationType) {
+//        guard let vc = navigationController?.viewControllers.filter({ (controller) -> Bool in
+//            if controller.isKind(of: destinationView.value) {
+//                return true
+//            } else {
+//                return false
+//            }
+//        }).first else { return }
+//        navigationController?.popToViewController(vc, animatec: true)
+//    }
     
-    public func displayWarningPopup(data:WarningPopupWireframeData, completion: @escaping () -> Void) {
-        let wireframe = WarningPopupWireframe(data: data)
-        wireframe.viewController.modelPresentationStyle = .overCurrentContext
-        wireframe.viewController.modelTransitionStyle = .crossDissolve
-        navigationController?.presentWireframe(wireframe, animated: true, completion: completion)
-    }
-    
+//    public func displayWarningPopup(data:WarningPopupWireframeData, completion: @escaping () -> Void) {
+//        let wireframe = WarningPopupWireframe(data: data)
+//        wireframe.viewController.modelPresentationStyle = .overCurrentContext
+//        wireframe.viewController.modelTransitionStyle = .crossDissolve
+//        navigationController?.presentWireframe(wireframe, animated: true, completion: completion)
+//    }
 }
 
 extension BaseWireframe: WireframeInterface {
