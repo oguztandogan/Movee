@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221A294325641A5800107716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A294225641A5800107716 /* AppDelegate.swift */; };
-		221A294525641A5800107716 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A294425641A5800107716 /* SceneDelegate.swift */; };
-		221A294725641A5800107716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A294625641A5800107716 /* ViewController.swift */; };
-		221A294A25641A5800107716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221A294825641A5800107716 /* Main.storyboard */; };
 		221A294C25641A5C00107716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221A294B25641A5C00107716 /* Assets.xcassets */; };
-		221A294F25641A5C00107716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221A294D25641A5C00107716 /* LaunchScreen.storyboard */; };
 		221A295A25641A5C00107716 /* MoveeComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A295925641A5C00107716 /* MoveeComponentsTests.swift */; };
 		221A296525641A5C00107716 /* MoveeComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A296425641A5C00107716 /* MoveeComponentsUITests.swift */; };
 /* End PBXBuildFile section */
@@ -36,12 +31,7 @@
 
 /* Begin PBXFileReference section */
 		221A293F25641A5800107716 /* MoveeComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveeComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		221A294225641A5800107716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		221A294425641A5800107716 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		221A294625641A5800107716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		221A294925641A5800107716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		221A294B25641A5C00107716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		221A294E25641A5C00107716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221A295025641A5C00107716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221A295525641A5C00107716 /* MoveeComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveeComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221A295925641A5C00107716 /* MoveeComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveeComponentsTests.swift; sourceTree = "<group>"; };
@@ -99,12 +89,8 @@
 		221A294125641A5800107716 /* MoveeComponents */ = {
 			isa = PBXGroup;
 			children = (
-				221A294225641A5800107716 /* AppDelegate.swift */,
-				221A294425641A5800107716 /* SceneDelegate.swift */,
-				221A294625641A5800107716 /* ViewController.swift */,
-				221A294825641A5800107716 /* Main.storyboard */,
+				221A297B25641E6C00107716 /* BaseComponents */,
 				221A294B25641A5C00107716 /* Assets.xcassets */,
-				221A294D25641A5C00107716 /* LaunchScreen.storyboard */,
 				221A295025641A5C00107716 /* Info.plist */,
 			);
 			path = MoveeComponents;
@@ -126,6 +112,45 @@
 				221A296625641A5C00107716 /* Info.plist */,
 			);
 			path = MoveeComponentsUITests;
+			sourceTree = "<group>";
+		};
+		221A297B25641E6C00107716 /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				221A297F25641EAD00107716 /* BaseViews */,
+				221A297E25641EA600107716 /* BaseProtocols */,
+				221A297D25641E8600107716 /* GenericViews */,
+				221A297C25641E7C00107716 /* BaseModels */,
+			);
+			path = BaseComponents;
+			sourceTree = "<group>";
+		};
+		221A297C25641E7C00107716 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		221A297D25641E8600107716 /* GenericViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GenericViews;
+			sourceTree = "<group>";
+		};
+		221A297E25641EA600107716 /* BaseProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseProtocols;
+			sourceTree = "<group>";
+		};
+		221A297F25641EAD00107716 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221A294F25641A5C00107716 /* LaunchScreen.storyboard in Resources */,
 				221A294C25641A5C00107716 /* Assets.xcassets in Resources */,
-				221A294A25641A5800107716 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221A294725641A5800107716 /* ViewController.swift in Sources */,
-				221A294325641A5800107716 /* AppDelegate.swift in Sources */,
-				221A294525641A5800107716 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +314,6 @@
 			targetProxy = 221A296125641A5C00107716 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		221A294825641A5800107716 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				221A294925641A5800107716 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		221A294D25641A5C00107716 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				221A294E25641A5C00107716 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		221A296725641A5C00107716 /* Debug */ = {
@@ -470,7 +471,6 @@
 		221A296D25641A5C00107716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoveeComponentsTests/Info.plist;
@@ -491,7 +491,6 @@
 		221A296E25641A5C00107716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoveeComponentsTests/Info.plist;
@@ -512,7 +511,6 @@
 		221A297025641A5C00107716 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoveeComponentsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,7 +529,6 @@
 		221A297125641A5C00107716 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MoveeComponentsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
