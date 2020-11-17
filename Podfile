@@ -10,4 +10,5 @@ pod 'Kingfisher', '~> 5.0'
 pod "UPCarouselFlowLayout"
 pod "CenteredCollectionView"
 pod 'SwiftKeychainWrapper'
+pod 'Swinject'
 end

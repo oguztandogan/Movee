@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9761651924311CDD8E740392892328CC"
+               BlueprintIdentifier = "9A31EDC5E73566A7771C95F9E9CBDD18"
                BuildableName = "Pods_Movee.framework"
                BlueprintName = "Pods-Movee"
                ReferencedContainer = "container:Pods.xcodeproj">
