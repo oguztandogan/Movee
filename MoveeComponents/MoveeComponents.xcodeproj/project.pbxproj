@@ -12,6 +12,16 @@
 		2211D738256539D900AFEAB2 /* ProtocolBasedComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D737256539D900AFEAB2 /* ProtocolBasedComponentView.swift */; };
 		2211D73A25653A8600AFEAB2 /* DataBasedComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D73925653A8600AFEAB2 /* DataBasedComponentView.swift */; };
 		2211D73C25653B4000AFEAB2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D73B25653B4000AFEAB2 /* BaseView.swift */; };
+		2211D74A25653D1500AFEAB2 /* LoginComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D74925653D1500AFEAB2 /* LoginComponent.swift */; };
+		2211D74E256550E900AFEAB2 /* LoginComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D74D256550E900AFEAB2 /* LoginComponentData.swift */; };
+		2211D758256551F700AFEAB2 /* TitleWithInputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D757256551F700AFEAB2 /* TitleWithInputComponent.swift */; };
+		2211D75C2565520100AFEAB2 /* TitleWithInputComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D75B2565520100AFEAB2 /* TitleWithInputComponentData.swift */; };
+		2211D7632565532200AFEAB2 /* DynamicAttributedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D7622565532200AFEAB2 /* DynamicAttributedLabel.swift */; };
+		2211D7672565541300AFEAB2 /* CommonLabelComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D7662565541300AFEAB2 /* CommonLabelComponent.swift */; };
+		2211D76B2565543B00AFEAB2 /* CommonLabelComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D76A2565543B00AFEAB2 /* CommonLabelComponentData.swift */; };
+		2211D7702565594F00AFEAB2 /* DynamicAttributedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D76F2565594F00AFEAB2 /* DynamicAttributedTextField.swift */; };
+		2211D774256559DF00AFEAB2 /* CommonTextFieldComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D773256559DF00AFEAB2 /* CommonTextFieldComponent.swift */; };
+		2211D778256559EB00AFEAB2 /* CommonTextFieldComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D777256559EB00AFEAB2 /* CommonTextFieldComponentData.swift */; };
 		221A29E3256516AE00107716 /* MoveeComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221A29D9256516AE00107716 /* MoveeComponents.framework */; };
 		221A29E8256516AE00107716 /* MoveeComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A29E7256516AE00107716 /* MoveeComponentsTests.swift */; };
 		221A29EA256516AE00107716 /* MoveeComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 221A29DC256516AE00107716 /* MoveeComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +54,16 @@
 		2211D737256539D900AFEAB2 /* ProtocolBasedComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBasedComponentView.swift; sourceTree = "<group>"; };
 		2211D73925653A8600AFEAB2 /* DataBasedComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBasedComponentView.swift; sourceTree = "<group>"; };
 		2211D73B25653B4000AFEAB2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		2211D74925653D1500AFEAB2 /* LoginComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponent.swift; sourceTree = "<group>"; };
+		2211D74D256550E900AFEAB2 /* LoginComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponentData.swift; sourceTree = "<group>"; };
+		2211D757256551F700AFEAB2 /* TitleWithInputComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithInputComponent.swift; sourceTree = "<group>"; };
+		2211D75B2565520100AFEAB2 /* TitleWithInputComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithInputComponentData.swift; sourceTree = "<group>"; };
+		2211D7622565532200AFEAB2 /* DynamicAttributedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAttributedLabel.swift; sourceTree = "<group>"; };
+		2211D7662565541300AFEAB2 /* CommonLabelComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonLabelComponent.swift; sourceTree = "<group>"; };
+		2211D76A2565543B00AFEAB2 /* CommonLabelComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonLabelComponentData.swift; sourceTree = "<group>"; };
+		2211D76F2565594F00AFEAB2 /* DynamicAttributedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAttributedTextField.swift; sourceTree = "<group>"; };
+		2211D773256559DF00AFEAB2 /* CommonTextFieldComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextFieldComponent.swift; sourceTree = "<group>"; };
+		2211D777256559EB00AFEAB2 /* CommonTextFieldComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextFieldComponentData.swift; sourceTree = "<group>"; };
 		221A29D9256516AE00107716 /* MoveeComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveeComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		221A29DC256516AE00107716 /* MoveeComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveeComponents.h; sourceTree = "<group>"; };
 		221A29DD256516AE00107716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +116,54 @@
 			path = BaseViews;
 			sourceTree = "<group>";
 		};
+		2211D74825653CED00AFEAB2 /* LoginComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2211D74925653D1500AFEAB2 /* LoginComponent.swift */,
+				2211D74D256550E900AFEAB2 /* LoginComponentData.swift */,
+			);
+			path = LoginComponents;
+			sourceTree = "<group>";
+		};
+		2211D753256551D600AFEAB2 /* CommonComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2211D76E2565592A00AFEAB2 /* CommonTextFieldComponent */,
+				2211D75F256552C300AFEAB2 /* CommonLabelComponent */,
+				2211D756256551E100AFEAB2 /* TitleWithInputComponent */,
+			);
+			path = CommonComponents;
+			sourceTree = "<group>";
+		};
+		2211D756256551E100AFEAB2 /* TitleWithInputComponent */ = {
+			isa = PBXGroup;
+			children = (
+				2211D757256551F700AFEAB2 /* TitleWithInputComponent.swift */,
+				2211D75B2565520100AFEAB2 /* TitleWithInputComponentData.swift */,
+			);
+			path = TitleWithInputComponent;
+			sourceTree = "<group>";
+		};
+		2211D75F256552C300AFEAB2 /* CommonLabelComponent */ = {
+			isa = PBXGroup;
+			children = (
+				2211D7622565532200AFEAB2 /* DynamicAttributedLabel.swift */,
+				2211D7662565541300AFEAB2 /* CommonLabelComponent.swift */,
+				2211D76A2565543B00AFEAB2 /* CommonLabelComponentData.swift */,
+			);
+			path = CommonLabelComponent;
+			sourceTree = "<group>";
+		};
+		2211D76E2565592A00AFEAB2 /* CommonTextFieldComponent */ = {
+			isa = PBXGroup;
+			children = (
+				2211D76F2565594F00AFEAB2 /* DynamicAttributedTextField.swift */,
+				2211D773256559DF00AFEAB2 /* CommonTextFieldComponent.swift */,
+				2211D777256559EB00AFEAB2 /* CommonTextFieldComponentData.swift */,
+			);
+			path = CommonTextFieldComponent;
+			sourceTree = "<group>";
+		};
 		221A29CF256516AE00107716 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +206,8 @@
 		221A29F5256516ED00107716 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2211D753256551D600AFEAB2 /* CommonComponents */,
+				2211D74825653CED00AFEAB2 /* LoginComponents */,
 				221A2A0D2565172100107716 /* BaseComponents */,
 			);
 			path = Classes;
@@ -328,19 +398,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2211D74E256550E900AFEAB2 /* LoginComponentData.swift in Sources */,
 				221A2A172565172200107716 /* ViewControllerTypeProtocol.swift in Sources */,
 				2211D73C25653B4000AFEAB2 /* BaseView.swift in Sources */,
 				221A2A192565172200107716 /* GenericDataProtocol.swift in Sources */,
+				2211D7672565541300AFEAB2 /* CommonLabelComponent.swift in Sources */,
+				2211D74A25653D1500AFEAB2 /* LoginComponent.swift in Sources */,
 				2211D73A25653A8600AFEAB2 /* DataBasedComponentView.swift in Sources */,
 				221A2A31256524C400107716 /* GenericViewType.swift in Sources */,
 				2211D7362565395500AFEAB2 /* GenericBaseView.swift in Sources */,
 				221A2A1C2565172200107716 /* GenericDescriptorProtocol.swift in Sources */,
+				2211D758256551F700AFEAB2 /* TitleWithInputComponent.swift in Sources */,
+				2211D76B2565543B00AFEAB2 /* CommonLabelComponentData.swift in Sources */,
+				2211D778256559EB00AFEAB2 /* CommonTextFieldComponentData.swift in Sources */,
 				221A2A162565172200107716 /* InteractivePopGestureDelegate.swift in Sources */,
 				221A2A1A2565172200107716 /* GenericCellDataProtocol.swift in Sources */,
+				2211D774256559DF00AFEAB2 /* CommonTextFieldComponent.swift in Sources */,
+				2211D7702565594F00AFEAB2 /* DynamicAttributedTextField.swift in Sources */,
 				2211D7342565387700AFEAB2 /* BaseViewControllers.swift in Sources */,
 				2211D738256539D900AFEAB2 /* ProtocolBasedComponentView.swift in Sources */,
+				2211D7632565532200AFEAB2 /* DynamicAttributedLabel.swift in Sources */,
 				221A2A1B2565172200107716 /* GenericViewDataProtocol.swift in Sources */,
 				221A2A182565172200107716 /* GenericViewProtocol.swift in Sources */,
+				2211D75C2565520100AFEAB2 /* TitleWithInputComponentData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
