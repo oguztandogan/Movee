@@ -12,8 +12,6 @@
 		2211D738256539D900AFEAB2 /* ProtocolBasedComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D737256539D900AFEAB2 /* ProtocolBasedComponentView.swift */; };
 		2211D73A25653A8600AFEAB2 /* DataBasedComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D73925653A8600AFEAB2 /* DataBasedComponentView.swift */; };
 		2211D73C25653B4000AFEAB2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D73B25653B4000AFEAB2 /* BaseView.swift */; };
-		2211D74A25653D1500AFEAB2 /* LoginComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D74925653D1500AFEAB2 /* LoginComponent.swift */; };
-		2211D74E256550E900AFEAB2 /* LoginComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D74D256550E900AFEAB2 /* LoginComponentData.swift */; };
 		2211D758256551F700AFEAB2 /* TitleWithInputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D757256551F700AFEAB2 /* TitleWithInputComponent.swift */; };
 		2211D75C2565520100AFEAB2 /* TitleWithInputComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D75B2565520100AFEAB2 /* TitleWithInputComponentData.swift */; };
 		2211D7632565532200AFEAB2 /* DynamicAttributedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2211D7622565532200AFEAB2 /* DynamicAttributedLabel.swift */; };
@@ -34,6 +32,8 @@
 		221A2A1C2565172200107716 /* GenericDescriptorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2A152565172100107716 /* GenericDescriptorProtocol.swift */; };
 		221A2A31256524C400107716 /* GenericViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221A2A30256524C400107716 /* GenericViewType.swift */; };
 		221A2A682565259600107716 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221A2A672565259600107716 /* Utilities.framework */; };
+		A1D52F0E2565BA4B0099E8A2 /* LoginPageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F0D2565BA4A0099E8A2 /* LoginPageComponent.swift */; };
+		A1D52F122565BA7D0099E8A2 /* LoginPageComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F112565BA7D0099E8A2 /* LoginPageComponentData.swift */; };
 		D77102425DD8ABB612653B8A /* Pods_MoveeComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B75FF13D206C98E0D48BCF /* Pods_MoveeComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +54,6 @@
 		2211D737256539D900AFEAB2 /* ProtocolBasedComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBasedComponentView.swift; sourceTree = "<group>"; };
 		2211D73925653A8600AFEAB2 /* DataBasedComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBasedComponentView.swift; sourceTree = "<group>"; };
 		2211D73B25653B4000AFEAB2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
-		2211D74925653D1500AFEAB2 /* LoginComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponent.swift; sourceTree = "<group>"; };
-		2211D74D256550E900AFEAB2 /* LoginComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponentData.swift; sourceTree = "<group>"; };
 		2211D757256551F700AFEAB2 /* TitleWithInputComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithInputComponent.swift; sourceTree = "<group>"; };
 		2211D75B2565520100AFEAB2 /* TitleWithInputComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithInputComponentData.swift; sourceTree = "<group>"; };
 		2211D7622565532200AFEAB2 /* DynamicAttributedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicAttributedLabel.swift; sourceTree = "<group>"; };
@@ -79,6 +77,8 @@
 		221A2A152565172100107716 /* GenericDescriptorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericDescriptorProtocol.swift; sourceTree = "<group>"; };
 		221A2A30256524C400107716 /* GenericViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewType.swift; sourceTree = "<group>"; };
 		221A2A672565259600107716 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D52F0D2565BA4A0099E8A2 /* LoginPageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageComponent.swift; sourceTree = "<group>"; };
+		A1D52F112565BA7D0099E8A2 /* LoginPageComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageComponentData.swift; sourceTree = "<group>"; };
 		A235D6ECDB54652377CC8878 /* Pods-MoveeComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeComponents.release.xcconfig"; path = "Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents.release.xcconfig"; sourceTree = "<group>"; };
 		F8B75FF13D206C98E0D48BCF /* Pods_MoveeComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveeComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,8 +119,8 @@
 		2211D74825653CED00AFEAB2 /* LoginComponents */ = {
 			isa = PBXGroup;
 			children = (
-				2211D74925653D1500AFEAB2 /* LoginComponent.swift */,
-				2211D74D256550E900AFEAB2 /* LoginComponentData.swift */,
+				A1D52F0D2565BA4A0099E8A2 /* LoginPageComponent.swift */,
+				A1D52F112565BA7D0099E8A2 /* LoginPageComponentData.swift */,
 			);
 			path = LoginComponents;
 			sourceTree = "<group>";
@@ -398,14 +398,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2211D74E256550E900AFEAB2 /* LoginComponentData.swift in Sources */,
+				A1D52F0E2565BA4B0099E8A2 /* LoginPageComponent.swift in Sources */,
 				221A2A172565172200107716 /* ViewControllerTypeProtocol.swift in Sources */,
 				2211D73C25653B4000AFEAB2 /* BaseView.swift in Sources */,
 				221A2A192565172200107716 /* GenericDataProtocol.swift in Sources */,
 				2211D7672565541300AFEAB2 /* CommonLabelComponent.swift in Sources */,
-				2211D74A25653D1500AFEAB2 /* LoginComponent.swift in Sources */,
 				2211D73A25653A8600AFEAB2 /* DataBasedComponentView.swift in Sources */,
 				221A2A31256524C400107716 /* GenericViewType.swift in Sources */,
+				A1D52F122565BA7D0099E8A2 /* LoginPageComponentData.swift in Sources */,
 				2211D7362565395500AFEAB2 /* GenericBaseView.swift in Sources */,
 				221A2A1C2565172200107716 /* GenericDescriptorProtocol.swift in Sources */,
 				2211D758256551F700AFEAB2 /* TitleWithInputComponent.swift in Sources */,
