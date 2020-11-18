@@ -18,6 +18,8 @@
 		22193CFD237C171B005D3851 /* SeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22193CFC237C171B005D3851 /* SeriesModel.swift */; };
 		22193CFF237C174D005D3851 /* SeriesDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22193CFE237C174D005D3851 /* SeriesDetailModel.swift */; };
 		22193D03237C1765005D3851 /* SeriesUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22193D02237C1765005D3851 /* SeriesUIModel.swift */; };
+		221A2A6D2565259E00107716 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221A2A6C2565259E00107716 /* Utilities.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		221A2A6E2565259E00107716 /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 221A2A6C2565259E00107716 /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		221D4F442371A64E00B88965 /* SF-UI-Display-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221D4F402371A64E00B88965 /* SF-UI-Display-Regular.ttf */; };
 		221D4F452371A64E00B88965 /* SF-UI-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221D4F412371A64E00B88965 /* SF-UI-Display-Bold.ttf */; };
 		221D4F462371A64E00B88965 /* SF-UI-Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221D4F422371A64E00B88965 /* SF-UI-Display-Medium.ttf */; };
@@ -49,6 +51,7 @@
 		224E74432372B1CD00B3EB9B /* MoviesViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E74422372B1CD00B3EB9B /* MoviesViewController+CollectionView.swift */; };
 		224FD988239E7AE60018A6A1 /* NoResultsBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224FD986239E7AE60018A6A1 /* NoResultsBackgroundView.swift */; };
 		224FD989239E7AE60018A6A1 /* NoResultsBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224FD987239E7AE60018A6A1 /* NoResultsBackgroundView.xib */; };
+		225201B425653458005898AE /* MoveeComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225201B325653458005898AE /* MoveeComponents.framework */; };
 		2252DFFA2397E49400E2F27A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2252DFFC2397E49400E2F27A /* Localizable.strings */; };
 		2252DFFF2397EB5700E2F27A /* SearchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252DFFE2397EB5700E2F27A /* SearchingViewController.swift */; };
 		2252E0022397FC5E00E2F27A /* SearchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252E0012397FC5E00E2F27A /* SearchingModel.swift */; };
@@ -85,12 +88,12 @@
 		22CA7D72256411EF0091FD79 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D69256411EF0091FD79 /* Typealiases.swift */; };
 		22CA7D73256411EF0091FD79 /* Wireframes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D6A256411EF0091FD79 /* Wireframes.swift */; };
 		22CA7D74256411EF0091FD79 /* FormatterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA7D6B256411EF0091FD79 /* FormatterInterface.swift */; };
+		22CB69F4256528B70098C3AB /* MoveeComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB69F2256528B70098C3AB /* MoveeComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22E196F523856BDE001EDF17 /* DateFixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E196F423856BDE001EDF17 /* DateFixer.swift */; };
 		22E2778F239FE38D006474DD /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2778E239FE38D006474DD /* RegisterPageViewController.swift */; };
 		22E27793239FE3B6006474DD /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27792239FE3B6006474DD /* LoginPageViewController.swift */; };
 		22E27795239FE3C3006474DD /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27794239FE3C3006474DD /* UserProfileViewController.swift */; };
 		22E57D7223A0C810002D3B29 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E57D7123A0C810002D3B29 /* TokenModel.swift */; };
-		8D0173903992DB55FE9C6FC3 /* Pods_Movee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18796AB54DD00773A1441E63 /* Pods_Movee.framework */; };
 		A10C15F72563E71D0034E76D /* LoginInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F12563E71D0034E76D /* LoginInterfaces.swift */; };
 		A10C15F82563E71D0034E76D /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F22563E71D0034E76D /* LoginPresenter.swift */; };
 		A10C15F92563E71D0034E76D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F32563E71D0034E76D /* LoginViewController.swift */; };
@@ -98,6 +101,7 @@
 		A10C15FB2563E71D0034E76D /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F52563E71D0034E76D /* LoginInteractor.swift */; };
 		A10C15FC2563E71D0034E76D /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F62563E71D0034E76D /* LoginWireframe.swift */; };
 		A10C16012563E79E0034E76D /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C16002563E79E0034E76D /* BaseWireframe.swift */; };
+		ADCD1B2C30EA6C192F6E8526 /* Pods_Movee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A8C22C69FAFAEEA7818AC /* Pods_Movee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +111,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				221A2A6E2565259E00107716 /* Utilities.framework in Embed Frameworks */,
+				22CB69F4256528B70098C3AB /* MoveeComponents.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,7 +120,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18796AB54DD00773A1441E63 /* Pods_Movee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2202F4B923A0D50C00AABDFB /* SessionIdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionIdModel.swift; sourceTree = "<group>"; };
 		220807C823A0F1E5003B4A79 /* SessionWithLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionWithLoginModel.swift; sourceTree = "<group>"; };
 		22122AA123A7CE980096BBF0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -126,6 +131,9 @@
 		22193CFC237C171B005D3851 /* SeriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesModel.swift; sourceTree = "<group>"; };
 		22193CFE237C174D005D3851 /* SeriesDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetailModel.swift; sourceTree = "<group>"; };
 		22193D02237C1765005D3851 /* SeriesUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesUIModel.swift; sourceTree = "<group>"; };
+		221A29A72565150000107716 /* MoveeComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MoveeComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A2A1F2565173C00107716 /* MoveeComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoveeComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A2A6C2565259E00107716 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		221D4F402371A64E00B88965 /* SF-UI-Display-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.ttf"; sourceTree = "<group>"; };
 		221D4F412371A64E00B88965 /* SF-UI-Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.ttf"; sourceTree = "<group>"; };
 		221D4F422371A64E00B88965 /* SF-UI-Display-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.ttf"; sourceTree = "<group>"; };
@@ -157,6 +165,8 @@
 		224E74422372B1CD00B3EB9B /* MoviesViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoviesViewController+CollectionView.swift"; sourceTree = "<group>"; };
 		224FD986239E7AE60018A6A1 /* NoResultsBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultsBackgroundView.swift; sourceTree = "<group>"; };
 		224FD987239E7AE60018A6A1 /* NoResultsBackgroundView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoResultsBackgroundView.xib; sourceTree = "<group>"; };
+		2252018F2565321B005898AE /* MoveeComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoveeComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		225201B325653458005898AE /* MoveeComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoveeComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2252DFF22397E2AE00E2F27A /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
 		2252DFF32397E2AE00E2F27A /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2252DFFB2397E49400E2F27A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -197,11 +207,13 @@
 		22CA7D69256411EF0091FD79 /* Typealiases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		22CA7D6A256411EF0091FD79 /* Wireframes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframes.swift; sourceTree = "<group>"; };
 		22CA7D6B256411EF0091FD79 /* FormatterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatterInterface.swift; sourceTree = "<group>"; };
+		22CB69F2256528B70098C3AB /* MoveeComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoveeComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E196F423856BDE001EDF17 /* DateFixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFixer.swift; sourceTree = "<group>"; };
 		22E2778E239FE38D006474DD /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		22E27792239FE3B6006474DD /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		22E27794239FE3C3006474DD /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		22E57D7123A0C810002D3B29 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		5725C3C1AF704CC8954A72E0 /* Pods-Movee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.debug.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig"; sourceTree = "<group>"; };
 		A10C15F12563E71D0034E76D /* LoginInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterfaces.swift; sourceTree = "<group>"; };
 		A10C15F22563E71D0034E76D /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		A10C15F32563E71D0034E76D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -209,8 +221,8 @@
 		A10C15F52563E71D0034E76D /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		A10C15F62563E71D0034E76D /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
 		A10C16002563E79E0034E76D /* BaseWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
-		A62913F920DC5E6999919557 /* Pods-Movee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movee/Pods-Movee.release.xcconfig"; sourceTree = "<group>"; };
-		C88399C524BFF2E037D70940 /* Pods-Movee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1A8C22C69FAFAEEA7818AC /* Pods_Movee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4EA1CBE8328A14C9580E78 /* Pods-Movee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.release.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,7 +230,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0173903992DB55FE9C6FC3 /* Pods_Movee.framework in Frameworks */,
+				225201B425653458005898AE /* MoveeComponents.framework in Frameworks */,
+				221A2A6D2565259E00107716 /* Utilities.framework in Frameworks */,
+				ADCD1B2C30EA6C192F6E8526 /* Pods_Movee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,8 +516,8 @@
 			children = (
 				22C343E8236B11540083645B /* Movee */,
 				22C343E7236B11540083645B /* Products */,
-				55113CDCB64905D37B9BF2E8 /* Pods */,
 				4674D84CF67370EB8A9E4EC7 /* Frameworks */,
+				655C8977A56502B2F8EBCBF7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -570,18 +584,24 @@
 		4674D84CF67370EB8A9E4EC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18796AB54DD00773A1441E63 /* Pods_Movee.framework */,
+				225201B325653458005898AE /* MoveeComponents.framework */,
+				2252018F2565321B005898AE /* MoveeComponents.framework */,
+				22CB69F2256528B70098C3AB /* MoveeComponents.framework */,
+				221A2A6C2565259E00107716 /* Utilities.framework */,
+				221A2A1F2565173C00107716 /* MoveeComponents.framework */,
+				221A29A72565150000107716 /* MoveeComponents.app */,
+				DC1A8C22C69FAFAEEA7818AC /* Pods_Movee.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		55113CDCB64905D37B9BF2E8 /* Pods */ = {
+		655C8977A56502B2F8EBCBF7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C88399C524BFF2E037D70940 /* Pods-Movee.debug.xcconfig */,
-				A62913F920DC5E6999919557 /* Pods-Movee.release.xcconfig */,
+				5725C3C1AF704CC8954A72E0 /* Pods-Movee.debug.xcconfig */,
+				DC4EA1CBE8328A14C9580E78 /* Pods-Movee.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		A10C15ED2563E66D0034E76D /* PresenterLayer */ = {
@@ -645,12 +665,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22C343FA236B115D0083645B /* Build configuration list for PBXNativeTarget "Movee" */;
 			buildPhases = (
-				BEE4E6947D94E3E225955FE9 /* [CP] Check Pods Manifest.lock */,
+				ABE2AA4869894B75F7E50788 /* [CP] Check Pods Manifest.lock */,
 				22C343E2236B11540083645B /* Sources */,
 				22C343E3236B11540083645B /* Frameworks */,
 				22C343E4236B11540083645B /* Resources */,
-				3F626026FEAA55399A6EC52A /* [CP] Embed Pods Frameworks */,
 				22CA7D95256417110091FD79 /* Embed Frameworks */,
+				21439FCFB98EAD6A37046935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -715,7 +735,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F626026FEAA55399A6EC52A /* [CP] Embed Pods Frameworks */ = {
+		21439FCFB98EAD6A37046935 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -732,16 +752,20 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movee/Pods-Movee-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEE4E6947D94E3E225955FE9 /* [CP] Check Pods Manifest.lock */ = {
+		ABE2AA4869894B75F7E50788 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Movee-checkManifestLockResult.txt",
 			);
@@ -924,7 +948,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -979,7 +1003,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -991,18 +1015,19 @@
 		};
 		22C343FB236B115D0083645B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C88399C524BFF2E037D70940 /* Pods-Movee.debug.xcconfig */;
+			baseConfigurationReference = 5725C3C1AF704CC8954A72E0 /* Pods-Movee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Movee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oguz.Movee;
+				PRODUCT_BUNDLE_IDENTIFIER = Movee.Movee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1010,18 +1035,19 @@
 		};
 		22C343FC236B115D0083645B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A62913F920DC5E6999919557 /* Pods-Movee.release.xcconfig */;
+			baseConfigurationReference = DC4EA1CBE8328A14C9580E78 /* Pods-Movee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Movee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = oguz.Movee;
+				PRODUCT_BUNDLE_IDENTIFIER = Movee.Movee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

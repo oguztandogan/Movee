@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MoveeComponents
 
 public protocol WireframeInterface: class {
     func push(to type: Wireframes, navigationType: WireframeNavigationType)
@@ -84,6 +85,15 @@ public class BaseWireframe {
 }
 
 extension BaseWireframe: WireframeInterface {
+    
+    public func changeRoot(to wireframe: Wireframes) {
+        if let navController = viewController as? UINavigationController {
+            navController.viewControllers = [wireframe.value.viewController]
+        } else if let navController = navigationController {
+            navController.viewControllers = [viewController]
+        }
+    }
+    
     public func pushAndRemoveYourself(to wireframeType: Wireframes) {
         let wireframe = wireframeType.value
         navigationController?.pushWireframe(wireframe)
@@ -153,12 +163,12 @@ extension UINavigationController {
 }
 
 extension UIViewController {
-    func pushWireframeFromViewController(_ wireframes: BaseWireframe, animated: Bool = true) {
+    func pushWireframeFromViewController(_ wireframe: BaseWireframe, animated: Bool = true) {
         guard let nav = self as? UINavigationController else { return }
         nav.pushViewController(wireframe.viewController, animated: animated)
     }
-    func presentWireframeFromViewController(_ wireframes: BaseWireframe, animated: Bool = true) {
+    func presentWireframeFromViewController(_ wireframe: BaseWireframe, animated: Bool = true) {
         guard let nav = self as? UINavigationController else { return }
-        nav.pushViewController(wireframe.viewController, animated: animated, completion: nil)
+        nav.present(wireframe.viewController, animated: animated, completion: nil)
     }
 }

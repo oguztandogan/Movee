@@ -2,7 +2,7 @@
 //  MoveeComponentsTests.swift
 //  MoveeComponentsTests
 //
-//  Created by Oguz Tandogan on 17.11.2020.
+//  Created by Oguz Tandogan on 18.11.2020.
 //
 
 import XCTest

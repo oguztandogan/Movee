@@ -6,6 +6,8 @@
 //  Copyright © 2020 Oguz Tandogan. All rights reserved.
 //
 
+import MoveeComponents
+
 protocol PresenterInterface: class {
     func viewDidLoad()
     func getGenericData() -> GenericDataProtocol?
