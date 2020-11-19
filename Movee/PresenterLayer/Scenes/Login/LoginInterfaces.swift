@@ -9,6 +9,7 @@
 //
 
 import UIKit
+import MoveeComponents
 
 protocol LoginWireframeInterface: WireframeInterface {
 }
@@ -17,10 +18,15 @@ protocol LoginViewInterface: ViewInterface {
 }
 
 protocol LoginPresenterInterface: PresenterInterface {
+    func fireAuthenticationFlow(authentication: AuthenticationRequest)
 }
 
 protocol LoginFormatterInterface: FormatterInterface {
 }
 
 protocol LoginInteractorInterface: InteractorInterface {
+    func getApiResponse(username: String?, password: String?)
+    func getAccess(username: String?, password: String?)
+    func getSessionId()
+    func getAccountDetails()
 }

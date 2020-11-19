@@ -33,6 +33,10 @@ public class TitleWithInputComponent: DataBasedComponentView<TitleWithInputCompo
         return textField
     }()
     
+    public func returnInputText() -> String? {
+        return inputText.returnText()
+    }
+    
     public override func addMajorViews() {
         super.addMajorViews()
         addSubview(mainStackView)

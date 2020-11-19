@@ -51,4 +51,8 @@ open class DynamicAttributedTextField<T>: UITextField {
     open func returnData() -> T? {
         return data
     }
+    
+    public func returnText() -> String? {
+        return text
+    }
 }

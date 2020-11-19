@@ -9,11 +9,69 @@
 //
 
 import Foundation
+import UIKit
 
 final class LoginInteractor {
+
 }
 
 // MARK: - Extensions -
 
 extension LoginInteractor: LoginInteractorInterface {
+    
+    
+    func getApiResponse(username: String?, password: String?) {
+        guard let username = username,
+              let password = password else { return }
+        TmDBService.instance.getToken(completion: {requestToken in
+            TmDBService.instance.token = requestToken.request_token
+            if TmDBService.instance.token != nil {
+                self.getAccess(username: username, password: password)
+                
+            }
+        })
+    }
+    
+    func getAccess(username: String?, password: String?) {
+        TmDBService.instance.createSessionWithLogin(username: username, password: password, request_token: TmDBService.instance.token, completion: { requestToken, response  in
+            if let isSuccess = response?.success, isSuccess {
+                UserDefaults.standard.set(response?.request_token, forKey: "SavedToken")
+
+            } else {
+                fatalError("error")
+            }
+            if response?.success == true {
+                self.getSessionId()
+            }
+        })
+    }
+    
+    func getSessionId() {
+        TmDBService.instance.createSessionID(request_token: UserDefaults.standard.string(forKey: "SavedToken"), completion: { savedToken, sessionId in
+            if let isSuccess = sessionId.success, isSuccess {
+                DispatchQueue.main.async {
+                    if let sessionId = sessionId.session_id {
+                        UserDefaults.standard.set(sessionId, forKey: "SessionId")
+                    }
+                }
+            }
+            if sessionId.session_id != nil {
+                self.getAccountDetails()
+            }
+        })
+    }
+    
+    func getAccountDetails() {
+        TmDBService.instance.getAccountDetails(sessionIdQuery: UserDefaults.standard.string(forKey: "SessionId"), completion: { accountDetails in
+            DispatchQueue.main.async {
+                if let accountId = accountDetails.id {
+                    let accountIdString = String(accountId)
+                    UserDefaults.standard.set(accountIdString, forKey: "AccountId")
+                    if accountIdString != nil {
+                        UserDefaults.standard.set(true, forKey: "IsLoggedIn")
+                    }
+                }
+            }
+        })
+    }
 }

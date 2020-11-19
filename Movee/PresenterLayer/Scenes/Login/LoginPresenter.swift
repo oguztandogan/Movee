@@ -10,6 +10,8 @@
 
 
 import Foundation
+import Utilities
+import MoveeComponents
 
 final class LoginPresenter {
 
@@ -33,4 +35,16 @@ final class LoginPresenter {
 // MARK: - Extensions -
 
 extension LoginPresenter: LoginPresenterInterface {
+    func fireAuthenticationFlow(authentication: AuthenticationRequest) {
+        
+    }
+    
+    
+    func viewDidLoad() {
+//        loadLoginData()
+    }
+    
+//    func loadLoginData() {
+//        interactor.createSessionWithLogin(username: "adsfasdfad", password: "asdfasdfas", request_token: <#T##String?#>, completion: <#T##([String : Any], (SessionWithLoginModel?)) -> Void#>)
+//    }
 }

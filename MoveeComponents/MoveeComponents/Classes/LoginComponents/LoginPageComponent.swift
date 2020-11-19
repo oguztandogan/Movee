@@ -7,7 +7,11 @@
 
 import UIKit
 
+public typealias AuthenticationCompletionBlock = (AuthenticationRequest) -> Void
+
 public class LoginPageComponent: DataBasedComponentView<LoginPageComponentData> {
+    
+    private var authenticationListener: AuthenticationCompletionBlock?
     
     private lazy var mainStackView: UIStackView = {
         let stackView = UIStackView(arrangedSubviews: [logoImageView, emailInputView, passwordInputView, skipAndForgotPasswordStackView, loginButton, registerStackView])
@@ -91,19 +95,25 @@ public class LoginPageComponent: DataBasedComponentView<LoginPageComponentData> 
         return button
     }()
     
-    @objc func skipButtonAction(sender: UIButton) {
+    @objc fileprivate func skipButtonAction(sender: UIButton) {
         
     }
     
-    @objc func forgotPasswordButtonAction(sender: UIButton) {
+    @objc fileprivate func forgotPasswordButtonAction(sender: UIButton) {
         
     }
     
-    @objc func loginButtonAction(sender: UIButton) {
+    @objc fileprivate func loginButtonAction(sender: UIButton) {
+        guard let emailInputText = emailInputView.returnInputText() else { return }
+        authenticationListener?(AuthenticationRequest(username: emailInputText, password: ""))
+    }
+    
+    @objc fileprivate func registerButtonAction(sender: UIButton) {
         
     }
     
-    @objc func registerButtonAction(sender: UIButton) {
+    public func listenLoginButtonAction(completion: @escaping AuthenticationCompletionBlock) {
+        authenticationListener = completion
         
     }
     
@@ -145,3 +155,13 @@ fileprivate extension Selector {
 
 }
 
+public class AuthenticationRequest: Codable {
+    let username: String
+    let password: String
+    
+    init(username: String,
+         password: String) {
+        self.username = username
+        self.password = password
+    }
+}

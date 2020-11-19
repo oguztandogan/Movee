@@ -9,9 +9,12 @@
 //
 
 import UIKit
+import MoveeComponents
 
 final class LoginViewController: UIViewController {
 
+    private var loginPageComponent: LoginPageComponent!
+    
     // MARK: - Public properties -
 
     var presenter: LoginPresenterInterface!
@@ -20,6 +23,9 @@ final class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        loginPageComponent.listenLoginButtonAction { [weak self] (data) in
+            self?.presenter.fireAuthenticationFlow(authentication: data)
+        }
     }
 
 }
