@@ -45,6 +45,6 @@ extension LoginPresenter: LoginPresenterInterface {
     }
     
 //    func loadLoginData() {
-//        interactor.createSessionWithLogin(username: "adsfasdfad", password: "asdfasdfas", request_token: <#T##String?#>, completion: <#T##([String : Any], (SessionWithLoginModel?)) -> Void#>)
+//        interactor.createSessionWithLogin(username: "adsfasdfad", password: "asdfasdfas", request_token: <#T##String?#>, completion: T##([String : Any], (TokenResponseModel?)) -> Void)
 //    }
 }

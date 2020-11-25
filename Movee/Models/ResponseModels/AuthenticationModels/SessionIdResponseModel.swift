@@ -1,5 +1,5 @@
 //
-//  SessionModel.swift
+//  SessionIdServiceModel.swift
 //  Movee
 //
 //  Created by Oguz Tandogan on 11.12.2019.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SessionIdServiceModel: Codable {
+class SessionIdResponseModel: Codable {
     
     let success: Bool?
     let session_id: String?

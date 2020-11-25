@@ -1,5 +1,5 @@
 //
-//  SessionWithLoginModel.swift
+//  TokenResponseModel.swift
 //  Movee
 //
 //  Created by Oguz Tandogan on 11.12.2019.
@@ -8,16 +8,17 @@
 
 import Foundation
 
-class SessionWithLoginModel: Codable {
-
-    let request_token: String?
+struct TokenResponseModel: Codable {
+    
     let success: Bool?
     let expires_at: String?
+    let request_token: String?
     
-    init(request_token: String?, success: Bool?, expires_at: String?) {
-
-        self.request_token = request_token
+    init(success: Bool?,
+         expires_at: String?,
+         request_token: String?) {
         self.success = success
         self.expires_at = expires_at
+        self.request_token = request_token
     }
 }
