@@ -224,7 +224,7 @@ class TmDBService {
         }.resume()
     }
     
-    func getToken(completion: @escaping (ApiResponseModel) -> Void) {
+    func getToken(completion: @escaping (TokenResponseModel) -> Void) {
         let tokenUrl = urlBuilder(endPoint: Constants.tokenUrl)
         guard let getTokenUrl = tokenUrl else { return }
         
@@ -232,26 +232,22 @@ class TmDBService {
             guard let data = data, error == nil, urlResponse != nil else { return }
             do {
                 let decoder = JSONDecoder()
-                let tokens = try decoder.decode(ApiResponseModel.self, from: data)
+                let tokens = try decoder.decode(TokenResponseModel.self, from: data)
                 self.token = tokens.request_token
                 completion(tokens)
             } catch {}
         }.resume()
     }
     
-    func createSessionWithLogin( username: String?,
-                                 password: String?,
-                                 request_token: String?,
-                                 completion: @escaping ([String: Any], (SessionWithLoginModel?)) -> Void) {
-        
-        let parameters = ["username": username, "password": password ,"request_token": request_token]
+    func createSessionWithLogin( requestModel: LoginRequestModel?,
+                                 completion: @escaping ([String: Any], (TokenResponseModel?)) -> Void) {
         
         let sessionUrl = urlBuilder(endPoint: Constants.createSessionWithLoginUrl)
         guard let getSessionIdUrl = sessionUrl else { return }
         var sessionRequest = URLRequest(url: getSessionIdUrl)
         sessionRequest.httpMethod = "POST"
         sessionRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        sessionRequest.httpBody = try? JSONSerialization.data(withJSONObject: parameters)
+        sessionRequest.httpBody = try? JSONSerialization.data(withJSONObject: requestModel)
         
         URLSession.shared.dataTask(with: sessionRequest) { data, response, error in
             guard let data = data, error == nil, response != nil else { return }
@@ -259,23 +255,21 @@ class TmDBService {
                 guard let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] else { return }
                 do {
                     let decoder = JSONDecoder()
-                    let jsonToken = try decoder.decode(SessionWithLoginModel.self, from: data)
+                    let jsonToken = try decoder.decode(TokenResponseModel.self, from: data)
                     completion(json,jsonToken)
                 } catch {}
             } catch {}
         }.resume()
     }
     
-    func createSessionID(request_token: String?, completion: @escaping ([String: Any], (SessionIdServiceModel)) -> Void) {
-        
-        let parameters = ["request_token": request_token]
-        
+    func createSessionID(requestModel: String?, completion: @escaping ([String: Any], (SessionIdResponseModel)) -> Void) {
+                
         let sessionIdUrl = urlBuilder(endPoint: Constants.sessionUrl)
         guard let getSessionIdUrl = sessionIdUrl else { return }
         var sessionIdRequest = URLRequest(url: getSessionIdUrl)
         sessionIdRequest.httpMethod = "POST"
         sessionIdRequest.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        sessionIdRequest.httpBody = try? JSONSerialization.data(withJSONObject: parameters)
+        sessionIdRequest.httpBody = try? JSONSerialization.data(withJSONObject: requestModel)
         
         URLSession.shared.dataTask(with: sessionIdRequest) { data, response, error in
             guard let data = data, error == nil, response != nil else { return }
@@ -283,16 +277,16 @@ class TmDBService {
                 guard let jsonRequest = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] else { return }
                 do {
                     let decoder = JSONDecoder()
-                    let jsonResponse = try decoder.decode(SessionIdServiceModel.self, from: data)
+                    let jsonResponse = try decoder.decode(SessionIdResponseModel.self, from: data)
                     completion(jsonRequest,jsonResponse)
                 } catch {}
             } catch {}
         }.resume()
     }
     
-    func getAccountDetails(sessionIdQuery: String?, completion: @escaping (AccountDetailsModel) -> Void) {
+    func getAccountDetails(requestModel: String?, completion: @escaping (AccountDetailsModel) -> Void) {
         
-        let accountDetailsUrl = urlBuilderForAccounts(endPoint: Constants.accountUrl, sessionId: Constants.sessionIdUrl + (sessionIdQuery ?? ""))
+        let accountDetailsUrl = urlBuilderForAccounts(endPoint: Constants.accountUrl, sessionId: Constants.sessionIdUrl + (requestModel ?? ""))
         guard let getAccountDetailsUrl = accountDetailsUrl else { return }
         
         URLSession.shared.dataTask(with: getAccountDetailsUrl) {data, urlResponse, error in

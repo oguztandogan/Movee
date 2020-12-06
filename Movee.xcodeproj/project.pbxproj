@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2202F4BA23A0D50C00AABDFB /* SessionIdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202F4B923A0D50C00AABDFB /* SessionIdModel.swift */; };
-		220807C923A0F1E5003B4A79 /* SessionWithLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220807C823A0F1E5003B4A79 /* SessionWithLoginModel.swift */; };
+		2202F4BA23A0D50C00AABDFB /* SessionIdResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202F4B923A0D50C00AABDFB /* SessionIdResponseModel.swift */; };
 		22122AA223A7CE980096BBF0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22122AA123A7CE980096BBF0 /* Constants.swift */; };
 		22122AA423A7D0960096BBF0 /* StatusBarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22122AA323A7D0960096BBF0 /* StatusBarUtil.swift */; };
 		2214FB4E23901336003BB4FF /* CreditsKnownForUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2214FB4D23901336003BB4FF /* CreditsKnownForUIModel.swift */; };
@@ -95,7 +94,7 @@
 		22E2778F239FE38D006474DD /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2778E239FE38D006474DD /* RegisterPageViewController.swift */; };
 		22E27793239FE3B6006474DD /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27792239FE3B6006474DD /* LoginPageViewController.swift */; };
 		22E27795239FE3C3006474DD /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27794239FE3C3006474DD /* UserProfileViewController.swift */; };
-		22E57D7223A0C810002D3B29 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E57D7123A0C810002D3B29 /* TokenModel.swift */; };
+		22E57D7223A0C810002D3B29 /* TokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E57D7123A0C810002D3B29 /* TokenResponseModel.swift */; };
 		A10C15F72563E71D0034E76D /* LoginInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F12563E71D0034E76D /* LoginInterfaces.swift */; };
 		A10C15F82563E71D0034E76D /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F22563E71D0034E76D /* LoginPresenter.swift */; };
 		A10C15F92563E71D0034E76D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F32563E71D0034E76D /* LoginViewController.swift */; };
@@ -103,6 +102,9 @@
 		A10C15FB2563E71D0034E76D /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F52563E71D0034E76D /* LoginInteractor.swift */; };
 		A10C15FC2563E71D0034E76D /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F62563E71D0034E76D /* LoginWireframe.swift */; };
 		A10C16012563E79E0034E76D /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C16002563E79E0034E76D /* BaseWireframe.swift */; };
+		A1D52F192566FEA70099E8A2 /* TokenRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F182566FEA70099E8A2 /* TokenRequestModel.swift */; };
+		A1D52F1B2566FF860099E8A2 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F1A2566FF860099E8A2 /* LoginRequestModel.swift */; };
+		A1D52F1D2567028D0099E8A2 /* SessionIdRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F1C2567028D0099E8A2 /* SessionIdRequestModel.swift */; };
 		ADCD1B2C30EA6C192F6E8526 /* Pods_Movee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1A8C22C69FAFAEEA7818AC /* Pods_Movee.framework */; };
 /* End PBXBuildFile section */
 
@@ -123,8 +125,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2202F4B923A0D50C00AABDFB /* SessionIdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionIdModel.swift; sourceTree = "<group>"; };
-		220807C823A0F1E5003B4A79 /* SessionWithLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionWithLoginModel.swift; sourceTree = "<group>"; };
+		2202F4B923A0D50C00AABDFB /* SessionIdResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionIdResponseModel.swift; sourceTree = "<group>"; };
 		22122AA123A7CE980096BBF0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		22122AA323A7D0960096BBF0 /* StatusBarUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarUtil.swift; sourceTree = "<group>"; };
 		2214FB4D23901336003BB4FF /* CreditsKnownForUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsKnownForUIModel.swift; sourceTree = "<group>"; };
@@ -216,7 +217,7 @@
 		22E2778E239FE38D006474DD /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		22E27792239FE3B6006474DD /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 		22E27794239FE3C3006474DD /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
-		22E57D7123A0C810002D3B29 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		22E57D7123A0C810002D3B29 /* TokenResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponseModel.swift; sourceTree = "<group>"; };
 		5725C3C1AF704CC8954A72E0 /* Pods-Movee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.debug.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig"; sourceTree = "<group>"; };
 		A10C15F12563E71D0034E76D /* LoginInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterfaces.swift; sourceTree = "<group>"; };
 		A10C15F22563E71D0034E76D /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
@@ -225,6 +226,9 @@
 		A10C15F52563E71D0034E76D /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		A10C15F62563E71D0034E76D /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
 		A10C16002563E79E0034E76D /* BaseWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		A1D52F182566FEA70099E8A2 /* TokenRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequestModel.swift; sourceTree = "<group>"; };
+		A1D52F1A2566FF860099E8A2 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		A1D52F1C2567028D0099E8A2 /* SessionIdRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionIdRequestModel.swift; sourceTree = "<group>"; };
 		DC1A8C22C69FAFAEEA7818AC /* Pods_Movee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4EA1CBE8328A14C9580E78 /* Pods-Movee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.release.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -439,8 +443,9 @@
 		22972471237562DE00222BDD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A1D52F162566FAD90099E8A2 /* RequestModels */,
+				A1D52F152566FAC60099E8A2 /* ResponseModels */,
 				222922FE23ABA0980041659C /* AccountModels */,
-				22E57D7023A0C7F3002D3B29 /* AuthenticationModels */,
 				2252E0002397FC4700E2F27A /* SearchingModels */,
 				226250892387BBEB0013DE7A /* CreditsModels */,
 				22193CFB237C16CE005D3851 /* SeriesModels */,
@@ -579,9 +584,8 @@
 		22E57D7023A0C7F3002D3B29 /* AuthenticationModels */ = {
 			isa = PBXGroup;
 			children = (
-				22E57D7123A0C810002D3B29 /* TokenModel.swift */,
-				220807C823A0F1E5003B4A79 /* SessionWithLoginModel.swift */,
-				2202F4B923A0D50C00AABDFB /* SessionIdModel.swift */,
+				22E57D7123A0C810002D3B29 /* TokenResponseModel.swift */,
+				2202F4B923A0D50C00AABDFB /* SessionIdResponseModel.swift */,
 			);
 			path = AuthenticationModels;
 			sourceTree = "<group>";
@@ -662,6 +666,24 @@
 				A10C16002563E79E0034E76D /* BaseWireframe.swift */,
 			);
 			path = BaseViperModules;
+			sourceTree = "<group>";
+		};
+		A1D52F152566FAC60099E8A2 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				22E57D7023A0C7F3002D3B29 /* AuthenticationModels */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		A1D52F162566FAD90099E8A2 /* RequestModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1D52F182566FEA70099E8A2 /* TokenRequestModel.swift */,
+				A1D52F1A2566FF860099E8A2 /* LoginRequestModel.swift */,
+				A1D52F1C2567028D0099E8A2 /* SessionIdRequestModel.swift */,
+			);
+			path = RequestModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -806,7 +828,7 @@
 				A10C15FC2563E71D0034E76D /* LoginWireframe.swift in Sources */,
 				22C343FE236B15F30083645B /* MoviesViewController.swift in Sources */,
 				22CA7D6C256411EF0091FD79 /* WireframeNavigationType.swift in Sources */,
-				22E57D7223A0C810002D3B29 /* TokenModel.swift in Sources */,
+				22E57D7223A0C810002D3B29 /* TokenResponseModel.swift in Sources */,
 				A10C15F72563E71D0034E76D /* LoginInterfaces.swift in Sources */,
 				22193D03237C1765005D3851 /* SeriesUIModel.swift in Sources */,
 				22393D7E237C46C4004069BA /* TopRatedSeriesCollectionViewCell.swift in Sources */,
@@ -815,6 +837,7 @@
 				2229C0AE238E880500548C47 /* CreditsDetailsModel.swift in Sources */,
 				223CF2BE23B114D600DB47B5 /* AccountStates.swift in Sources */,
 				22CA7D74256411EF0091FD79 /* FormatterInterface.swift in Sources */,
+				A1D52F192566FEA70099E8A2 /* TokenRequestModel.swift in Sources */,
 				223CF2BC23B0A20800DB47B5 /* FavoriteListTableView.swift in Sources */,
 				22C343EA236B11540083645B /* AppDelegate.swift in Sources */,
 				221652682398089B00D74773 /* MoviesSearchingTableViewCell.swift in Sources */,
@@ -831,12 +854,12 @@
 				22393D78237C466B004069BA /* Popular&TopRatedSeriesViewController+CollectionView.swift in Sources */,
 				A10C15F82563E71D0034E76D /* LoginPresenter.swift in Sources */,
 				2214FB4E23901336003BB4FF /* CreditsKnownForUIModel.swift in Sources */,
+				A1D52F1D2567028D0099E8A2 /* SessionIdRequestModel.swift in Sources */,
 				2229C0B4238E907300548C47 /* KnownForTableViewCell.swift in Sources */,
 				22437FFB238DB51A00A54AB0 /* SeriesDetailsCreditsCollectionView.swift in Sources */,
 				22A5EDF0237159CD00147428 /* MoviesViewController+TableView.swift in Sources */,
 				22E27795239FE3C3006474DD /* UserProfileViewController.swift in Sources */,
-				220807C923A0F1E5003B4A79 /* SessionWithLoginModel.swift in Sources */,
-				2202F4BA23A0D50C00AABDFB /* SessionIdModel.swift in Sources */,
+				2202F4BA23A0D50C00AABDFB /* SessionIdResponseModel.swift in Sources */,
 				2252DFFF2397EB5700E2F27A /* SearchingViewController.swift in Sources */,
 				2262508F2387FDD40013DE7A /* MoviesDetailsCreditsCollectionViewCell.swift in Sources */,
 				2229C0B6238E909C00548C47 /* KnownForTableView.swift in Sources */,
@@ -850,6 +873,7 @@
 				2252E0042397FEE900E2F27A /* SearchingUIModel.swift in Sources */,
 				2216526C23994A6D00D74773 /* SeriesSearchingTableViewCell.swift in Sources */,
 				2262508B2387BC160013DE7A /* CreditsModel.swift in Sources */,
+				A1D52F1B2566FF860099E8A2 /* LoginRequestModel.swift in Sources */,
 				22CA7D72256411EF0091FD79 /* Typealiases.swift in Sources */,
 				223BA40C23A762F300071616 /* ForgotPasswordViewController.swift in Sources */,
 				22CA7D73256411EF0091FD79 /* Wireframes.swift in Sources */,
