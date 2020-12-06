@@ -9,7 +9,7 @@
 import UIKit
 import SwiftKeychainWrapper
 
-class LoginPageViewController: UIViewController {
+class LoginPage1ViewController: UIViewController {
     
     @IBOutlet weak var lineView: UIView!
     @IBOutlet weak var bottomLineView: UIView!
@@ -26,19 +26,19 @@ class LoginPageViewController: UIViewController {
         static let forgotPasswordViewControllerId = "ForgotPasswordViewController"
     }
     
-    @IBAction func skipButtonAction(_ sender: Any) {
-        let tabbar: TabBarViewController? = (storyboard!.instantiateViewController(withIdentifier: "tabbar") as? TabBarViewController)
-        self.navigationController?.pushViewController(tabbar!, animated: true)
-    }
+//    @IBAction func skipButtonAction(_ sender: Any) {
+//        let tabbar: TabBarViewController? = (storyboard!.instantiateViewController(withIdentifier: "tabbar") as? TabBarViewController)
+//        self.navigationController?.pushViewController(tabbar!, animated: true)
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         lineView.backgroundColor = UIColor.lightGray
         bottomLineView.backgroundColor = UIColor.lightGray
-        navigationController?.navigationBar.isTranslucent = true
-        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationController?.navigationBar.shadowImage = UIImage()
+//        navigationController?.navigationBar.isTranslucent = true
+//        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+//        navigationController?.navigationBar.shadowImage = UIImage()
         autologin()
     }
     
@@ -103,16 +103,16 @@ class LoginPageViewController: UIViewController {
         })
     }
     
-    @IBAction func loginButtonAction(_ sender: Any) {
-        getApiResponse()
-        
-        if let username = usernameLabel.text {
-            KeychainWrapper.standard.set(username, forKey: "Username")
-        }
-        if let password = passwordLabel.text {
-            KeychainWrapper.standard.set(password, forKey: "Password")
-        }
-    }
+//    @IBAction func loginButtonAction(_ sender: Any) {
+//        getApiResponse()
+//
+//        if let username = usernameLabel.text {
+//            KeychainWrapper.standard.set(username, forKey: "Username")
+//        }
+//        if let password = passwordLabel.text {
+//            KeychainWrapper.standard.set(password, forKey: "Password")
+//        }
+//    }
     
     func navigateToUserProfileViewController() {
         let tabbar: UITabBarController? = (storyboard!.instantiateViewController(withIdentifier: "tabbar") as? TabBarViewController)
@@ -121,15 +121,15 @@ class LoginPageViewController: UIViewController {
         print("OGUZ nav")
     }
     
-    func autologin() {
-        if UserDefaults.standard.bool(forKey: "IsLoggedIn") == true{
-            let tabbar: UITabBarController? = (storyboard!.instantiateViewController(withIdentifier: "tabbar") as? TabBarViewController)
-            tabbar?.selectedIndex = 3
-            self.navigationController?.pushViewController(tabbar!, animated: true)
-            print("OGUZ auto")
-        }
-    }
-    
+//    func autologin() {
+//        if UserDefaults.standard.bool(forKey: "IsLoggedIn") == true{
+//            let tabbar: UITabBarController? = (storyboard!.instantiateViewController(withIdentifier: "tabbar") as? TabBarViewController)
+//            tabbar?.selectedIndex = 3
+//            self.navigationController?.pushViewController(tabbar!, animated: true)
+//            print("OGUZ auto")
+//        }
+//    }
+//
     func showAlert() {
         DispatchQueue.main.sync {
             let alert = UIAlertController(title: "Alert", message: "Username or Password is not correct!", preferredStyle: .alert)
@@ -141,11 +141,11 @@ class LoginPageViewController: UIViewController {
     
     
     
-    @IBAction func forgotPasswordButtonAction(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let forgotPasswordViewController = storyboard.instantiateViewController(identifier: constants.forgotPasswordViewControllerId )  as? ForgotPasswordViewController else { return }
-        navigationController?.pushViewController(forgotPasswordViewController, animated: true)
-    }
+//    @IBAction func forgotPasswordButtonAction(_ sender: Any) {
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        guard let forgotPasswordViewController = storyboard.instantiateViewController(identifier: constants.forgotPasswordViewControllerId )  as? ForgotPasswordViewController else { return }
+//        navigationController?.pushViewController(forgotPasswordViewController, animated: true)
+//    }
     
     @IBAction func hidePasswordButtonAction(_ sender: Any) {
         if(iconClick == true) {

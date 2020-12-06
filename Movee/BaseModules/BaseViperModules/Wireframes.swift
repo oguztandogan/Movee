@@ -39,8 +39,8 @@ public enum Wireframes {
         // MARK: - Authentication Wireframes -
         //        case .registerWireframe:
         //            return registerWireframe()
-        case .loginWireframe:
-            return LoginWireframe()
+//        case .loginWireframe:
+//            return LoginWireframe()
         //        case forgotPasswordWireframe
         //
         //        // MARK: - Movie Pages Wireframes -

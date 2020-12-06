@@ -10,11 +10,11 @@ import Foundation
 
 struct TokenResponseModel: Codable {
     
-    let success: Bool?
+    let success: Bool
     let expires_at: String?
     let request_token: String?
     
-    init(success: Bool?,
+    init(success: Bool,
          expires_at: String?,
          request_token: String?) {
         self.success = success

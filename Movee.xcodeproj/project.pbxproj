@@ -33,6 +33,13 @@
 		2229C0B4238E907300548C47 /* KnownForTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229C0B3238E907300548C47 /* KnownForTableViewCell.swift */; };
 		2229C0B6238E909C00548C47 /* KnownForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229C0B5238E909C00548C47 /* KnownForTableView.swift */; };
 		222B71EF2382D77700B350F0 /* SeriesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B71EE2382D77700B350F0 /* SeriesDetailsViewController.swift */; };
+		222F04FA257D1BD10008F106 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222F04F3257D1BD10008F106 /* LoginPage.storyboard */; };
+		222F04FB257D1BD10008F106 /* LoginPageInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F04F4257D1BD10008F106 /* LoginPageInterfaces.swift */; };
+		222F04FC257D1BD10008F106 /* LoginPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F04F5257D1BD10008F106 /* LoginPagePresenter.swift */; };
+		222F04FD257D1BD10008F106 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F04F6257D1BD10008F106 /* LoginPageViewController.swift */; };
+		222F04FE257D1BD10008F106 /* LoginPageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F04F7257D1BD10008F106 /* LoginPageFormatter.swift */; };
+		222F04FF257D1BD10008F106 /* LoginPageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F04F8257D1BD10008F106 /* LoginPageInteractor.swift */; };
+		222F0500257D1BD10008F106 /* LoginPageWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F04F9257D1BD10008F106 /* LoginPageWireframe.swift */; };
 		22393D76237C463B004069BA /* SeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22393D75237C463B004069BA /* SeriesViewController.swift */; };
 		22393D78237C466B004069BA /* Popular&TopRatedSeriesViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22393D77237C466B004069BA /* Popular&TopRatedSeriesViewController+CollectionView.swift */; };
 		22393D7E237C46C4004069BA /* TopRatedSeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22393D7D237C46C4004069BA /* TopRatedSeriesCollectionViewCell.swift */; };
@@ -92,7 +99,7 @@
 		22CB69F4256528B70098C3AB /* MoveeComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22CB69F2256528B70098C3AB /* MoveeComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22E196F523856BDE001EDF17 /* DateFixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E196F423856BDE001EDF17 /* DateFixer.swift */; };
 		22E2778F239FE38D006474DD /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E2778E239FE38D006474DD /* RegisterPageViewController.swift */; };
-		22E27793239FE3B6006474DD /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27792239FE3B6006474DD /* LoginPageViewController.swift */; };
+		22E27793239FE3B6006474DD /* LoginPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27792239FE3B6006474DD /* LoginPage1ViewController.swift */; };
 		22E27795239FE3C3006474DD /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27794239FE3C3006474DD /* UserProfileViewController.swift */; };
 		22E57D7223A0C810002D3B29 /* TokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E57D7123A0C810002D3B29 /* TokenResponseModel.swift */; };
 		A10C15F72563E71D0034E76D /* LoginInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F12563E71D0034E76D /* LoginInterfaces.swift */; };
@@ -152,6 +159,13 @@
 		2229C0B3238E907300548C47 /* KnownForTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownForTableViewCell.swift; sourceTree = "<group>"; };
 		2229C0B5238E909C00548C47 /* KnownForTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownForTableView.swift; sourceTree = "<group>"; };
 		222B71EE2382D77700B350F0 /* SeriesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetailsViewController.swift; sourceTree = "<group>"; };
+		222F04F3257D1BD10008F106 /* LoginPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
+		222F04F4257D1BD10008F106 /* LoginPageInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageInterfaces.swift; sourceTree = "<group>"; };
+		222F04F5257D1BD10008F106 /* LoginPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPagePresenter.swift; sourceTree = "<group>"; };
+		222F04F6257D1BD10008F106 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		222F04F7257D1BD10008F106 /* LoginPageFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageFormatter.swift; sourceTree = "<group>"; };
+		222F04F8257D1BD10008F106 /* LoginPageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageInteractor.swift; sourceTree = "<group>"; };
+		222F04F9257D1BD10008F106 /* LoginPageWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageWireframe.swift; sourceTree = "<group>"; };
 		22393D75237C463B004069BA /* SeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewController.swift; sourceTree = "<group>"; };
 		22393D77237C466B004069BA /* Popular&TopRatedSeriesViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Popular&TopRatedSeriesViewController+CollectionView.swift"; sourceTree = "<group>"; };
 		22393D7D237C46C4004069BA /* TopRatedSeriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedSeriesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -215,7 +229,7 @@
 		22CB69F2256528B70098C3AB /* MoveeComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoveeComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E196F423856BDE001EDF17 /* DateFixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFixer.swift; sourceTree = "<group>"; };
 		22E2778E239FE38D006474DD /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
-		22E27792239FE3B6006474DD /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		22E27792239FE3B6006474DD /* LoginPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage1ViewController.swift; sourceTree = "<group>"; };
 		22E27794239FE3C3006474DD /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		22E57D7123A0C810002D3B29 /* TokenResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponseModel.swift; sourceTree = "<group>"; };
 		5725C3C1AF704CC8954A72E0 /* Pods-Movee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.debug.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig"; sourceTree = "<group>"; };
@@ -513,6 +527,20 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		22B204A9257D1A7200562C5F /* Login1 */ = {
+			isa = PBXGroup;
+			children = (
+				222F04F3257D1BD10008F106 /* LoginPage.storyboard */,
+				222F04F4257D1BD10008F106 /* LoginPageInterfaces.swift */,
+				222F04F5257D1BD10008F106 /* LoginPagePresenter.swift */,
+				222F04F6257D1BD10008F106 /* LoginPageViewController.swift */,
+				222F04F7257D1BD10008F106 /* LoginPageFormatter.swift */,
+				222F04F8257D1BD10008F106 /* LoginPageInteractor.swift */,
+				222F04F9257D1BD10008F106 /* LoginPageWireframe.swift */,
+			);
+			path = Login1;
+			sourceTree = "<group>";
+		};
 		22B7C63B23A3AC330072B12F /* TabBarViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -568,7 +596,7 @@
 		22E2778C239FE2F8006474DD /* LoginPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				22E27792239FE3B6006474DD /* LoginPageViewController.swift */,
+				22E27792239FE3B6006474DD /* LoginPage1ViewController.swift */,
 			);
 			path = LoginPageViewController;
 			sourceTree = "<group>";
@@ -638,6 +666,7 @@
 		A10C15F02563E6F10034E76D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				22B204A9257D1A7200562C5F /* Login1 */,
 				A10C15EE2563E67C0034E76D /* Login */,
 			);
 			path = Scenes;
@@ -755,6 +784,7 @@
 				2252DFFA2397E49400E2F27A /* Localizable.strings in Resources */,
 				22C343F3236B115D0083645B /* Assets.xcassets in Resources */,
 				22C343F1236B11540083645B /* Main.storyboard in Resources */,
+				222F04FA257D1BD10008F106 /* LoginPage.storyboard in Resources */,
 				221D4F442371A64E00B88965 /* SF-UI-Display-Regular.ttf in Resources */,
 				221D4F472371A64E00B88965 /* SF-UI-Display-Black.otf in Resources */,
 			);
@@ -824,6 +854,7 @@
 				224E44F7236C15CD000E4D57 /* MoveeCollectionCell.swift in Sources */,
 				22CA7D70256411EF0091FD79 /* PresenterInterface.swift in Sources */,
 				2252E0022397FC5E00E2F27A /* SearchingModel.swift in Sources */,
+				222F04FD257D1BD10008F106 /* LoginPageViewController.swift in Sources */,
 				22193CFD237C171B005D3851 /* SeriesModel.swift in Sources */,
 				A10C15FC2563E71D0034E76D /* LoginWireframe.swift in Sources */,
 				22C343FE236B15F30083645B /* MoviesViewController.swift in Sources */,
@@ -852,7 +883,9 @@
 				A10C15FA2563E71D0034E76D /* LoginFormatter.swift in Sources */,
 				22464F6523ACEDF70060A9CC /* FavoriteListUIModel.swift in Sources */,
 				22393D78237C466B004069BA /* Popular&TopRatedSeriesViewController+CollectionView.swift in Sources */,
+				222F0500257D1BD10008F106 /* LoginPageWireframe.swift in Sources */,
 				A10C15F82563E71D0034E76D /* LoginPresenter.swift in Sources */,
+				222F04FF257D1BD10008F106 /* LoginPageInteractor.swift in Sources */,
 				2214FB4E23901336003BB4FF /* CreditsKnownForUIModel.swift in Sources */,
 				A1D52F1D2567028D0099E8A2 /* SessionIdRequestModel.swift in Sources */,
 				2229C0B4238E907300548C47 /* KnownForTableViewCell.swift in Sources */,
@@ -867,8 +900,10 @@
 				22CA7D6D256411EF0091FD79 /* ViewInterface.swift in Sources */,
 				22122AA223A7CE980096BBF0 /* Constants.swift in Sources */,
 				22437FFD238DB53400A54AB0 /* SeriesDetailsCreditsCollectionViewCell.swift in Sources */,
+				222F04FB257D1BD10008F106 /* LoginPageInterfaces.swift in Sources */,
 				2262508D2387EFCF0013DE7A /* CreditsUIModel.swift in Sources */,
 				22440E5A237E91E900D7A6AF /* SeriesGenreModel.swift in Sources */,
+				222F04FE257D1BD10008F106 /* LoginPageFormatter.swift in Sources */,
 				22C343EC236B11540083645B /* SceneDelegate.swift in Sources */,
 				2252E0042397FEE900E2F27A /* SearchingUIModel.swift in Sources */,
 				2216526C23994A6D00D74773 /* SeriesSearchingTableViewCell.swift in Sources */,
@@ -876,6 +911,7 @@
 				A1D52F1B2566FF860099E8A2 /* LoginRequestModel.swift in Sources */,
 				22CA7D72256411EF0091FD79 /* Typealiases.swift in Sources */,
 				223BA40C23A762F300071616 /* ForgotPasswordViewController.swift in Sources */,
+				222F04FC257D1BD10008F106 /* LoginPagePresenter.swift in Sources */,
 				22CA7D73256411EF0091FD79 /* Wireframes.swift in Sources */,
 				229C52612370035C0087DBF7 /* MoveeTableCell.swift in Sources */,
 				222922FD23AB6D2D0041659C /* FavoriteModel.swift in Sources */,
@@ -884,7 +920,7 @@
 				2249F3BC237EE14500BE7DCB /* PopularSeriesCollectionViewCell.swift in Sources */,
 				22CA7D6F256411EF0091FD79 /* StoryboardExtension.swift in Sources */,
 				22393D76237C463B004069BA /* SeriesViewController.swift in Sources */,
-				22E27793239FE3B6006474DD /* LoginPageViewController.swift in Sources */,
+				22E27793239FE3B6006474DD /* LoginPage1ViewController.swift in Sources */,
 				2229C0B1238E900B00548C47 /* CreditsViewController.swift in Sources */,
 				2216526A23994A5C00D74773 /* PeopleSearchingTableViewCell.swift in Sources */,
 				22B7C63A23A270460072B12F /* NavigationControllerUtil.swift in Sources */,

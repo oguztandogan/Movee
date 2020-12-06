@@ -104,8 +104,10 @@ public class LoginPageComponent: DataBasedComponentView<LoginPageComponentData> 
     }
     
     @objc fileprivate func loginButtonAction(sender: UIButton) {
-        guard let emailInputText = emailInputView.returnInputText() else { return }
-        authenticationListener?(AuthenticationRequest(username: emailInputText, password: ""))
+        guard let emailInputText = emailInputView.returnInputText(),
+              let passwordInputText = passwordInputView.returnInputText()
+              else { return }
+        authenticationListener?(AuthenticationRequest(username: emailInputText, password: passwordInputText))
     }
     
     @objc fileprivate func registerButtonAction(sender: UIButton) {
