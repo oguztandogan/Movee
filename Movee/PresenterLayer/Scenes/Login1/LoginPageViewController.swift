@@ -25,7 +25,7 @@ final class LoginPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavController()
-        presenter.viewDidLoad()
+//        presenter.viewDidLoad()
     }
     
     private func setupNavController() {
@@ -42,12 +42,6 @@ final class LoginPageViewController: UIViewController {
             print("OGUZ auto")
         }
     }
-
-}
-
-// MARK: - Extensions -
-
-extension LoginPageViewController: LoginPageViewInterface {
     
     // MARK: - Actions -
     @IBAction func loginButtonAction(_ sender: Any) {
@@ -70,5 +64,13 @@ extension LoginPageViewController: LoginPageViewInterface {
         let tabbar: TabBarViewController? = (storyboard!.instantiateViewController(withIdentifier: "tabbar") as? TabBarViewController)
         self.navigationController?.pushViewController(tabbar!, animated: true)
     }
+
+
+}
+
+// MARK: - Extensions -
+
+extension LoginPageViewController: LoginPageViewInterface {
+    
 
 }

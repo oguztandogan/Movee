@@ -11,7 +11,6 @@
 import Foundation
 
 final class LoginPageInteractor {
-    let loginRequestModel: LoginRequestModel? = nil
 }
 
 // MARK: - Extensions -
@@ -20,17 +19,23 @@ extension LoginPageInteractor: LoginPageInteractorInterface {
     
     func authenticateWithUserCredentials(username: String?, password: String?) {
         TmDBService.instance.getToken(completion: {response in
-            self.loginRequestModel?.request_token = response.request_token
-            self.loginRequestModel?.password = password
-            self.loginRequestModel?.username = username
-            
-            TmDBService.instance.createSessionWithLogin(requestModel: self.loginRequestModel, completion: { requestToken, response  in
-                guard let isSuccess = response?.success else {
+            let loginRequestModel = LoginRequestModel(username: response.request_token,
+                                                      password: password,
+                                                      request_token: username)
+//            self.loginRequestModel?.request_token = response.request_token
+//            self.loginRequestModel?.password = password
+//            self.loginRequestModel?.username = username
+            print("asdfasdfa")
+            TmDBService.instance.createSessionWithLogin(requestModel: loginRequestModel, completion: { requestToken, response1  in
+                guard let isSuccess = response1?.success else {
                     fatalError("error")
                 }
                 if isSuccess {
-                    TmDBService.instance.createSessionID(requestModel: response?.request_token, completion: { savedToken, sessionId in
-                        if let isSuccess = sessionId.success, isSuccess {
+                    TmDBService.instance.createSessionID(requestModel: response1?.request_token, completion: { savedToken, sessionId in
+                        guard let isSuccess = response1?.success else {
+                            fatalError("error")
+                        }
+                        if isSuccess {
                             TmDBService.instance.getAccountDetails(requestModel: sessionId.session_id, completion: { accountDetails in
                                 DispatchQueue.main.async {
                                     if let accountId = accountDetails.id {
@@ -42,6 +47,8 @@ extension LoginPageInteractor: LoginPageInteractorInterface {
                                     }
                                 }
                             })
+                        } else {
+                            fatalError("error")
                         }
                     })
                     

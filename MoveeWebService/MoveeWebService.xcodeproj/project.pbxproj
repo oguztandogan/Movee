@@ -7,162 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		191A50AE1DD23D2D58CF9F24 /* Pods_MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E471BDA639F6CB5FAA889DD /* Pods_MoveeWebService.framework */; };
-		225CE7D025665B2F00FDFE16 /* MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225CE7C625665B2E00FDFE16 /* MoveeWebService.framework */; };
-		225CE7D525665B2F00FDFE16 /* MoveeWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE7D425665B2F00FDFE16 /* MoveeWebServiceTests.swift */; };
-		225CE7D725665B2F00FDFE16 /* MoveeWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 225CE7C925665B2E00FDFE16 /* MoveeWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		225CE7E725665BBA00FDFE16 /* HttpClientInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE7E625665BBA00FDFE16 /* HttpClientInterface.swift */; };
-		225CE80325665EC700FDFE16 /* ApiInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE80225665EC700FDFE16 /* ApiInterceptor.swift */; };
-		225CE80725665F1200FDFE16 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE80625665F1200FDFE16 /* ApiManager.swift */; };
-		225CE80B2566625500FDFE16 /* ApiEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE80A2566625500FDFE16 /* ApiEventMonitor.swift */; };
-		225CE80F2566634B00FDFE16 /* ApiRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE80E2566634B00FDFE16 /* ApiRetrier.swift */; };
-		225CE813256663EB00FDFE16 /* ApiAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE812256663EB00FDFE16 /* ApiAdapter.swift */; };
-		225CE817256664B400FDFE16 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225CE816256664B400FDFE16 /* Encodable+Extension.swift */; };
+		222F057D257D45060008F106 /* MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F0573257D45060008F106 /* MoveeWebService.framework */; };
+		222F0582257D45060008F106 /* MoveeWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F0581257D45060008F106 /* MoveeWebServiceTests.swift */; };
+		222F0584257D45060008F106 /* MoveeWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 222F0576257D45060008F106 /* MoveeWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222F05A2257D455E0008F106 /* HttpClientInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059B257D455E0008F106 /* HttpClientInterface.swift */; };
+		222F05A3257D455E0008F106 /* ApiInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059C257D455E0008F106 /* ApiInterceptor.swift */; };
+		222F05A4257D455E0008F106 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059D257D455E0008F106 /* Encodable+Extension.swift */; };
+		222F05A5257D455E0008F106 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059E257D455E0008F106 /* ApiManager.swift */; };
+		222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059F257D455E0008F106 /* ApiEventMonitor.swift */; };
+		222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F05A0257D455E0008F106 /* ApiRetrier.swift */; };
+		222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F05A1257D455E0008F106 /* ApiAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		225CE7D125665B2F00FDFE16 /* PBXContainerItemProxy */ = {
+		222F057E257D45060008F106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 225CE7BD25665B2E00FDFE16 /* Project object */;
+			containerPortal = 222F056A257D45060008F106 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 225CE7C525665B2E00FDFE16;
+			remoteGlobalIDString = 222F0572257D45060008F106;
 			remoteInfo = MoveeWebService;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11D4A99E258AF1C7444CA144 /* Pods-MoveeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.debug.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig"; sourceTree = "<group>"; };
-		225CE7C625665B2E00FDFE16 /* MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		225CE7C925665B2E00FDFE16 /* MoveeWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveeWebService.h; sourceTree = "<group>"; };
-		225CE7CA25665B2E00FDFE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		225CE7CF25665B2F00FDFE16 /* MoveeWebServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveeWebServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		225CE7D425665B2F00FDFE16 /* MoveeWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveeWebServiceTests.swift; sourceTree = "<group>"; };
-		225CE7D625665B2F00FDFE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		225CE7E625665BBA00FDFE16 /* HttpClientInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientInterface.swift; sourceTree = "<group>"; };
-		225CE80225665EC700FDFE16 /* ApiInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiInterceptor.swift; sourceTree = "<group>"; };
-		225CE80625665F1200FDFE16 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
-		225CE80A2566625500FDFE16 /* ApiEventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEventMonitor.swift; sourceTree = "<group>"; };
-		225CE80E2566634B00FDFE16 /* ApiRetrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRetrier.swift; sourceTree = "<group>"; };
-		225CE812256663EB00FDFE16 /* ApiAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAdapter.swift; sourceTree = "<group>"; };
-		225CE816256664B400FDFE16 /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
-		2E471BDA639F6CB5FAA889DD /* Pods_MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB0D4C39C709F888BEBFA950 /* Pods-MoveeWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.release.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.release.xcconfig"; sourceTree = "<group>"; };
+		222F0573257D45060008F106 /* MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		222F0576257D45060008F106 /* MoveeWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveeWebService.h; sourceTree = "<group>"; };
+		222F0577257D45060008F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222F057C257D45060008F106 /* MoveeWebServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveeWebServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222F0581257D45060008F106 /* MoveeWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveeWebServiceTests.swift; sourceTree = "<group>"; };
+		222F0583257D45060008F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222F059B257D455E0008F106 /* HttpClientInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClientInterface.swift; sourceTree = "<group>"; };
+		222F059C257D455E0008F106 /* ApiInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiInterceptor.swift; sourceTree = "<group>"; };
+		222F059D257D455E0008F106 /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		222F059E257D455E0008F106 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		222F059F257D455E0008F106 /* ApiEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEventMonitor.swift; sourceTree = "<group>"; };
+		222F05A0257D455E0008F106 /* ApiRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRetrier.swift; sourceTree = "<group>"; };
+		222F05A1257D455E0008F106 /* ApiAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		225CE7C325665B2E00FDFE16 /* Frameworks */ = {
+		222F0570257D45060008F106 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				191A50AE1DD23D2D58CF9F24 /* Pods_MoveeWebService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		225CE7CC25665B2F00FDFE16 /* Frameworks */ = {
+		222F0579257D45060008F106 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225CE7D025665B2F00FDFE16 /* MoveeWebService.framework in Frameworks */,
+				222F057D257D45060008F106 /* MoveeWebService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C5FF734DABF47C797C284EA /* Frameworks */ = {
+		222F0569257D45060008F106 = {
 			isa = PBXGroup;
 			children = (
-				2E471BDA639F6CB5FAA889DD /* Pods_MoveeWebService.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		225CE7BC25665B2E00FDFE16 = {
-			isa = PBXGroup;
-			children = (
-				225CE7C825665B2E00FDFE16 /* MoveeWebService */,
-				225CE7D325665B2F00FDFE16 /* MoveeWebServiceTests */,
-				225CE7C725665B2E00FDFE16 /* Products */,
-				DB5EA9B0C115BDCC1785CF3A /* Pods */,
-				0C5FF734DABF47C797C284EA /* Frameworks */,
+				222F0575257D45060008F106 /* MoveeWebService */,
+				222F0580257D45060008F106 /* MoveeWebServiceTests */,
+				222F0574257D45060008F106 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		225CE7C725665B2E00FDFE16 /* Products */ = {
+		222F0574257D45060008F106 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				225CE7C625665B2E00FDFE16 /* MoveeWebService.framework */,
-				225CE7CF25665B2F00FDFE16 /* MoveeWebServiceTests.xctest */,
+				222F0573257D45060008F106 /* MoveeWebService.framework */,
+				222F057C257D45060008F106 /* MoveeWebServiceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		225CE7C825665B2E00FDFE16 /* MoveeWebService */ = {
+		222F0575257D45060008F106 /* MoveeWebService */ = {
 			isa = PBXGroup;
 			children = (
-				225CE7E525665BA800FDFE16 /* ApiLayers */,
-				225CE7C925665B2E00FDFE16 /* MoveeWebService.h */,
-				225CE7CA25665B2E00FDFE16 /* Info.plist */,
+				222F059A257D455E0008F106 /* ApiLayers */,
+				222F0576257D45060008F106 /* MoveeWebService.h */,
+				222F0577257D45060008F106 /* Info.plist */,
 			);
 			path = MoveeWebService;
 			sourceTree = "<group>";
 		};
-		225CE7D325665B2F00FDFE16 /* MoveeWebServiceTests */ = {
+		222F0580257D45060008F106 /* MoveeWebServiceTests */ = {
 			isa = PBXGroup;
 			children = (
-				225CE7D425665B2F00FDFE16 /* MoveeWebServiceTests.swift */,
-				225CE7D625665B2F00FDFE16 /* Info.plist */,
+				222F0581257D45060008F106 /* MoveeWebServiceTests.swift */,
+				222F0583257D45060008F106 /* Info.plist */,
 			);
 			path = MoveeWebServiceTests;
 			sourceTree = "<group>";
 		};
-		225CE7E525665BA800FDFE16 /* ApiLayers */ = {
+		222F059A257D455E0008F106 /* ApiLayers */ = {
 			isa = PBXGroup;
 			children = (
-				225CE7E625665BBA00FDFE16 /* HttpClientInterface.swift */,
-				225CE80225665EC700FDFE16 /* ApiInterceptor.swift */,
-				225CE80625665F1200FDFE16 /* ApiManager.swift */,
-				225CE80A2566625500FDFE16 /* ApiEventMonitor.swift */,
-				225CE80E2566634B00FDFE16 /* ApiRetrier.swift */,
-				225CE812256663EB00FDFE16 /* ApiAdapter.swift */,
-				225CE816256664B400FDFE16 /* Encodable+Extension.swift */,
+				222F059B257D455E0008F106 /* HttpClientInterface.swift */,
+				222F059C257D455E0008F106 /* ApiInterceptor.swift */,
+				222F059D257D455E0008F106 /* Encodable+Extension.swift */,
+				222F059E257D455E0008F106 /* ApiManager.swift */,
+				222F059F257D455E0008F106 /* ApiEventMonitor.swift */,
+				222F05A0257D455E0008F106 /* ApiRetrier.swift */,
+				222F05A1257D455E0008F106 /* ApiAdapter.swift */,
 			);
 			path = ApiLayers;
-			sourceTree = "<group>";
-		};
-		DB5EA9B0C115BDCC1785CF3A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				11D4A99E258AF1C7444CA144 /* Pods-MoveeWebService.debug.xcconfig */,
-				CB0D4C39C709F888BEBFA950 /* Pods-MoveeWebService.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		225CE7C125665B2E00FDFE16 /* Headers */ = {
+		222F056E257D45060008F106 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225CE7D725665B2F00FDFE16 /* MoveeWebService.h in Headers */,
+				222F0584257D45060008F106 /* MoveeWebService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		225CE7C525665B2E00FDFE16 /* MoveeWebService */ = {
+		222F0572257D45060008F106 /* MoveeWebService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 225CE7DA25665B2F00FDFE16 /* Build configuration list for PBXNativeTarget "MoveeWebService" */;
+			buildConfigurationList = 222F0587257D45060008F106 /* Build configuration list for PBXNativeTarget "MoveeWebService" */;
 			buildPhases = (
-				456DC6045882C5E7D5CD189F /* [CP] Check Pods Manifest.lock */,
-				225CE7C125665B2E00FDFE16 /* Headers */,
-				225CE7C225665B2E00FDFE16 /* Sources */,
-				225CE7C325665B2E00FDFE16 /* Frameworks */,
-				225CE7C425665B2E00FDFE16 /* Resources */,
+				222F056E257D45060008F106 /* Headers */,
+				222F056F257D45060008F106 /* Sources */,
+				222F0570257D45060008F106 /* Frameworks */,
+				222F0571257D45060008F106 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,46 +144,45 @@
 			);
 			name = MoveeWebService;
 			productName = MoveeWebService;
-			productReference = 225CE7C625665B2E00FDFE16 /* MoveeWebService.framework */;
+			productReference = 222F0573257D45060008F106 /* MoveeWebService.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		225CE7CE25665B2F00FDFE16 /* MoveeWebServiceTests */ = {
+		222F057B257D45060008F106 /* MoveeWebServiceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 225CE7DD25665B2F00FDFE16 /* Build configuration list for PBXNativeTarget "MoveeWebServiceTests" */;
+			buildConfigurationList = 222F058A257D45060008F106 /* Build configuration list for PBXNativeTarget "MoveeWebServiceTests" */;
 			buildPhases = (
-				225CE7CB25665B2F00FDFE16 /* Sources */,
-				225CE7CC25665B2F00FDFE16 /* Frameworks */,
-				225CE7CD25665B2F00FDFE16 /* Resources */,
+				222F0578257D45060008F106 /* Sources */,
+				222F0579257D45060008F106 /* Frameworks */,
+				222F057A257D45060008F106 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				225CE7D225665B2F00FDFE16 /* PBXTargetDependency */,
+				222F057F257D45060008F106 /* PBXTargetDependency */,
 			);
 			name = MoveeWebServiceTests;
 			productName = MoveeWebServiceTests;
-			productReference = 225CE7CF25665B2F00FDFE16 /* MoveeWebServiceTests.xctest */;
+			productReference = 222F057C257D45060008F106 /* MoveeWebServiceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		225CE7BD25665B2E00FDFE16 /* Project object */ = {
+		222F056A257D45060008F106 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					225CE7C525665B2E00FDFE16 = {
+					222F0572257D45060008F106 = {
 						CreatedOnToolsVersion = 12.2;
-						LastSwiftMigration = 1220;
 					};
-					225CE7CE25665B2F00FDFE16 = {
+					222F057B257D45060008F106 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 225CE7C025665B2E00FDFE16 /* Build configuration list for PBXProject "MoveeWebService" */;
+			buildConfigurationList = 222F056D257D45060008F106 /* Build configuration list for PBXProject "MoveeWebService" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,26 +190,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 225CE7BC25665B2E00FDFE16;
-			productRefGroup = 225CE7C725665B2E00FDFE16 /* Products */;
+			mainGroup = 222F0569257D45060008F106;
+			productRefGroup = 222F0574257D45060008F106 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				225CE7C525665B2E00FDFE16 /* MoveeWebService */,
-				225CE7CE25665B2F00FDFE16 /* MoveeWebServiceTests */,
+				222F0572257D45060008F106 /* MoveeWebService */,
+				222F057B257D45060008F106 /* MoveeWebServiceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		225CE7C425665B2E00FDFE16 /* Resources */ = {
+		222F0571257D45060008F106 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		225CE7CD25665B2F00FDFE16 /* Resources */ = {
+		222F057A257D45060008F106 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,66 +218,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		456DC6045882C5E7D5CD189F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoveeWebService-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		225CE7C225665B2E00FDFE16 /* Sources */ = {
+		222F056F257D45060008F106 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225CE80B2566625500FDFE16 /* ApiEventMonitor.swift in Sources */,
-				225CE80325665EC700FDFE16 /* ApiInterceptor.swift in Sources */,
-				225CE80F2566634B00FDFE16 /* ApiRetrier.swift in Sources */,
-				225CE817256664B400FDFE16 /* Encodable+Extension.swift in Sources */,
-				225CE80725665F1200FDFE16 /* ApiManager.swift in Sources */,
-				225CE813256663EB00FDFE16 /* ApiAdapter.swift in Sources */,
-				225CE7E725665BBA00FDFE16 /* HttpClientInterface.swift in Sources */,
+				222F05A5257D455E0008F106 /* ApiManager.swift in Sources */,
+				222F05A3257D455E0008F106 /* ApiInterceptor.swift in Sources */,
+				222F05A2257D455E0008F106 /* HttpClientInterface.swift in Sources */,
+				222F05A4257D455E0008F106 /* Encodable+Extension.swift in Sources */,
+				222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */,
+				222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */,
+				222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		225CE7CB25665B2F00FDFE16 /* Sources */ = {
+		222F0578257D45060008F106 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225CE7D525665B2F00FDFE16 /* MoveeWebServiceTests.swift in Sources */,
+				222F0582257D45060008F106 /* MoveeWebServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		225CE7D225665B2F00FDFE16 /* PBXTargetDependency */ = {
+		222F057F257D45060008F106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 225CE7C525665B2E00FDFE16 /* MoveeWebService */;
-			targetProxy = 225CE7D125665B2F00FDFE16 /* PBXContainerItemProxy */;
+			target = 222F0572257D45060008F106 /* MoveeWebService */;
+			targetProxy = 222F057E257D45060008F106 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		225CE7D825665B2F00FDFE16 /* Debug */ = {
+		222F0585257D45060008F106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		225CE7D925665B2F00FDFE16 /* Release */ = {
+		222F0586257D45060008F106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,11 +374,9 @@
 			};
 			name = Release;
 		};
-		225CE7DB25665B2F00FDFE16 /* Debug */ = {
+		222F0588257D45060008F106 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11D4A99E258AF1C7444CA144 /* Pods-MoveeWebService.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -446,17 +392,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Movee.MoveeWebService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		225CE7DC25665B2F00FDFE16 /* Release */ = {
+		222F0589257D45060008F106 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB0D4C39C709F888BEBFA950 /* Pods-MoveeWebService.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -477,7 +420,7 @@
 			};
 			name = Release;
 		};
-		225CE7DE25665B2F00FDFE16 /* Debug */ = {
+		222F058B257D45060008F106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -495,7 +438,7 @@
 			};
 			name = Debug;
 		};
-		225CE7DF25665B2F00FDFE16 /* Release */ = {
+		222F058C257D45060008F106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,34 +459,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		225CE7C025665B2E00FDFE16 /* Build configuration list for PBXProject "MoveeWebService" */ = {
+		222F056D257D45060008F106 /* Build configuration list for PBXProject "MoveeWebService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				225CE7D825665B2F00FDFE16 /* Debug */,
-				225CE7D925665B2F00FDFE16 /* Release */,
+				222F0585257D45060008F106 /* Debug */,
+				222F0586257D45060008F106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		225CE7DA25665B2F00FDFE16 /* Build configuration list for PBXNativeTarget "MoveeWebService" */ = {
+		222F0587257D45060008F106 /* Build configuration list for PBXNativeTarget "MoveeWebService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				225CE7DB25665B2F00FDFE16 /* Debug */,
-				225CE7DC25665B2F00FDFE16 /* Release */,
+				222F0588257D45060008F106 /* Debug */,
+				222F0589257D45060008F106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		225CE7DD25665B2F00FDFE16 /* Build configuration list for PBXNativeTarget "MoveeWebServiceTests" */ = {
+		222F058A257D45060008F106 /* Build configuration list for PBXNativeTarget "MoveeWebServiceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				225CE7DE25665B2F00FDFE16 /* Debug */,
-				225CE7DF25665B2F00FDFE16 /* Release */,
+				222F058B257D45060008F106 /* Debug */,
+				222F058C257D45060008F106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 225CE7BD25665B2E00FDFE16 /* Project object */;
+	rootObject = 222F056A257D45060008F106 /* Project object */;
 }
