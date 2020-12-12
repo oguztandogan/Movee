@@ -18,14 +18,10 @@ final class LoginPageInteractor {
 extension LoginPageInteractor: LoginPageInteractorInterface {
     
     func authenticateWithUserCredentials(username: String?, password: String?) {
-        TmDBService.instance.getToken(completion: {response in
+        TmDBService.instance.getToken(completion: { response in
             let loginRequestModel = LoginRequestModel(username: response.request_token,
                                                       password: password,
                                                       request_token: username)
-//            self.loginRequestModel?.request_token = response.request_token
-//            self.loginRequestModel?.password = password
-//            self.loginRequestModel?.username = username
-            print("asdfasdfa")
             TmDBService.instance.createSessionWithLogin(requestModel: loginRequestModel, completion: { requestToken, response1  in
                 guard let isSuccess = response1?.success else {
                     fatalError("error")
@@ -41,9 +37,7 @@ extension LoginPageInteractor: LoginPageInteractorInterface {
                                     if let accountId = accountDetails.id {
                                         let accountIdString = String(accountId)
                                         UserDefaults.standard.set(accountIdString, forKey: "AccountId")
-                                        if accountIdString != nil {
-                                            UserDefaults.standard.set(true, forKey: "IsLoggedIn")
-                                        }
+                                        UserDefaults.standard.set(true, forKey: "IsLoggedIn")
                                     }
                                 }
                             })

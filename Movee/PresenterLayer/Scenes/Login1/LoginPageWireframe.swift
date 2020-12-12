@@ -33,4 +33,32 @@ final class LoginPageWireframe: BaseWireframe {
 // MARK: - Extensions -
 
 extension LoginPageWireframe: LoginPageWireframeInterface {
+    
+    func navigate(to option: LoginPageNavigationOption) {
+        switch option {
+        case .home:
+            openHome()
+        case .register:
+            presentRegister()
+        case .forgotPassword:
+            print("asdf")
+        }
+
+    }
+
+    private func openHome() {
+//        let wireframe = HomeWireframe()
+//
+//        navigationController?.pushWireframe(wireframe)
+    }
+
+    private func presentRegister() {
+//        let wireframe = RegisterWireframe()
+//
+//        let wireframeNavigationController = PokedexNavigationController()
+//        wireframeNavigationController.setRootWireframe(wireframe)
+//
+//        navigationController?.present(wireframeNavigationController, animated: true, completion: nil)
+
+    }
 }

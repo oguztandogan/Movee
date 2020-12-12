@@ -264,6 +264,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2212B6D1257DA3D300786B76 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		22193CFB237C16CE005D3851 /* SeriesModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,6 +676,7 @@
 		A10C15F02563E6F10034E76D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2212B6D1257DA3D300786B76 /* New Group */,
 				22B204A9257D1A7200562C5F /* Login1 */,
 				A10C15EE2563E67C0034E76D /* Login */,
 			);

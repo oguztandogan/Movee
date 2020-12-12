@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20427307AF9CC5B3A0922916 /* Pods_MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9330DCF9857482BECB77D1B2 /* Pods_MoveeWebService.framework */; };
 		222F057D257D45060008F106 /* MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F0573257D45060008F106 /* MoveeWebService.framework */; };
 		222F0582257D45060008F106 /* MoveeWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F0581257D45060008F106 /* MoveeWebServiceTests.swift */; };
 		222F0584257D45060008F106 /* MoveeWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 222F0576257D45060008F106 /* MoveeWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +44,9 @@
 		222F059F257D455E0008F106 /* ApiEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEventMonitor.swift; sourceTree = "<group>"; };
 		222F05A0257D455E0008F106 /* ApiRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRetrier.swift; sourceTree = "<group>"; };
 		222F05A1257D455E0008F106 /* ApiAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiAdapter.swift; sourceTree = "<group>"; };
+		9330DCF9857482BECB77D1B2 /* Pods_MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97520C5269B5428C6406FB8D /* Pods-MoveeWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.release.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.release.xcconfig"; sourceTree = "<group>"; };
+		C7B5D39A786143F41A870EDB /* Pods-MoveeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.debug.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20427307AF9CC5B3A0922916 /* Pods_MoveeWebService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +75,8 @@
 				222F0575257D45060008F106 /* MoveeWebService */,
 				222F0580257D45060008F106 /* MoveeWebServiceTests */,
 				222F0574257D45060008F106 /* Products */,
+				5A4DFC899842AD6AC40CE1A8 /* Pods */,
+				874FA11F6CBF21476311CD66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,15 +111,33 @@
 		222F059A257D455E0008F106 /* ApiLayers */ = {
 			isa = PBXGroup;
 			children = (
-				222F059B257D455E0008F106 /* HttpClientInterface.swift */,
-				222F059C257D455E0008F106 /* ApiInterceptor.swift */,
-				222F059D257D455E0008F106 /* Encodable+Extension.swift */,
-				222F059E257D455E0008F106 /* ApiManager.swift */,
-				222F059F257D455E0008F106 /* ApiEventMonitor.swift */,
-				222F05A0257D455E0008F106 /* ApiRetrier.swift */,
 				222F05A1257D455E0008F106 /* ApiAdapter.swift */,
+				222F059F257D455E0008F106 /* ApiEventMonitor.swift */,
+				222F059C257D455E0008F106 /* ApiInterceptor.swift */,
+				222F059E257D455E0008F106 /* ApiManager.swift */,
+				222F05A0257D455E0008F106 /* ApiRetrier.swift */,
+				222F059D257D455E0008F106 /* Encodable+Extension.swift */,
+				222F059B257D455E0008F106 /* HttpClientInterface.swift */,
 			);
 			path = ApiLayers;
+			sourceTree = "<group>";
+		};
+		5A4DFC899842AD6AC40CE1A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7B5D39A786143F41A870EDB /* Pods-MoveeWebService.debug.xcconfig */,
+				97520C5269B5428C6406FB8D /* Pods-MoveeWebService.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		874FA11F6CBF21476311CD66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9330DCF9857482BECB77D1B2 /* Pods_MoveeWebService.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 222F0587257D45060008F106 /* Build configuration list for PBXNativeTarget "MoveeWebService" */;
 			buildPhases = (
+				1AEB59A4790A252F8D5A9094 /* [CP] Check Pods Manifest.lock */,
 				222F056E257D45060008F106 /* Headers */,
 				222F056F257D45060008F106 /* Sources */,
 				222F0570257D45060008F106 /* Frameworks */,
@@ -217,6 +243,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AEB59A4790A252F8D5A9094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoveeWebService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		222F056F257D45060008F106 /* Sources */ = {
@@ -376,6 +427,7 @@
 		};
 		222F0588257D45060008F106 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B5D39A786143F41A870EDB /* Pods-MoveeWebService.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -399,6 +451,7 @@
 		};
 		222F0589257D45060008F106 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97520C5269B5428C6406FB8D /* Pods-MoveeWebService.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

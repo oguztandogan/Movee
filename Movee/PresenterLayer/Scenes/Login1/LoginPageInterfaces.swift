@@ -10,6 +10,12 @@
 
 import UIKit
 
+enum LoginPageNavigationOption {
+    case home
+    case register
+    case forgotPassword
+}
+
 protocol LoginPageWireframeInterface: WireframeInterface {
 }
 

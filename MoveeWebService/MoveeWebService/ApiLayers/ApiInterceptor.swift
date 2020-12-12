@@ -1,16 +1,16 @@
-////
-////  ApiInterceptor.swift
-////  MoveeWebService
-////
-////  Created by Oguz Tandogan on 19.11.2020.
-////
 //
-//import Foundation
-//import Alamofire
+//  ApiInterceptor.swift
+//  MoveeWebService
 //
-//public class ApiInterceptor: Interceptor {
-//    
-//    public init(adapter: ApiAdapter, retrier: ApiRetriever) {
-//        super.init(adapter: adapter, retrier: retrier)
-//    }
-//}
+//  Created by Oguz Tandogan on 19.11.2020.
+//
+
+import Foundation
+import Alamofire
+
+public class ApiInterceptor: Interceptor {
+    
+    public init(adapter: ApiAdapter, retrier: ApiRetriever) {
+        super.init(adapter: adapter, retrier: retrier)
+    }
+}
