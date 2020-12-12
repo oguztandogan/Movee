@@ -18,7 +18,7 @@ final class LoginPageViewController: UIViewController {
     
     // MARK: - Public properties -
 
-    var presenter: LoginPagePresenterInterface!
+    var presenter: LoginPagePresenterInterface?
 
     // MARK: - Lifecycle -
 
@@ -45,7 +45,7 @@ final class LoginPageViewController: UIViewController {
     
     // MARK: - Actions -
     @IBAction func loginButtonAction(_ sender: Any) {
-        presenter.loadLoginData(username: emailInputTextField.text, password: passwordInputTextField.text)
+        presenter?.loadLoginData(username: emailInputTextField.text, password: passwordInputTextField.text)
         if let username = emailInputTextField.text {
             UserDefaults.standard.set(username, forKey: "Username")
         }
