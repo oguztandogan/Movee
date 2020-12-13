@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 import Kingfisher
-import UPCarouselFlowLayout
 
 extension MoviesViewController: UITableViewDelegate,UITableViewDataSource {
     

@@ -58,4 +58,14 @@ public class ApiManager: HttpClientInterface {
             }
         }
     }
+    
+    private func returnStatusCode(data: AFDataResponse<Data?>) -> Int {
+        guard let response = data.response else { return 0 }
+        return response.statusCode
+    }
+    
+    private func returnErrorCode(error: AFError) -> Int {
+        guard let underlyingError = error.underlyingError else { return NSURLErrorUnknown }
+        return underlyingError._code
+    }
 }

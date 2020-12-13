@@ -11,15 +11,15 @@ class UseCaseCallback<T>: UseCaseCallbackInteractor {
     typealias Response = T
     
     var onSuccessCompletion: ((T) -> Void)?
-    var onErrorCompletion: ((ErrorResponse) -> Void)?
-    var onCallBackResultCompletion: ((Result<T, ErrorResponse>) -> Void)?
-
+    var onErrorCompletion: ((BaseErrorResponse) -> Void)?
+    var onCallBackResultCompletion: ((Result<T, BaseErrorResponse>) -> Void)?
+    
     func onSuccess(response: T) {
         onSuccessCompletion?(response)
         onCallBackResultCompletion?(.success(response))
     }
     
-    func onError(error: ErrorResponse) {
+    func onError(error: BaseErrorResponse) {
         onErrorCompletion?(error)
         onCallBackResultCompletion?(.failure(error))
     }
@@ -28,11 +28,11 @@ class UseCaseCallback<T>: UseCaseCallbackInteractor {
         onSuccessCompletion = completion
     }
     
-    func onError(completion: @escaping (ErrorResponse) -> Void) {
+    func onError(completion: @escaping (BaseErrorResponse) -> Void) {
         onErrorCompletion = completion
     }
     
-    func commonResult(completion: @escaping (Result<T, ErrorResponse>) -> Void) {
+    func commonResult(completion: @escaping (Result<T, BaseErrorResponse>) -> Void) {
         onCallBackResultCompletion = completion
     }
     

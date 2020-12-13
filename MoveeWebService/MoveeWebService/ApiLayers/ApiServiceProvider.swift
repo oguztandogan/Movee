@@ -33,7 +33,7 @@ class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
     }
     
     func asURLRequest() throws -> URLRequest {
-        var url = try UtilityManager.returnBaseUrl(environment: .development).asURL()
+        var url = try pathType.value.asURL()
         
         if let path = path {
             url = url.appendingPathComponent(path)
@@ -64,7 +64,7 @@ class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
 
     private var headers: HTTPHeaders {
         var httpHeaders = HTTPHeaders()
-        httpHeaders.add(HTTPHeader(name: HTTPHeaderFields.contentType.value, value: "application/json; charset=utf-8"))
+        httpHeaders.add(HTTPHeader(name: HttpHeaderFields.contentType.value.0, value: HttpHeaderFields.contentType.value.1))
 
         return httpHeaders
     }

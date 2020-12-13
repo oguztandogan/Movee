@@ -14,10 +14,10 @@ protocol UseCaseCallbackInteractor {
     var onSuccessCompletion: ((Response) -> Void)? { get }
     
     func onSuccess(response: Response)
-    func onError(error: ErrorResponse)
+    func onError(error: BaseErrorResponse)
     
     func onSuccess(completion: @escaping (Response) -> Void)
-    func onError(completion: @escaping (ErrorResponse) -> Void)
-    func commonResult(completion: @escaping (Result<Response, ErrorResponse>) -> Void)
+    func onError(completion: @escaping (BaseErrorResponse) -> Void)
+    func commonResult(completion: @escaping (Result<Response, BaseErrorResponse>) -> Void)
     
 }

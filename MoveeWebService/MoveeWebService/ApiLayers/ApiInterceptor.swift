@@ -10,7 +10,7 @@ import Alamofire
 
 public class ApiInterceptor: Interceptor {
     
-    public init(adapter: ApiAdapter, retrier: ApiRetriever) {
+    public init(adapter: ApiAdapter, retrier: ApiRetrier) {
         super.init(adapter: adapter, retrier: retrier)
     }
 }
