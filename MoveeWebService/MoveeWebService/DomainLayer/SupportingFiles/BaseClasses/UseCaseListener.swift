@@ -11,6 +11,6 @@ public protocol UseCaseListener {
     
     func useCasePreExecute()
     
-    func useCasePostExecuter()
+    func useCasePostExecute()
     
 }

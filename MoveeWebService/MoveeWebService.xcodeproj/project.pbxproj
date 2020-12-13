@@ -12,17 +12,12 @@
 		2212B6FB25857CE600786B76 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212B6FA25857CE600786B76 /* Endpoints.swift */; };
 		2222EF842586562E00CE7BA5 /* UseCaseCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */; };
 		2222EF852586562E00CE7BA5 /* UseCaseCallbackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */; };
-		2222EFA32586575200CE7BA5 /* CodableDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFA22586575200CE7BA5 /* CodableDataProtocol.swift */; };
-		2222EFA7258657EF00CE7BA5 /* EncodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFA6258657EF00CE7BA5 /* EncodableExtension.swift */; };
-		2222EFAD258659A600CE7BA5 /* HttpHeaderFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFAC258659A600CE7BA5 /* HttpHeaderFields.swift */; };
-		2222EFB525865B7F00CE7BA5 /* BaseErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFB425865B7F00CE7BA5 /* BaseErrorResponse.swift */; };
-		2222EFBB25865D3F00CE7BA5 /* GenericErrorResponseModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFBA25865D3F00CE7BA5 /* GenericErrorResponseModule.swift */; };
-		2222EFBF25865DAA00CE7BA5 /* ApiConnectionErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFBE25865DAA00CE7BA5 /* ApiConnectionErrorType.swift */; };
 		222F057D257D45060008F106 /* MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F0573257D45060008F106 /* MoveeWebService.framework */; };
 		222F0582257D45060008F106 /* MoveeWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F0581257D45060008F106 /* MoveeWebServiceTests.swift */; };
 		222F0584257D45060008F106 /* MoveeWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 222F0576257D45060008F106 /* MoveeWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		222F05A2257D455E0008F106 /* HttpClientInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059B257D455E0008F106 /* HttpClientInterface.swift */; };
 		222F05A3257D455E0008F106 /* ApiInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059C257D455E0008F106 /* ApiInterceptor.swift */; };
+		222F05A4257D455E0008F106 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059D257D455E0008F106 /* Encodable+Extension.swift */; };
 		222F05A5257D455E0008F106 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059E257D455E0008F106 /* ApiManager.swift */; };
 		222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059F257D455E0008F106 /* ApiEventMonitor.swift */; };
 		222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F05A0257D455E0008F106 /* ApiRetrier.swift */; };
@@ -30,6 +25,7 @@
 		A1D010982586568C00E3B5F6 /* BaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010972586568C00E3B5F6 /* BaseUseCase.swift */; };
 		A1D0109C2586589800E3B5F6 /* SingleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */; };
 		A1D010B125865D0300E3B5F6 /* UseCaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */; };
+		A1D010D52586626500E3B5F6 /* BaseUseCaseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010D42586626500E3B5F6 /* BaseUseCaseInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +43,6 @@
 		2212B6FA25857CE600786B76 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseCallback.swift; sourceTree = "<group>"; };
 		2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseCallbackInteractor.swift; sourceTree = "<group>"; };
-		2222EFA22586575200CE7BA5 /* CodableDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDataProtocol.swift; sourceTree = "<group>"; };
-		2222EFA6258657EF00CE7BA5 /* EncodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableExtension.swift; sourceTree = "<group>"; };
-		2222EFAC258659A600CE7BA5 /* HttpHeaderFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHeaderFields.swift; sourceTree = "<group>"; };
-		2222EFB425865B7F00CE7BA5 /* BaseErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorResponse.swift; sourceTree = "<group>"; };
-		2222EFBA25865D3F00CE7BA5 /* GenericErrorResponseModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorResponseModule.swift; sourceTree = "<group>"; };
-		2222EFBE25865DAA00CE7BA5 /* ApiConnectionErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnectionErrorType.swift; sourceTree = "<group>"; };
 		222F0573257D45060008F106 /* MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222F0576257D45060008F106 /* MoveeWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveeWebService.h; sourceTree = "<group>"; };
 		222F0577257D45060008F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +51,7 @@
 		222F0583257D45060008F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222F059B257D455E0008F106 /* HttpClientInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClientInterface.swift; sourceTree = "<group>"; };
 		222F059C257D455E0008F106 /* ApiInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiInterceptor.swift; sourceTree = "<group>"; };
+		222F059D257D455E0008F106 /* Encodable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
 		222F059E257D455E0008F106 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		222F059F257D455E0008F106 /* ApiEventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEventMonitor.swift; sourceTree = "<group>"; };
 		222F05A0257D455E0008F106 /* ApiRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRetrier.swift; sourceTree = "<group>"; };
@@ -70,6 +61,7 @@
 		A1D010972586568C00E3B5F6 /* BaseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCase.swift; sourceTree = "<group>"; };
 		A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUseCase.swift; sourceTree = "<group>"; };
 		A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseListener.swift; sourceTree = "<group>"; };
+		A1D010D42586626500E3B5F6 /* BaseUseCaseInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCaseInterface.swift; sourceTree = "<group>"; };
 		C7B5D39A786143F41A870EDB /* Pods-MoveeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.debug.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +112,6 @@
 		2222EF802586562E00CE7BA5 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2222EFB325865B7000CE7BA5 /* BaseModels */,
 				2222EF812586562E00CE7BA5 /* BaseClasses */,
 				2222EF8C258656DD00CE7BA5 /* BaseProtocols */,
 			);
@@ -142,19 +133,13 @@
 		2222EF8C258656DD00CE7BA5 /* BaseProtocols */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
+=======
 				2222EFA22586575200CE7BA5 /* CodableDataProtocol.swift */,
+				A1D010D42586626500E3B5F6 /* BaseUseCaseInterface.swift */,
+>>>>>>> Stashed changes
 			);
 			path = BaseProtocols;
-			sourceTree = "<group>";
-		};
-		2222EFB325865B7000CE7BA5 /* BaseModels */ = {
-			isa = PBXGroup;
-			children = (
-				2222EFB425865B7F00CE7BA5 /* BaseErrorResponse.swift */,
-				2222EFBA25865D3F00CE7BA5 /* GenericErrorResponseModule.swift */,
-				2222EFBE25865DAA00CE7BA5 /* ApiConnectionErrorType.swift */,
-			);
-			path = BaseModels;
 			sourceTree = "<group>";
 		};
 		222F0569257D45060008F106 = {
@@ -206,10 +191,9 @@
 				222F059C257D455E0008F106 /* ApiInterceptor.swift */,
 				222F059E257D455E0008F106 /* ApiManager.swift */,
 				222F05A0257D455E0008F106 /* ApiRetrier.swift */,
+				222F059D257D455E0008F106 /* Encodable+Extension.swift */,
 				222F059B257D455E0008F106 /* HttpClientInterface.swift */,
 				2212B6F4258579C100786B76 /* ApiServiceProvider.swift */,
-				2222EFA6258657EF00CE7BA5 /* EncodableExtension.swift */,
-				2222EFAC258659A600CE7BA5 /* HttpHeaderFields.swift */,
 			);
 			path = ApiLayers;
 			sourceTree = "<group>";
@@ -369,21 +353,17 @@
 				A1D0109C2586589800E3B5F6 /* SingleUseCase.swift in Sources */,
 				222F05A5257D455E0008F106 /* ApiManager.swift in Sources */,
 				2212B6F5258579C100786B76 /* ApiServiceProvider.swift in Sources */,
-				2222EFA32586575200CE7BA5 /* CodableDataProtocol.swift in Sources */,
-				2222EFAD258659A600CE7BA5 /* HttpHeaderFields.swift in Sources */,
 				2222EF842586562E00CE7BA5 /* UseCaseCallback.swift in Sources */,
 				222F05A3257D455E0008F106 /* ApiInterceptor.swift in Sources */,
-				2222EFB525865B7F00CE7BA5 /* BaseErrorResponse.swift in Sources */,
-				2222EFBB25865D3F00CE7BA5 /* GenericErrorResponseModule.swift in Sources */,
-				2222EFA7258657EF00CE7BA5 /* EncodableExtension.swift in Sources */,
 				222F05A2257D455E0008F106 /* HttpClientInterface.swift in Sources */,
+				222F05A4257D455E0008F106 /* Encodable+Extension.swift in Sources */,
 				222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */,
 				2222EF852586562E00CE7BA5 /* UseCaseCallbackInteractor.swift in Sources */,
 				A1D010982586568C00E3B5F6 /* BaseUseCase.swift in Sources */,
 				222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */,
-				2222EFBF25865DAA00CE7BA5 /* ApiConnectionErrorType.swift in Sources */,
 				2212B6FB25857CE600786B76 /* Endpoints.swift in Sources */,
 				222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */,
+				A1D010D52586626500E3B5F6 /* BaseUseCaseInterface.swift in Sources */,
 				A1D010B125865D0300E3B5F6 /* UseCaseListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
