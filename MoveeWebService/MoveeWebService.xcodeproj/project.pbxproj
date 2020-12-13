@@ -10,6 +10,8 @@
 		20427307AF9CC5B3A0922916 /* Pods_MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9330DCF9857482BECB77D1B2 /* Pods_MoveeWebService.framework */; };
 		2212B6F5258579C100786B76 /* ApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212B6F4258579C100786B76 /* ApiServiceProvider.swift */; };
 		2212B6FB25857CE600786B76 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2212B6FA25857CE600786B76 /* Endpoints.swift */; };
+		2222EF842586562E00CE7BA5 /* UseCaseCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */; };
+		2222EF852586562E00CE7BA5 /* UseCaseCallbackInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */; };
 		222F057D257D45060008F106 /* MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F0573257D45060008F106 /* MoveeWebService.framework */; };
 		222F0582257D45060008F106 /* MoveeWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F0581257D45060008F106 /* MoveeWebServiceTests.swift */; };
 		222F0584257D45060008F106 /* MoveeWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 222F0576257D45060008F106 /* MoveeWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +37,8 @@
 /* Begin PBXFileReference section */
 		2212B6F4258579C100786B76 /* ApiServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceProvider.swift; sourceTree = "<group>"; };
 		2212B6FA25857CE600786B76 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseCallback.swift; sourceTree = "<group>"; };
+		2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseCallbackInteractor.swift; sourceTree = "<group>"; };
 		222F0573257D45060008F106 /* MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222F0576257D45060008F106 /* MoveeWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveeWebService.h; sourceTree = "<group>"; };
 		222F0577257D45060008F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +93,31 @@
 			path = Endpoints;
 			sourceTree = "<group>";
 		};
+		2222EF7F2586562E00CE7BA5 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2222EF802586562E00CE7BA5 /* SupportingFiles */,
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		2222EF802586562E00CE7BA5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2222EF812586562E00CE7BA5 /* BaseClasses */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2222EF812586562E00CE7BA5 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */,
+				2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
 		222F0569257D45060008F106 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +141,7 @@
 		222F0575257D45060008F106 /* MoveeWebService */ = {
 			isa = PBXGroup;
 			children = (
+				2222EF7F2586562E00CE7BA5 /* DomainLayer */,
 				2212B6F825857CCB00786B76 /* DataLayer */,
 				222F059A257D455E0008F106 /* ApiLayers */,
 				222F0576257D45060008F106 /* MoveeWebService.h */,
@@ -298,10 +328,12 @@
 			files = (
 				222F05A5257D455E0008F106 /* ApiManager.swift in Sources */,
 				2212B6F5258579C100786B76 /* ApiServiceProvider.swift in Sources */,
+				2222EF842586562E00CE7BA5 /* UseCaseCallback.swift in Sources */,
 				222F05A3257D455E0008F106 /* ApiInterceptor.swift in Sources */,
 				222F05A2257D455E0008F106 /* HttpClientInterface.swift in Sources */,
 				222F05A4257D455E0008F106 /* Encodable+Extension.swift in Sources */,
 				222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */,
+				2222EF852586562E00CE7BA5 /* UseCaseCallbackInteractor.swift in Sources */,
 				222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */,
 				2212B6FB25857CE600786B76 /* Endpoints.swift in Sources */,
 				222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */,
