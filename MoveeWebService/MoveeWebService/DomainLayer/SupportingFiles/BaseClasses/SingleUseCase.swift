@@ -10,12 +10,12 @@ import RxSwift
 
 public class SingleUseCase<Params, T>: BaseUseCase<Params, Single<T>> {
     
-    public func execute(useCaseCallBack: UseCaseCallBack<T>, params: Params) {
+    func execute(useCaseCallBack: UseCaseCallback<T>, params: Params) {
         
         useCaseListener?.useCasePreExecute()
         
         addDisposable(disposible: self.generateUseCase(parameter: params)?.subscribe(onSuccess: { [weak self](response) in
-            UseCaseCallback.onSuccess(response: response)
+            useCaseCallBack.onSuccess(response: response)
             self?.useCaseListener?.useCasePostExecute()
         }, onError: { [weak self](error) in
             self?.onErrorCondition(useCaseCallBack: useCaseCallBack, error: error)

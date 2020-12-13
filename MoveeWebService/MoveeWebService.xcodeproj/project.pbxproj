@@ -25,6 +25,7 @@
 		A1D010982586568C00E3B5F6 /* BaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010972586568C00E3B5F6 /* BaseUseCase.swift */; };
 		A1D0109C2586589800E3B5F6 /* SingleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */; };
 		A1D010B125865D0300E3B5F6 /* UseCaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */; };
+		A1D010D52586626500E3B5F6 /* BaseUseCaseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010D42586626500E3B5F6 /* BaseUseCaseInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		A1D010972586568C00E3B5F6 /* BaseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCase.swift; sourceTree = "<group>"; };
 		A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUseCase.swift; sourceTree = "<group>"; };
 		A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseListener.swift; sourceTree = "<group>"; };
+		A1D010D42586626500E3B5F6 /* BaseUseCaseInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCaseInterface.swift; sourceTree = "<group>"; };
 		C7B5D39A786143F41A870EDB /* Pods-MoveeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.debug.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,11 @@
 		2222EF8C258656DD00CE7BA5 /* BaseProtocols */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
+=======
+				2222EFA22586575200CE7BA5 /* CodableDataProtocol.swift */,
+				A1D010D42586626500E3B5F6 /* BaseUseCaseInterface.swift */,
+>>>>>>> Stashed changes
 			);
 			path = BaseProtocols;
 			sourceTree = "<group>";
@@ -356,6 +363,7 @@
 				222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */,
 				2212B6FB25857CE600786B76 /* Endpoints.swift in Sources */,
 				222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */,
+				A1D010D52586626500E3B5F6 /* BaseUseCaseInterface.swift in Sources */,
 				A1D010B125865D0300E3B5F6 /* UseCaseListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
