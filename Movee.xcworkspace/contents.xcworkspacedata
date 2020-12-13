@@ -11,9 +11,9 @@
       location = "group:Utilities/Utilities.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:MoveeWebService/MoveeWebService.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MoveeWebService/MoveeWebService.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
