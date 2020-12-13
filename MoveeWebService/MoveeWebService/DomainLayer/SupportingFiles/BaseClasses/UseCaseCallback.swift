@@ -7,32 +7,32 @@
 
 import Foundation
 
-class UseCaseCallback<T>: UseCaseCallbackInteractor {
-    typealias Response = T
+public class UseCaseCallback<T>: UseCaseCallbackInteractor {
+    public typealias Response = T
     
-    var onSuccessCompletion: ((T) -> Void)?
+    public var onSuccessCompletion: ((T) -> Void)?
     var onErrorCompletion: ((BaseErrorResponse) -> Void)?
     var onCallBackResultCompletion: ((Result<T, BaseErrorResponse>) -> Void)?
     
-    func onSuccess(response: T) {
+    public func onSuccess(response: T) {
         onSuccessCompletion?(response)
         onCallBackResultCompletion?(.success(response))
     }
     
-    func onError(error: BaseErrorResponse) {
+    public func onError(error: BaseErrorResponse) {
         onErrorCompletion?(error)
         onCallBackResultCompletion?(.failure(error))
     }
     
-    func onSuccess(completion: @escaping (T) -> Void) {
+    public func onSuccess(completion: @escaping (T) -> Void) {
         onSuccessCompletion = completion
     }
     
-    func onError(completion: @escaping (BaseErrorResponse) -> Void) {
+    public func onError(completion: @escaping (BaseErrorResponse) -> Void) {
         onErrorCompletion = completion
     }
     
-    func commonResult(completion: @escaping (Result<T, BaseErrorResponse>) -> Void) {
+    public func commonResult(completion: @escaping (Result<T, BaseErrorResponse>) -> Void) {
         onCallBackResultCompletion = completion
     }
     

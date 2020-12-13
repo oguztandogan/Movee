@@ -239,7 +239,7 @@ class TmDBService {
         }.resume()
     }
     
-    func createSessionWithLogin( requestModel: LoginRequestModel?,
+    func createSessionWithLogin( requestModel: LoginRequestModel1?,
                                  completion: @escaping ([String: Any], (TokenResponseModel?)) -> Void) {
         
         let sessionUrl = urlBuilder(endPoint: Constants.createSessionWithLoginUrl)

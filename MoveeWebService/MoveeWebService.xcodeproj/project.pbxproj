@@ -18,6 +18,24 @@
 		2222EFB525865B7F00CE7BA5 /* BaseErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFB425865B7F00CE7BA5 /* BaseErrorResponse.swift */; };
 		2222EFBB25865D3F00CE7BA5 /* GenericErrorResponseModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFBA25865D3F00CE7BA5 /* GenericErrorResponseModule.swift */; };
 		2222EFBF25865DAA00CE7BA5 /* ApiConnectionErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFBE25865DAA00CE7BA5 /* ApiConnectionErrorType.swift */; };
+		2222EFCF2586614F00CE7BA5 /* BaseUseCaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFCE2586614F00CE7BA5 /* BaseUseCaseExtension.swift */; };
+		2222EFD3258661A200CE7BA5 /* BaseUseCaseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFD2258661A200CE7BA5 /* BaseUseCaseInterface.swift */; };
+		2222EFD9258661D300CE7BA5 /* BaseResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFD8258661D300CE7BA5 /* BaseResponseProtocol.swift */; };
+		2222EFDD2586621600CE7BA5 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFDC2586621600CE7BA5 /* BaseResponse.swift */; };
+		2222EFE12586625400CE7BA5 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFE02586625400CE7BA5 /* BaseRequest.swift */; };
+		2222EFFC25868AC000CE7BA5 /* LoginCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222EFFB25868AC000CE7BA5 /* LoginCallback.swift */; };
+		2222F00225868ACC00CE7BA5 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F00125868ACC00CE7BA5 /* LoginRequestModel.swift */; };
+		2222F00625868AD800CE7BA5 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F00525868AD800CE7BA5 /* LoginResponseModel.swift */; };
+		2222F00A25868AE400CE7BA5 /* LoginUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F00925868AE400CE7BA5 /* LoginUsecase.swift */; };
+		2222F0142586903600CE7BA5 /* GetBasicTokenCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0132586903600CE7BA5 /* GetBasicTokenCallback.swift */; };
+		2222F0182586904600CE7BA5 /* GetBasicTokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0172586904600CE7BA5 /* GetBasicTokenResponseModel.swift */; };
+		2222F01C258690F500CE7BA5 /* GetBasicTokenUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F01B258690F500CE7BA5 /* GetBasicTokenUsecase.swift */; };
+		2222F025258691D400CE7BA5 /* LoginOperationsRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F024258691D400CE7BA5 /* LoginOperationsRepositoryInterface.swift */; };
+		2222F029258692A200CE7BA5 /* LoginOperationsRemoteInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F028258692A200CE7BA5 /* LoginOperationsRemoteInterface.swift */; };
+		2222F02D258692FF00CE7BA5 /* LoginOperationsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F02C258692FF00CE7BA5 /* LoginOperationsRepository.swift */; };
+		2222F0312586935900CE7BA5 /* LoginServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0302586935900CE7BA5 /* LoginServices.swift */; };
+		2222F0352586936900CE7BA5 /* LoginServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0342586936900CE7BA5 /* LoginServiceModule.swift */; };
+		2222F0392586A46B00CE7BA5 /* LoginOperationsRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0382586A46B00CE7BA5 /* LoginOperationsRemote.swift */; };
 		222F057D257D45060008F106 /* MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222F0573257D45060008F106 /* MoveeWebService.framework */; };
 		222F0582257D45060008F106 /* MoveeWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F0581257D45060008F106 /* MoveeWebServiceTests.swift */; };
 		222F0584257D45060008F106 /* MoveeWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 222F0576257D45060008F106 /* MoveeWebService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +68,24 @@
 		2222EFB425865B7F00CE7BA5 /* BaseErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorResponse.swift; sourceTree = "<group>"; };
 		2222EFBA25865D3F00CE7BA5 /* GenericErrorResponseModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorResponseModule.swift; sourceTree = "<group>"; };
 		2222EFBE25865DAA00CE7BA5 /* ApiConnectionErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConnectionErrorType.swift; sourceTree = "<group>"; };
+		2222EFCE2586614F00CE7BA5 /* BaseUseCaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCaseExtension.swift; sourceTree = "<group>"; };
+		2222EFD2258661A200CE7BA5 /* BaseUseCaseInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCaseInterface.swift; sourceTree = "<group>"; };
+		2222EFD8258661D300CE7BA5 /* BaseResponseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponseProtocol.swift; sourceTree = "<group>"; };
+		2222EFDC2586621600CE7BA5 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		2222EFE02586625400CE7BA5 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		2222EFFB25868AC000CE7BA5 /* LoginCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCallback.swift; sourceTree = "<group>"; };
+		2222F00125868ACC00CE7BA5 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		2222F00525868AD800CE7BA5 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		2222F00925868AE400CE7BA5 /* LoginUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUsecase.swift; sourceTree = "<group>"; };
+		2222F0132586903600CE7BA5 /* GetBasicTokenCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBasicTokenCallback.swift; sourceTree = "<group>"; };
+		2222F0172586904600CE7BA5 /* GetBasicTokenResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBasicTokenResponseModel.swift; sourceTree = "<group>"; };
+		2222F01B258690F500CE7BA5 /* GetBasicTokenUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBasicTokenUsecase.swift; sourceTree = "<group>"; };
+		2222F024258691D400CE7BA5 /* LoginOperationsRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOperationsRepositoryInterface.swift; sourceTree = "<group>"; };
+		2222F028258692A200CE7BA5 /* LoginOperationsRemoteInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOperationsRemoteInterface.swift; sourceTree = "<group>"; };
+		2222F02C258692FF00CE7BA5 /* LoginOperationsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOperationsRepository.swift; sourceTree = "<group>"; };
+		2222F0302586935900CE7BA5 /* LoginServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServices.swift; sourceTree = "<group>"; };
+		2222F0342586936900CE7BA5 /* LoginServiceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceModule.swift; sourceTree = "<group>"; };
+		2222F0382586A46B00CE7BA5 /* LoginOperationsRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOperationsRemote.swift; sourceTree = "<group>"; };
 		222F0573257D45060008F106 /* MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222F0576257D45060008F106 /* MoveeWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveeWebService.h; sourceTree = "<group>"; };
 		222F0577257D45060008F106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +126,7 @@
 		2212B6F825857CCB00786B76 /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				2222F01F2586914600CE7BA5 /* Login */,
 				2212B6F925857CD600786B76 /* Endpoints */,
 			);
 			path = DataLayer;
@@ -106,6 +143,8 @@
 		2222EF7F2586562E00CE7BA5 /* DomainLayer */ = {
 			isa = PBXGroup;
 			children = (
+				2222F00F25868F8B00CE7BA5 /* GetBasicToken */,
+				2222EFF725868A8600CE7BA5 /* Login */,
 				2222EF802586562E00CE7BA5 /* SupportingFiles */,
 			);
 			path = DomainLayer;
@@ -114,9 +153,10 @@
 		2222EF802586562E00CE7BA5 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2222EFB325865B7000CE7BA5 /* BaseModels */,
 				2222EF812586562E00CE7BA5 /* BaseClasses */,
+				2222EFB325865B7000CE7BA5 /* BaseModels */,
 				2222EF8C258656DD00CE7BA5 /* BaseProtocols */,
+				2222EFCD2586613C00CE7BA5 /* Extensions */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -124,8 +164,18 @@
 		2222EF812586562E00CE7BA5 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */,
 				2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */,
+=======
+				2222EFE02586625400CE7BA5 /* BaseRequest.swift */,
+				2222EFDC2586621600CE7BA5 /* BaseResponse.swift */,
+				A1D010972586568C00E3B5F6 /* BaseUseCase.swift */,
+				A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */,
+				2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */,
+				2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */,
+				A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */,
+>>>>>>> Stashed changes
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -134,6 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				2222EFA22586575200CE7BA5 /* CodableDataProtocol.swift */,
+				2222EFD2258661A200CE7BA5 /* BaseUseCaseInterface.swift */,
+				2222EFD8258661D300CE7BA5 /* BaseResponseProtocol.swift */,
 			);
 			path = BaseProtocols;
 			sourceTree = "<group>";
@@ -146,6 +198,128 @@
 				2222EFBE25865DAA00CE7BA5 /* ApiConnectionErrorType.swift */,
 			);
 			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		2222EFCD2586613C00CE7BA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2222EFCE2586614F00CE7BA5 /* BaseUseCaseExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2222EFF725868A8600CE7BA5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2222EFFA25868A9A00CE7BA5 /* Callbacks */,
+				2222EFF925868A9800CE7BA5 /* Models */,
+				2222EFF825868A9500CE7BA5 /* Usecases */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2222EFF825868A9500CE7BA5 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				2222F00925868AE400CE7BA5 /* LoginUsecase.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		2222EFF925868A9800CE7BA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2222F00125868ACC00CE7BA5 /* LoginRequestModel.swift */,
+				2222F00525868AD800CE7BA5 /* LoginResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2222EFFA25868A9A00CE7BA5 /* Callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				2222EFFB25868AC000CE7BA5 /* LoginCallback.swift */,
+			);
+			path = Callbacks;
+			sourceTree = "<group>";
+		};
+		2222F00F25868F8B00CE7BA5 /* GetBasicToken */ = {
+			isa = PBXGroup;
+			children = (
+				2222F01225868F9F00CE7BA5 /* Callbacks */,
+				2222F01125868F9D00CE7BA5 /* Models */,
+				2222F01025868F9A00CE7BA5 /* Usecases */,
+			);
+			path = GetBasicToken;
+			sourceTree = "<group>";
+		};
+		2222F01025868F9A00CE7BA5 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				2222F01B258690F500CE7BA5 /* GetBasicTokenUsecase.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		2222F01125868F9D00CE7BA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2222F0172586904600CE7BA5 /* GetBasicTokenResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2222F01225868F9F00CE7BA5 /* Callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				2222F0132586903600CE7BA5 /* GetBasicTokenCallback.swift */,
+			);
+			path = Callbacks;
+			sourceTree = "<group>";
+		};
+		2222F01F2586914600CE7BA5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2222F0232586918200CE7BA5 /* Interface */,
+				2222F0222586918000CE7BA5 /* Repositories */,
+				2222F0212586917D00CE7BA5 /* ServiceModules */,
+				2222F0202586917A00CE7BA5 /* Remote */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2222F0202586917A00CE7BA5 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				2222F0382586A46B00CE7BA5 /* LoginOperationsRemote.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		2222F0212586917D00CE7BA5 /* ServiceModules */ = {
+			isa = PBXGroup;
+			children = (
+				2222F0302586935900CE7BA5 /* LoginServices.swift */,
+				2222F0342586936900CE7BA5 /* LoginServiceModule.swift */,
+			);
+			path = ServiceModules;
+			sourceTree = "<group>";
+		};
+		2222F0222586918000CE7BA5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				2222F02C258692FF00CE7BA5 /* LoginOperationsRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2222F0232586918200CE7BA5 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2222F024258691D400CE7BA5 /* LoginOperationsRepositoryInterface.swift */,
+				2222F028258692A200CE7BA5 /* LoginOperationsRemoteInterface.swift */,
+			);
+			path = Interface;
 			sourceTree = "<group>";
 		};
 		222F0569257D45060008F106 = {
@@ -357,22 +531,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
+=======
+				A1D0109C2586589800E3B5F6 /* SingleUseCase.swift in Sources */,
+				2222F00225868ACC00CE7BA5 /* LoginRequestModel.swift in Sources */,
+>>>>>>> Stashed changes
 				222F05A5257D455E0008F106 /* ApiManager.swift in Sources */,
 				2212B6F5258579C100786B76 /* ApiServiceProvider.swift in Sources */,
 				2222EFA32586575200CE7BA5 /* CodableDataProtocol.swift in Sources */,
+				2222EFFC25868AC000CE7BA5 /* LoginCallback.swift in Sources */,
 				2222EFAD258659A600CE7BA5 /* HttpHeaderFields.swift in Sources */,
+				2222F0352586936900CE7BA5 /* LoginServiceModule.swift in Sources */,
+				2222F01C258690F500CE7BA5 /* GetBasicTokenUsecase.swift in Sources */,
 				2222EF842586562E00CE7BA5 /* UseCaseCallback.swift in Sources */,
 				222F05A3257D455E0008F106 /* ApiInterceptor.swift in Sources */,
 				2222EFB525865B7F00CE7BA5 /* BaseErrorResponse.swift in Sources */,
+				2222F0182586904600CE7BA5 /* GetBasicTokenResponseModel.swift in Sources */,
+				2222EFE12586625400CE7BA5 /* BaseRequest.swift in Sources */,
+				2222F00A25868AE400CE7BA5 /* LoginUsecase.swift in Sources */,
 				2222EFBB25865D3F00CE7BA5 /* GenericErrorResponseModule.swift in Sources */,
 				2222EFA7258657EF00CE7BA5 /* EncodableExtension.swift in Sources */,
+				2222EFCF2586614F00CE7BA5 /* BaseUseCaseExtension.swift in Sources */,
+				2222F025258691D400CE7BA5 /* LoginOperationsRepositoryInterface.swift in Sources */,
 				222F05A2257D455E0008F106 /* HttpClientInterface.swift in Sources */,
+				2222F0312586935900CE7BA5 /* LoginServices.swift in Sources */,
 				222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */,
+				2222EFD3258661A200CE7BA5 /* BaseUseCaseInterface.swift in Sources */,
 				2222EF852586562E00CE7BA5 /* UseCaseCallbackInteractor.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				2222EFD9258661D300CE7BA5 /* BaseResponseProtocol.swift in Sources */,
+				2222F029258692A200CE7BA5 /* LoginOperationsRemoteInterface.swift in Sources */,
+				A1D010982586568C00E3B5F6 /* BaseUseCase.swift in Sources */,
+>>>>>>> Stashed changes
 				222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */,
+				2222F0392586A46B00CE7BA5 /* LoginOperationsRemote.swift in Sources */,
 				2222EFBF25865DAA00CE7BA5 /* ApiConnectionErrorType.swift in Sources */,
 				2212B6FB25857CE600786B76 /* Endpoints.swift in Sources */,
 				222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				2222F00625868AD800CE7BA5 /* LoginResponseModel.swift in Sources */,
+				A1D010B125865D0300E3B5F6 /* UseCaseListener.swift in Sources */,
+				2222F02D258692FF00CE7BA5 /* LoginOperationsRepository.swift in Sources */,
+				2222F0142586903600CE7BA5 /* GetBasicTokenCallback.swift in Sources */,
+				2222EFDD2586621600CE7BA5 /* BaseResponse.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +732,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MoveeWebService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,6 +757,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MoveeWebService/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

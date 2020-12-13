@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
+public class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
     
     private var method: HTTPMethod
     private var path: String?
@@ -32,7 +32,7 @@ class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
         self.data = data
     }
     
-    func asURLRequest() throws -> URLRequest {
+    public func asURLRequest() throws -> URLRequest {
         var url = try pathType.value.asURL()
         
         if let path = path {

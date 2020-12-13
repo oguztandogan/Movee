@@ -9,6 +9,9 @@
 //
 
 import UIKit
+import MoveeComponents
+import Utilities
+import MoveeWebService
 
 enum LoginPageNavigationOption {
     case home
@@ -29,5 +32,5 @@ protocol LoginPageFormatterInterface: FormatterInterface {
 }
 
 protocol LoginPageInteractorInterface: InteractorInterface {
-    func authenticateWithUserCredentials(username: String?, password: String?)
+    func getAuthenticatedSessionId(callback: LoginCallback, params: LoginRequestModel)
 }

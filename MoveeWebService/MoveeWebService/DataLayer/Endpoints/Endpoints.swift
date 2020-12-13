@@ -8,7 +8,9 @@
 import Foundation
 import Utilities
 
-typealias  PathType = Endpoints.PathType
+typealias PathType = Endpoints.PathType
+typealias ApiKey = Endpoints.ApiKey
+typealias LoginPaths = Endpoints.LoginPaths
 
 public enum Endpoints {
         
@@ -24,9 +26,22 @@ public enum Endpoints {
             case .auth:
                 return "https://api.themoviedb.org/3/authentication"
             case .movies:
-                return "https://api.themoviedb.org/3/movie/?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb"
+                return "https://api.themoviedb.org/3/movie"
             case .tvShows:
-                return "https://api.themoviedb.org/3/tv/?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb"
+                return "https://api.themoviedb.org/3/tv"
+            }
+        }
+    }
+    
+    public enum ApiKey: GenericValueProtocol {
+        case apiKey
+        
+        public typealias Value = String
+        
+        public var value: String {
+            switch self {
+            case .apiKey:
+                return "/?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb"
             }
         }
     }
@@ -43,6 +58,22 @@ public enum Endpoints {
                 return "/token/new/?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb"
             case .login:
                 return "/token/validate_with_login/?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb"
+            }
+        }
+    }
+    
+    public enum LoginPaths: GenericValueProtocol {
+        public typealias Value = String
+        
+        case loginUrl(LoginRequestModel)
+        case loginSessionUrl
+        
+        public var value: String {
+            switch self {
+            case .loginUrl:
+                return String(format: "/token/validate_with_login/?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb")
+            case .loginSessionUrl:
+                return String(format: "/session/new/?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb")
             }
         }
     }

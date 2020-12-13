@@ -17,7 +17,7 @@ public class ApiManager: HttpClientInterface {
     // MARK: - To decode JSON response -
     private var jsonDecoder = JSONDecoder()
     
-    init(interceptor: ApiInterceptor, eventMonitors: ApiEventMonitor) {
+    public init(interceptor: ApiInterceptor, eventMonitors: ApiEventMonitor) {
 
             let configuration = URLSessionConfiguration.ephemeral
             configuration.timeoutIntervalForRequest = 60

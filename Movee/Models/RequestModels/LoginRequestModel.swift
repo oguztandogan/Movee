@@ -8,7 +8,7 @@
 
 import Foundation
 
-class LoginRequestModel {
+class LoginRequestModel1 {
     
     var username: String?
     var password: String?

@@ -9,6 +9,9 @@
 //
 
 import Foundation
+import MoveeComponents
+import Utilities
+import MoveeWebService
 
 final class LoginPagePresenter {
 
@@ -19,6 +22,7 @@ final class LoginPagePresenter {
     private let interactor: LoginPageInteractorInterface
     private let wireframe: LoginPageWireframeInterface
 
+    private let loginCallback = LoginCallback()
     // MARK: - Lifecycle -
 
     init(view: LoginPageViewInterface, formatter: LoginPageFormatterInterface, interactor: LoginPageInteractorInterface, wireframe: LoginPageWireframeInterface) {
@@ -27,6 +31,21 @@ final class LoginPagePresenter {
         self.interactor = interactor
         self.wireframe = wireframe
     }
+    
+    private func getLoginSessionId() {
+        loginCallback.commonResult { [weak self] (result) in
+            self?.handleLoginResponse(result: result)
+        }
+        interactor.getAuthenticatedSessionId(callback: loginCallback, params: LoginRequestModel())
+    }
+    private func handleLoginResponse(result: Result<LoginResponseModel, BaseErrorResponse>) {
+        switch result {
+        case .failure(let error):
+            print(error)
+        case .success(let success):
+            print(success)
+        }
+    }
 }
 
 // MARK: - Extensions -
@@ -34,9 +53,10 @@ final class LoginPagePresenter {
 extension LoginPagePresenter: LoginPagePresenterInterface {
     
     func viewDidLoad() {
+        getLoginSessionId()
     }
     
     func loadLoginData(username: String?, password: String?) {
-        interactor.authenticateWithUserCredentials(username: username, password: password)
+//        interactor.authenticateWithUserCredentials(username: username, password: password)
     }
 }

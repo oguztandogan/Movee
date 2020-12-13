@@ -14,6 +14,7 @@ pod 'SwiftKeychainWrapper'
 pod 'Swinject'
 pod 'Alamofire'
 pod 'RxSwift'
+pod 'SwinjectAutoregistration'
 end
 
 target 'MoveeComponents' do

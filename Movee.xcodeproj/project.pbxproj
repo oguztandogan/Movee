@@ -25,6 +25,12 @@
 		221D4F472371A64E00B88965 /* SF-UI-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 221D4F432371A64E00B88965 /* SF-UI-Display-Black.otf */; };
 		2220C36D237AC75A00206CBA /* MovieGenreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220C36C237AC75A00206CBA /* MovieGenreModel.swift */; };
 		2220C36F237AC77800206CBA /* MovieUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2220C36E237AC77800206CBA /* MovieUIModel.swift */; };
+		2222F03E2586A63800CE7BA5 /* ManagerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F03D2586A63800CE7BA5 /* ManagerAssembly.swift */; };
+		2222F0542586A83700CE7BA5 /* RepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0532586A83700CE7BA5 /* RepositoryAssembly.swift */; };
+		2222F0562586A89900CE7BA5 /* UsecaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0552586A89900CE7BA5 /* UsecaseAssembly.swift */; };
+		2222F0582586A8E600CE7BA5 /* ApiRemoteAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0572586A8E600CE7BA5 /* ApiRemoteAssembly.swift */; };
+		2222F05A2586A94000CE7BA5 /* ApiProviderServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0592586A94000CE7BA5 /* ApiProviderServiceAssembly.swift */; };
+		2222F05C2586AAD000CE7BA5 /* AssemblerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F05B2586AAD000CE7BA5 /* AssemblerExtension.swift */; };
 		222922FA23AA71780041659C /* MoviesDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222922F923AA71780041659C /* MoviesDomainModel.swift */; };
 		222922FD23AB6D2D0041659C /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222922FC23AB6D2D0041659C /* FavoriteModel.swift */; };
 		2229230023ABA0AE0041659C /* AccountDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222922FF23ABA0AE0041659C /* AccountDetailsModel.swift */; };
@@ -152,6 +158,12 @@
 		221D4F432371A64E00B88965 /* SF-UI-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Black.otf"; sourceTree = "<group>"; };
 		2220C36C237AC75A00206CBA /* MovieGenreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGenreModel.swift; sourceTree = "<group>"; };
 		2220C36E237AC77800206CBA /* MovieUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieUIModel.swift; sourceTree = "<group>"; };
+		2222F03D2586A63800CE7BA5 /* ManagerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAssembly.swift; sourceTree = "<group>"; };
+		2222F0532586A83700CE7BA5 /* RepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryAssembly.swift; sourceTree = "<group>"; };
+		2222F0552586A89900CE7BA5 /* UsecaseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsecaseAssembly.swift; sourceTree = "<group>"; };
+		2222F0572586A8E600CE7BA5 /* ApiRemoteAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRemoteAssembly.swift; sourceTree = "<group>"; };
+		2222F0592586A94000CE7BA5 /* ApiProviderServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderServiceAssembly.swift; sourceTree = "<group>"; };
+		2222F05B2586AAD000CE7BA5 /* AssemblerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblerExtension.swift; sourceTree = "<group>"; };
 		222922F923AA71780041659C /* MoviesDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDomainModel.swift; sourceTree = "<group>"; };
 		222922FC23AB6D2D0041659C /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
 		222922FF23ABA0AE0041659C /* AccountDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsModel.swift; sourceTree = "<group>"; };
@@ -291,6 +303,19 @@
 				221D4F432371A64E00B88965 /* SF-UI-Display-Black.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		2222F03C2586A62200CE7BA5 /* DependencyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2222F03D2586A63800CE7BA5 /* ManagerAssembly.swift */,
+				2222F0532586A83700CE7BA5 /* RepositoryAssembly.swift */,
+				2222F0552586A89900CE7BA5 /* UsecaseAssembly.swift */,
+				2222F0572586A8E600CE7BA5 /* ApiRemoteAssembly.swift */,
+				2222F0592586A94000CE7BA5 /* ApiProviderServiceAssembly.swift */,
+				2222F05B2586AAD000CE7BA5 /* AssemblerExtension.swift */,
+			);
+			path = DependencyFramework;
 			sourceTree = "<group>";
 		};
 		222922FE23ABA0980041659C /* AccountModels */ = {
@@ -580,6 +605,7 @@
 		22C343E8236B11540083645B /* Movee */ = {
 			isa = PBXGroup;
 			children = (
+				2222F03C2586A62200CE7BA5 /* DependencyFramework */,
 				A10C15FE2563E7730034E76D /* BaseModules */,
 				A10C15ED2563E66D0034E76D /* PresenterLayer */,
 				22C343F7236B115D0083645B /* Info.plist */,
@@ -695,6 +721,7 @@
 			isa = PBXGroup;
 			children = (
 				22CA7D65256411EF0091FD79 /* AssemblerWireframeInteractorProtocol.swift */,
+				A10C16002563E79E0034E76D /* BaseWireframe.swift */,
 				22CA7D6B256411EF0091FD79 /* FormatterInterface.swift */,
 				22CA7D68256411EF0091FD79 /* InteractorInterface.swift */,
 				22CA7D67256411EF0091FD79 /* PresenterInterface.swift */,
@@ -703,7 +730,6 @@
 				22CA7D64256411EE0091FD79 /* ViewInterface.swift */,
 				22CA7D63256411EE0091FD79 /* WireframeNavigationType.swift */,
 				22CA7D6A256411EF0091FD79 /* Wireframes.swift */,
-				A10C16002563E79E0034E76D /* BaseWireframe.swift */,
 			);
 			path = BaseViperModules;
 			sourceTree = "<group>";
@@ -850,6 +876,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2222F0582586A8E600CE7BA5 /* ApiRemoteAssembly.swift in Sources */,
 				22122AA423A7D0960096BBF0 /* StatusBarUtil.swift in Sources */,
 				2252E0062398079100E2F27A /* SearchingTableView.swift in Sources */,
 				222922FA23AA71780041659C /* MoviesDomainModel.swift in Sources */,
@@ -875,6 +902,7 @@
 				22193D03237C1765005D3851 /* SeriesUIModel.swift in Sources */,
 				22393D7E237C46C4004069BA /* TopRatedSeriesCollectionViewCell.swift in Sources */,
 				22E196F523856BDE001EDF17 /* DateFixer.swift in Sources */,
+				2222F03E2586A63800CE7BA5 /* ManagerAssembly.swift in Sources */,
 				22CA7D71256411EF0091FD79 /* InteractorInterface.swift in Sources */,
 				2229C0AE238E880500548C47 /* CreditsDetailsModel.swift in Sources */,
 				223CF2BE23B114D600DB47B5 /* AccountStates.swift in Sources */,
@@ -882,6 +910,7 @@
 				A1D52F192566FEA70099E8A2 /* TokenRequestModel.swift in Sources */,
 				223CF2BC23B0A20800DB47B5 /* FavoriteListTableView.swift in Sources */,
 				22C343EA236B11540083645B /* AppDelegate.swift in Sources */,
+				2222F05A2586A94000CE7BA5 /* ApiProviderServiceAssembly.swift in Sources */,
 				221652682398089B00D74773 /* MoviesSearchingTableViewCell.swift in Sources */,
 				A10C16012563E79E0034E76D /* BaseWireframe.swift in Sources */,
 				22829304238EB5CF0095A8B3 /* CreditsDetailsUIModel.swift in Sources */,
@@ -893,6 +922,7 @@
 				2298904523859B770016C24C /* MovieDetailsViewController.swift in Sources */,
 				A10C15FA2563E71D0034E76D /* LoginFormatter.swift in Sources */,
 				22464F6523ACEDF70060A9CC /* FavoriteListUIModel.swift in Sources */,
+				2222F05C2586AAD000CE7BA5 /* AssemblerExtension.swift in Sources */,
 				22393D78237C466B004069BA /* Popular&TopRatedSeriesViewController+CollectionView.swift in Sources */,
 				222F0500257D1BD10008F106 /* LoginPageWireframe.swift in Sources */,
 				A10C15F82563E71D0034E76D /* LoginPresenter.swift in Sources */,
@@ -915,11 +945,13 @@
 				222F04FB257D1BD10008F106 /* LoginPageInterfaces.swift in Sources */,
 				2262508D2387EFCF0013DE7A /* CreditsUIModel.swift in Sources */,
 				22440E5A237E91E900D7A6AF /* SeriesGenreModel.swift in Sources */,
+				2222F0562586A89900CE7BA5 /* UsecaseAssembly.swift in Sources */,
 				222F04FE257D1BD10008F106 /* LoginPageFormatter.swift in Sources */,
 				22C343EC236B11540083645B /* SceneDelegate.swift in Sources */,
 				2252E0042397FEE900E2F27A /* SearchingUIModel.swift in Sources */,
 				2216526C23994A6D00D74773 /* SeriesSearchingTableViewCell.swift in Sources */,
 				2262508B2387BC160013DE7A /* CreditsModel.swift in Sources */,
+				2222F0542586A83700CE7BA5 /* RepositoryAssembly.swift in Sources */,
 				A1D52F1B2566FF860099E8A2 /* LoginRequestModel.swift in Sources */,
 				22CA7D72256411EF0091FD79 /* Typealiases.swift in Sources */,
 				223BA40C23A762F300071616 /* ForgotPasswordViewController.swift in Sources */,
