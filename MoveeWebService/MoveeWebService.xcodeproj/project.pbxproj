@@ -105,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2222EF812586562E00CE7BA5 /* BaseClasses */,
+				2222EF8C258656DD00CE7BA5 /* BaseProtocols */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -116,6 +117,13 @@
 				2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */,
 			);
 			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		2222EF8C258656DD00CE7BA5 /* BaseProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseProtocols;
 			sourceTree = "<group>";
 		};
 		222F0569257D45060008F106 = {
