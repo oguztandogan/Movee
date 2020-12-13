@@ -27,6 +27,9 @@
 		222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F059F257D455E0008F106 /* ApiEventMonitor.swift */; };
 		222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F05A0257D455E0008F106 /* ApiRetrier.swift */; };
 		222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F05A1257D455E0008F106 /* ApiAdapter.swift */; };
+		A1D010982586568C00E3B5F6 /* BaseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010972586568C00E3B5F6 /* BaseUseCase.swift */; };
+		A1D0109C2586589800E3B5F6 /* SingleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */; };
+		A1D010B125865D0300E3B5F6 /* UseCaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		222F05A1257D455E0008F106 /* ApiAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiAdapter.swift; sourceTree = "<group>"; };
 		9330DCF9857482BECB77D1B2 /* Pods_MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97520C5269B5428C6406FB8D /* Pods-MoveeWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.release.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.release.xcconfig"; sourceTree = "<group>"; };
+		A1D010972586568C00E3B5F6 /* BaseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUseCase.swift; sourceTree = "<group>"; };
+		A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleUseCase.swift; sourceTree = "<group>"; };
+		A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseListener.swift; sourceTree = "<group>"; };
 		C7B5D39A786143F41A870EDB /* Pods-MoveeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.debug.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +132,9 @@
 			children = (
 				2222EF822586562E00CE7BA5 /* UseCaseCallback.swift */,
 				2222EF832586562E00CE7BA5 /* UseCaseCallbackInteractor.swift */,
+				A1D010972586568C00E3B5F6 /* BaseUseCase.swift */,
+				A1D0109B2586589800E3B5F6 /* SingleUseCase.swift */,
+				A1D010B025865D0300E3B5F6 /* UseCaseListener.swift */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -357,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D0109C2586589800E3B5F6 /* SingleUseCase.swift in Sources */,
 				222F05A5257D455E0008F106 /* ApiManager.swift in Sources */,
 				2212B6F5258579C100786B76 /* ApiServiceProvider.swift in Sources */,
 				2222EFA32586575200CE7BA5 /* CodableDataProtocol.swift in Sources */,
@@ -369,10 +379,12 @@
 				222F05A2257D455E0008F106 /* HttpClientInterface.swift in Sources */,
 				222F05A7257D455E0008F106 /* ApiRetrier.swift in Sources */,
 				2222EF852586562E00CE7BA5 /* UseCaseCallbackInteractor.swift in Sources */,
+				A1D010982586568C00E3B5F6 /* BaseUseCase.swift in Sources */,
 				222F05A6257D455E0008F106 /* ApiEventMonitor.swift in Sources */,
 				2222EFBF25865DAA00CE7BA5 /* ApiConnectionErrorType.swift in Sources */,
 				2212B6FB25857CE600786B76 /* Endpoints.swift in Sources */,
 				222F05A8257D455E0008F106 /* ApiAdapter.swift in Sources */,
+				A1D010B125865D0300E3B5F6 /* UseCaseListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
