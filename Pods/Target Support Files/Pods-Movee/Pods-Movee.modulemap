@@ -1,6 +1,0 @@
-framework module Pods_Movee {
-  umbrella header "Pods-Movee-umbrella.h"
-
-  export *
-  module * { export * }
-}
