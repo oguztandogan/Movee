@@ -11,6 +11,7 @@ import Utilities
 typealias PathType = Endpoints.PathType
 typealias ApiKey = Endpoints.ApiKey
 typealias LoginPaths = Endpoints.LoginPaths
+typealias AuthenticationPaths = Endpoints.AuthenticationPaths
 
 public enum Endpoints {
         

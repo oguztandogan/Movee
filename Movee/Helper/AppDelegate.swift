@@ -7,16 +7,17 @@
 //
 
 import UIKit
+import MoveeWebService
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, AssemblerWireframeInteractorProtocol {
     
     var window: UIWindow?
-        
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+                
         let initialNavigationController = RootNavigationController()
-        initialNavigationController.setRootWireframe(LoginPageWireframe())
+        initialNavigationController.setRootWireframe(SplashScreenWireframe())
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
 
@@ -26,4 +27,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 }
-

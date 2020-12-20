@@ -14,5 +14,6 @@ import MoveeWebService
 class UsecaseAssembly: Assembly {
     func assemble(container: Container) {
         container.autoregister(LoginUsecase.self, initializer: LoginUsecase.init).inObjectScope(.weak)
+        container.autoregister(BasicTokenUsecase.self, initializer: BasicTokenUsecase.init).inObjectScope(.weak)
     }
 }

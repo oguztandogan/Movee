@@ -53,8 +53,10 @@ public class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
         switch method {
         case .post, .patch, .put:
             return JSONEncoding.default
-        default:
+        case .get:
             return URLEncoding.queryString
+        default:
+            return JSONEncoding.default
         }
     }
     

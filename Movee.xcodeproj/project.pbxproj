@@ -31,6 +31,14 @@
 		2222F0582586A8E600CE7BA5 /* ApiRemoteAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0572586A8E600CE7BA5 /* ApiRemoteAssembly.swift */; };
 		2222F05A2586A94000CE7BA5 /* ApiProviderServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0592586A94000CE7BA5 /* ApiProviderServiceAssembly.swift */; };
 		2222F05C2586AAD000CE7BA5 /* AssemblerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F05B2586AAD000CE7BA5 /* AssemblerExtension.swift */; };
+		222300C62586D37000D1C5BB /* deneme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300C52586D37000D1C5BB /* deneme.swift */; };
+		222300F22587CD2200D1C5BB /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222300EB2587CD2200D1C5BB /* SplashScreen.storyboard */; };
+		222300F32587CD2200D1C5BB /* SplashScreenInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300EC2587CD2200D1C5BB /* SplashScreenInterfaces.swift */; };
+		222300F42587CD2200D1C5BB /* SplashScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300ED2587CD2200D1C5BB /* SplashScreenPresenter.swift */; };
+		222300F52587CD2200D1C5BB /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300EE2587CD2200D1C5BB /* SplashScreenViewController.swift */; };
+		222300F62587CD2200D1C5BB /* SplashScreenFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300EF2587CD2200D1C5BB /* SplashScreenFormatter.swift */; };
+		222300F72587CD2200D1C5BB /* SplashScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300F02587CD2200D1C5BB /* SplashScreenInteractor.swift */; };
+		222300F82587CD2200D1C5BB /* SplashScreenWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300F12587CD2200D1C5BB /* SplashScreenWireframe.swift */; };
 		222922FA23AA71780041659C /* MoviesDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222922F923AA71780041659C /* MoviesDomainModel.swift */; };
 		222922FD23AB6D2D0041659C /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222922FC23AB6D2D0041659C /* FavoriteModel.swift */; };
 		2229230023ABA0AE0041659C /* AccountDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222922FF23ABA0AE0041659C /* AccountDetailsModel.swift */; };
@@ -164,6 +172,14 @@
 		2222F0572586A8E600CE7BA5 /* ApiRemoteAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRemoteAssembly.swift; sourceTree = "<group>"; };
 		2222F0592586A94000CE7BA5 /* ApiProviderServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderServiceAssembly.swift; sourceTree = "<group>"; };
 		2222F05B2586AAD000CE7BA5 /* AssemblerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblerExtension.swift; sourceTree = "<group>"; };
+		222300C52586D37000D1C5BB /* deneme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deneme.swift; sourceTree = "<group>"; };
+		222300EB2587CD2200D1C5BB /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		222300EC2587CD2200D1C5BB /* SplashScreenInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenInterfaces.swift; sourceTree = "<group>"; };
+		222300ED2587CD2200D1C5BB /* SplashScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenPresenter.swift; sourceTree = "<group>"; };
+		222300EE2587CD2200D1C5BB /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		222300EF2587CD2200D1C5BB /* SplashScreenFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenFormatter.swift; sourceTree = "<group>"; };
+		222300F02587CD2200D1C5BB /* SplashScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenInteractor.swift; sourceTree = "<group>"; };
+		222300F12587CD2200D1C5BB /* SplashScreenWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenWireframe.swift; sourceTree = "<group>"; };
 		222922F923AA71780041659C /* MoviesDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDomainModel.swift; sourceTree = "<group>"; };
 		222922FC23AB6D2D0041659C /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
 		222922FF23ABA0AE0041659C /* AccountDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsModel.swift; sourceTree = "<group>"; };
@@ -276,11 +292,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2212B6D1257DA3D300786B76 /* New Group */ = {
+		2212B6D1257DA3D300786B76 /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
+				222300EB2587CD2200D1C5BB /* SplashScreen.storyboard */,
+				222300EC2587CD2200D1C5BB /* SplashScreenInterfaces.swift */,
+				222300ED2587CD2200D1C5BB /* SplashScreenPresenter.swift */,
+				222300EE2587CD2200D1C5BB /* SplashScreenViewController.swift */,
+				222300EF2587CD2200D1C5BB /* SplashScreenFormatter.swift */,
+				222300F02587CD2200D1C5BB /* SplashScreenInteractor.swift */,
+				222300F12587CD2200D1C5BB /* SplashScreenWireframe.swift */,
 			);
-			path = "New Group";
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 		22193CFB237C16CE005D3851 /* SeriesModels */ = {
@@ -682,6 +705,7 @@
 			isa = PBXGroup;
 			children = (
 				A10C15F02563E6F10034E76D /* Scenes */,
+				222300C52586D37000D1C5BB /* deneme.swift */,
 			);
 			path = PresenterLayer;
 			sourceTree = "<group>";
@@ -702,7 +726,7 @@
 		A10C15F02563E6F10034E76D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				2212B6D1257DA3D300786B76 /* New Group */,
+				2212B6D1257DA3D300786B76 /* SplashScreen */,
 				22B204A9257D1A7200562C5F /* Login1 */,
 				A10C15EE2563E67C0034E76D /* Login */,
 			);
@@ -823,6 +847,7 @@
 				22C343F1236B11540083645B /* Main.storyboard in Resources */,
 				222F04FA257D1BD10008F106 /* LoginPage.storyboard in Resources */,
 				221D4F442371A64E00B88965 /* SF-UI-Display-Regular.ttf in Resources */,
+				222300F22587CD2200D1C5BB /* SplashScreen.storyboard in Resources */,
 				221D4F472371A64E00B88965 /* SF-UI-Display-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -890,6 +915,7 @@
 				2297246F2375551600222BDD /* TmDBService.swift in Sources */,
 				2220C36F237AC77800206CBA /* MovieUIModel.swift in Sources */,
 				224E44F7236C15CD000E4D57 /* MoveeCollectionCell.swift in Sources */,
+				222300C62586D37000D1C5BB /* deneme.swift in Sources */,
 				22CA7D70256411EF0091FD79 /* PresenterInterface.swift in Sources */,
 				2252E0022397FC5E00E2F27A /* SearchingModel.swift in Sources */,
 				222F04FD257D1BD10008F106 /* LoginPageViewController.swift in Sources */,
@@ -922,7 +948,10 @@
 				2298904523859B770016C24C /* MovieDetailsViewController.swift in Sources */,
 				A10C15FA2563E71D0034E76D /* LoginFormatter.swift in Sources */,
 				22464F6523ACEDF70060A9CC /* FavoriteListUIModel.swift in Sources */,
+				222300F82587CD2200D1C5BB /* SplashScreenWireframe.swift in Sources */,
 				2222F05C2586AAD000CE7BA5 /* AssemblerExtension.swift in Sources */,
+				222300F62587CD2200D1C5BB /* SplashScreenFormatter.swift in Sources */,
+				222300F72587CD2200D1C5BB /* SplashScreenInteractor.swift in Sources */,
 				22393D78237C466B004069BA /* Popular&TopRatedSeriesViewController+CollectionView.swift in Sources */,
 				222F0500257D1BD10008F106 /* LoginPageWireframe.swift in Sources */,
 				A10C15F82563E71D0034E76D /* LoginPresenter.swift in Sources */,
@@ -931,6 +960,7 @@
 				A1D52F1D2567028D0099E8A2 /* SessionIdRequestModel.swift in Sources */,
 				2229C0B4238E907300548C47 /* KnownForTableViewCell.swift in Sources */,
 				222F05CD257D56DC0008F106 /* RootNavigationController.swift in Sources */,
+				222300F32587CD2200D1C5BB /* SplashScreenInterfaces.swift in Sources */,
 				22437FFB238DB51A00A54AB0 /* SeriesDetailsCreditsCollectionView.swift in Sources */,
 				22A5EDF0237159CD00147428 /* MoviesViewController+TableView.swift in Sources */,
 				22E27795239FE3C3006474DD /* UserProfileViewController.swift in Sources */,
@@ -952,6 +982,7 @@
 				2216526C23994A6D00D74773 /* SeriesSearchingTableViewCell.swift in Sources */,
 				2262508B2387BC160013DE7A /* CreditsModel.swift in Sources */,
 				2222F0542586A83700CE7BA5 /* RepositoryAssembly.swift in Sources */,
+				222300F52587CD2200D1C5BB /* SplashScreenViewController.swift in Sources */,
 				A1D52F1B2566FF860099E8A2 /* LoginRequestModel.swift in Sources */,
 				22CA7D72256411EF0091FD79 /* Typealiases.swift in Sources */,
 				223BA40C23A762F300071616 /* ForgotPasswordViewController.swift in Sources */,
@@ -963,6 +994,7 @@
 				22E2778F239FE38D006474DD /* RegisterPageViewController.swift in Sources */,
 				2249F3BC237EE14500BE7DCB /* PopularSeriesCollectionViewCell.swift in Sources */,
 				22CA7D6F256411EF0091FD79 /* StoryboardExtension.swift in Sources */,
+				222300F42587CD2200D1C5BB /* SplashScreenPresenter.swift in Sources */,
 				22393D76237C463B004069BA /* SeriesViewController.swift in Sources */,
 				22E27793239FE3B6006474DD /* LoginPage1ViewController.swift in Sources */,
 				2229C0B1238E900B00548C47 /* CreditsViewController.swift in Sources */,

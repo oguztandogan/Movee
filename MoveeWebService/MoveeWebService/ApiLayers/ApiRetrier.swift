@@ -24,6 +24,7 @@ public class ApiRetrier: RequestRetrier {
         switch response.statusCode {
         case 403:
             print("token refresh is required")
+            completion(.retry)
         default:
             completion(.doNotRetry)
         }
