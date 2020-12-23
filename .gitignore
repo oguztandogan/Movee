@@ -286,3 +286,43 @@ Pods/Alamofire/Source/Alamofire.swift
 Pods/Alamofire/Source/AFError.swift
 Pods/Alamofire/README.md
 Pods/Alamofire/LICENSE
+Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+Pods/Target Support Files/Kingfisher/Kingfisher.debug.xcconfig
+Pods/Target Support Files/Kingfisher/Kingfisher.release.xcconfig
+Pods/Target Support Files/Pods-Movee/Pods-Movee-dummy.m
+Pods/Target Support Files/Pods-Movee/Pods-Movee-Info.plist
+Pods/Target Support Files/Pods-Movee/Pods-Movee-umbrella.h
+Pods/Target Support Files/Pods-Movee/Pods-Movee.modulemap
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents-acknowledgements.markdown
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents-acknowledgements.plist
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents-dummy.m
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents-Info.plist
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents-umbrella.h
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents.debug.xcconfig
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents.modulemap
+Pods/Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents.release.xcconfig
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities-acknowledgements.markdown
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities-acknowledgements.plist
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities-dummy.m
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities-Info.plist
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities-umbrella.h
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities.debug.xcconfig
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities.modulemap
+Pods/Target Support Files/Pods-Utilities/Pods-Utilities.release.xcconfig
+Pods/Target Support Files/RxSwift/RxSwift-dummy.m
+Pods/Target Support Files/RxSwift/RxSwift-Info.plist
+Pods/Target Support Files/RxSwift/RxSwift-prefix.pch
+Pods/Target Support Files/RxSwift/RxSwift-umbrella.h
+Pods/Target Support Files/RxSwift/RxSwift.debug.xcconfig
+Pods/Target Support Files/RxSwift/RxSwift.modulemap
+Pods/Target Support Files/RxSwift/RxSwift.release.xcconfig
+Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.debug.xcconfig
+Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.release.xcconfig
+Pods/Target Support Files/Swinject/Swinject.debug.xcconfig
+Pods/Target Support Files/Swinject/Swinject.release.xcconfig
