@@ -12,61 +12,277 @@ Movee.xcworkspace/xcuserdata/tandogan.xcuserdatad/UserInterfaceState.xcuserstate
 Movee/BaseModules/.DS_Store
 Movee/.DS_Store
 .DS_Store
-Pods/Manifest.lock
-Pods/Pods.xcodeproj/project.pbxproj
-Pods/Pods.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/Pods-Movee.xcscheme
+.DS_Store
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/xcschememanagement.plist
+Utilities/Utilities.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/xcschememanagement.plist
 Pods/Pods.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/xcschememanagement.plist
-Pods/Swinject/LICENSE
-Pods/Swinject/README.md
-Pods/Swinject/Sources/_Resolver.swift
-Pods/Swinject/Sources/Assembler.swift
-Pods/Swinject/Sources/Assembly.swift
-Pods/Swinject/Sources/Behavior.swift
-Pods/Swinject/Sources/Container.Arguments.swift
-Pods/Swinject/Sources/Container.Logging.swift
-Pods/Swinject/Sources/Container.swift
-Pods/Swinject/Sources/Container.TypeForwarding.swift
-Pods/Swinject/Sources/DebugHelper.swift
-Pods/Swinject/Sources/FunctionType.swift
-Pods/Swinject/Sources/GraphIdentifier.swift
-Pods/Swinject/Sources/InstanceStorage.swift
-Pods/Swinject/Sources/InstanceWrapper.swift
-Pods/Swinject/Sources/ObjectScope.Standard.swift
-Pods/Swinject/Sources/ObjectScope.swift
-Pods/Swinject/Sources/Resolver.swift
-Pods/Swinject/Sources/ServiceEntry.swift
-Pods/Swinject/Sources/ServiceEntry.TypeForwarding.swift
-Pods/Swinject/Sources/ServiceKey.swift
-Pods/Swinject/Sources/SpinLock.swift
-Pods/Swinject/Sources/Swinject.h
-Pods/Swinject/Sources/SynchronizedResolver.Arguments.swift
-Pods/Swinject/Sources/SynchronizedResolver.swift
-Pods/Swinject/Sources/UnavailableItems.swift
-Pods/Target Support Files/Pods-Movee/Pods-Movee-acknowledgements.markdown
-Pods/Target Support Files/Pods-Movee/Pods-Movee-acknowledgements.plist
-Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Debug-input-files.xcfilelist
-Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Debug-output-files.xcfilelist
-Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Release-input-files.xcfilelist
-Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Release-output-files.xcfilelist
-Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks.sh
-Pods/Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig
+MoveeWebService/MoveeWebService.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/xcschememanagement.plist
+MoveeWebService/MoveeWebService.xcodeproj/project.pbxproj
+MoveeComponents/MoveeComponents.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/xcschememanagement.plist
+Movee.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/UPCarouselFlowLayout/UPCarouselFlowLayout/UPCarouselFlowLayout.swift
+Pods/UPCarouselFlowLayout/UPCarouselFlowLayout/UPCarouselFlowLayout.h
+Pods/UPCarouselFlowLayout/README.md
+Pods/UPCarouselFlowLayout/LICENSE
+Pods/Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.release.xcconfig
+Pods/Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap
+Pods/Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.debug.xcconfig
+Pods/Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-umbrella.h
+Pods/Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch
+Pods/Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-Info.plist
+Pods/Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-dummy.m
+Pods/Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration.release.xcconfig
+Pods/Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration.modulemap
+Pods/Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration.debug.xcconfig
+Pods/Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-umbrella.h
+Pods/Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-prefix.pch
+Pods/Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-Info.plist
+Pods/Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-dummy.m
+Pods/Target Support Files/RxSwift-iOS14.2/RxSwift-iOS14.2.release.xcconfig
+Pods/Target Support Files/RxSwift-iOS14.2/RxSwift-iOS14.2.modulemap
+Pods/Target Support Files/RxSwift-iOS14.2/RxSwift-iOS14.2.debug.xcconfig
+Pods/Target Support Files/RxSwift-iOS14.2/RxSwift-iOS14.2-umbrella.h
+Pods/Target Support Files/RxSwift-iOS14.2/RxSwift-iOS14.2-prefix.pch
+Pods/Target Support Files/RxSwift-iOS14.2/RxSwift-iOS14.2-Info.plist
+Pods/Target Support Files/RxSwift-iOS14.2/RxSwift-iOS14.2-dummy.m
+Pods/Target Support Files/RxSwift-iOS13.0/RxSwift-iOS13.0.release.xcconfig
+Pods/Target Support Files/RxSwift-iOS13.0/RxSwift-iOS13.0.modulemap
+Pods/Target Support Files/RxSwift-iOS13.0/RxSwift-iOS13.0.debug.xcconfig
+Pods/Target Support Files/RxSwift-iOS13.0/RxSwift-iOS13.0-umbrella.h
+Pods/Target Support Files/RxSwift-iOS13.0/RxSwift-iOS13.0-prefix.pch
+Pods/Target Support Files/RxSwift-iOS13.0/RxSwift-iOS13.0-Info.plist
+Pods/Target Support Files/RxSwift-iOS13.0/RxSwift-iOS13.0-dummy.m
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.release.xcconfig
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.modulemap
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService-umbrella.h
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService-Info.plist
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService-dummy.m
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService-acknowledgements.plist
+Pods/Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService-acknowledgements.markdown
 Pods/Target Support Files/Pods-Movee/Pods-Movee.release.xcconfig
-Pods/Target Support Files/Swinject/Swinject-dummy.m
-Pods/Target Support Files/Swinject/Swinject-Info.plist
-Pods/Target Support Files/Swinject/Swinject-prefix.pch
-Pods/Target Support Files/Swinject/Swinject-umbrella.h
-Pods/Target Support Files/Swinject/Swinject.debug.xcconfig
-Pods/Target Support Files/Swinject/Swinject.modulemap
-Pods/Target Support Files/Swinject/Swinject.release.xcconfig
-Pods/Manifest.lock
-Pods/Pods.xcodeproj/project.pbxproj
-Pods/Pods.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/Pods-Movee.xcscheme
-Pods/Pods.xcodeproj/xcuserdata/ergolu.xcuserdatad/xcschemes/xcschememanagement.plist
-Pods/Target Support Files/Pods-Movee/Pods-Movee-acknowledgements.markdown
-Pods/Target Support Files/Pods-Movee/Pods-Movee-acknowledgements.plist
-Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig
+Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks.sh
+Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Release-input-files.xcfilelist
 Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Debug-output-files.xcfilelist
-*.xcconfig
-Pods/Manifest.lock
+Pods/Target Support Files/Pods-Movee/Pods-Movee-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-Movee/Pods-Movee-acknowledgements.plist
+Pods/Target Support Files/Pods-Movee/Pods-Movee-acknowledgements.markdown
+Pods/Target Support Files/Alamofire-iOS14.2/Alamofire-iOS14.2.release.xcconfig
+Pods/Target Support Files/Alamofire-iOS14.2/Alamofire-iOS14.2.modulemap
+Pods/Target Support Files/Alamofire-iOS14.2/Alamofire-iOS14.2.debug.xcconfig
+Pods/Target Support Files/Alamofire-iOS14.2/Alamofire-iOS14.2-umbrella.h
+Pods/Target Support Files/Alamofire-iOS14.2/Alamofire-iOS14.2-prefix.pch
+Pods/Target Support Files/Alamofire-iOS14.2/Alamofire-iOS14.2-Info.plist
+Pods/Target Support Files/Alamofire-iOS14.2/Alamofire-iOS14.2-dummy.m
+Pods/Target Support Files/Alamofire-iOS13.0/Alamofire-iOS13.0.release.xcconfig
+Pods/Target Support Files/Alamofire-iOS13.0/Alamofire-iOS13.0.modulemap
+Pods/Target Support Files/Alamofire-iOS13.0/Alamofire-iOS13.0.debug.xcconfig
+Pods/Target Support Files/Alamofire-iOS13.0/Alamofire-iOS13.0-umbrella.h
+Pods/Target Support Files/Alamofire-iOS13.0/Alamofire-iOS13.0-prefix.pch
+Pods/Target Support Files/Alamofire-iOS13.0/Alamofire-iOS13.0-Info.plist
+Pods/Target Support Files/Alamofire-iOS13.0/Alamofire-iOS13.0-dummy.m
+Pods/SwinjectAutoregistration/Sources/TypeParser.swift
+Pods/SwinjectAutoregistration/Sources/Type.swift
+Pods/SwinjectAutoregistration/Sources/SwinjectAutoregistration.h
+Pods/SwinjectAutoregistration/Sources/Resolver.swift
+Pods/SwinjectAutoregistration/Sources/ResolutionError.swift
+Pods/SwinjectAutoregistration/Sources/Operators.swift
+Pods/SwinjectAutoregistration/Sources/CheckResolved.swift
+Pods/SwinjectAutoregistration/Sources/AutoRegistration.swift
+Pods/SwinjectAutoregistration/README.md
+Pods/SwinjectAutoregistration/LICENSE
+Pods/RxSwift/RxSwift/Traits/Single.swift
+Pods/RxSwift/RxSwift/Traits/PrimitiveSequence.swift
+Pods/RxSwift/RxSwift/Traits/PrimitiveSequence+Zip+arity.swift
+Pods/RxSwift/RxSwift/Traits/ObservableType+PrimitiveSequence.swift
+Pods/RxSwift/RxSwift/Traits/Maybe.swift
+Pods/RxSwift/RxSwift/Traits/Completable.swift
+Pods/RxSwift/RxSwift/Traits/Completable+AndThen.swift
+Pods/RxSwift/RxSwift/SwiftSupport/SwiftSupport.swift
+Pods/RxSwift/RxSwift/Subjects/SubjectType.swift
+Pods/RxSwift/RxSwift/Subjects/ReplaySubject.swift
+Pods/RxSwift/RxSwift/Subjects/PublishSubject.swift
+Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift
+Pods/RxSwift/RxSwift/Subjects/AsyncSubject.swift
+Pods/RxSwift/RxSwift/SchedulerType.swift
+Pods/RxSwift/RxSwift/Schedulers/VirtualTimeScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/VirtualTimeConverterType.swift
+Pods/RxSwift/RxSwift/Schedulers/SerialDispatchQueueScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/SchedulerServices+Emulation.swift
+Pods/RxSwift/RxSwift/Schedulers/RecursiveScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/OperationQueueScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItem.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableScheduledItem.swift
+Pods/RxSwift/RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift
+Pods/RxSwift/RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift
+Pods/RxSwift/RxSwift/Schedulers/HistoricalScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/CurrentThreadScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/ConcurrentMainScheduler.swift
+Pods/RxSwift/RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift
+Pods/RxSwift/RxSwift/RxMutableBox.swift
+Pods/RxSwift/RxSwift/Rx.swift
+Pods/RxSwift/RxSwift/Reactive.swift
+Pods/RxSwift/RxSwift/ObserverType.swift
+Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift
+Pods/RxSwift/RxSwift/Observers/ObserverBase.swift
+Pods/RxSwift/RxSwift/Observers/AnonymousObserver.swift
+Pods/RxSwift/RxSwift/ObservableType.swift
+Pods/RxSwift/RxSwift/ObservableType+Extensions.swift
+Pods/RxSwift/RxSwift/Observables/Zip.swift
+Pods/RxSwift/RxSwift/Observables/Zip+Collection.swift
+Pods/RxSwift/RxSwift/Observables/Zip+arity.swift
+Pods/RxSwift/RxSwift/Observables/WithLatestFrom.swift
+Pods/RxSwift/RxSwift/Observables/Window.swift
+Pods/RxSwift/RxSwift/Observables/Using.swift
+Pods/RxSwift/RxSwift/Observables/ToArray.swift
+Pods/RxSwift/RxSwift/Observables/Timer.swift
+Pods/RxSwift/RxSwift/Observables/Timeout.swift
+Pods/RxSwift/RxSwift/Observables/Throttle.swift
+Pods/RxSwift/RxSwift/Observables/TakeWhile.swift
+Pods/RxSwift/RxSwift/Observables/TakeUntil.swift
+Pods/RxSwift/RxSwift/Observables/TakeLast.swift
+Pods/RxSwift/RxSwift/Observables/Take.swift
+Pods/RxSwift/RxSwift/Observables/SwitchIfEmpty.swift
+Pods/RxSwift/RxSwift/Observables/Switch.swift
+Pods/RxSwift/RxSwift/Observables/SubscribeOn.swift
+Pods/RxSwift/RxSwift/Observables/StartWith.swift
+Pods/RxSwift/RxSwift/Observables/SkipWhile.swift
+Pods/RxSwift/RxSwift/Observables/SkipUntil.swift
+Pods/RxSwift/RxSwift/Observables/Skip.swift
+Pods/RxSwift/RxSwift/Observables/Sink.swift
+Pods/RxSwift/RxSwift/Observables/SingleAsync.swift
+Pods/RxSwift/RxSwift/Observables/ShareReplayScope.swift
+Pods/RxSwift/RxSwift/Observables/Sequence.swift
+Pods/RxSwift/RxSwift/Observables/Scan.swift
+Pods/RxSwift/RxSwift/Observables/Sample.swift
+Pods/RxSwift/RxSwift/Observables/RetryWhen.swift
+Pods/RxSwift/RxSwift/Observables/Repeat.swift
+Pods/RxSwift/RxSwift/Observables/Reduce.swift
+Pods/RxSwift/RxSwift/Observables/Range.swift
+Pods/RxSwift/RxSwift/Observables/Producer.swift
+Pods/RxSwift/RxSwift/Observables/Optional.swift
+Pods/RxSwift/RxSwift/Observables/ObserveOn.swift
+Pods/RxSwift/RxSwift/Observables/Never.swift
+Pods/RxSwift/RxSwift/Observables/Multicast.swift
+Pods/RxSwift/RxSwift/Observables/Merge.swift
+Pods/RxSwift/RxSwift/Observables/Materialize.swift
+Pods/RxSwift/RxSwift/Observables/Map.swift
+Pods/RxSwift/RxSwift/Observables/Just.swift
+Pods/RxSwift/RxSwift/Observables/GroupBy.swift
+Pods/RxSwift/RxSwift/Observables/Generate.swift
+Pods/RxSwift/RxSwift/Observables/First.swift
+Pods/RxSwift/RxSwift/Observables/Filter.swift
+Pods/RxSwift/RxSwift/Observables/Error.swift
+Pods/RxSwift/RxSwift/Observables/Enumerated.swift
+Pods/RxSwift/RxSwift/Observables/Empty.swift
+Pods/RxSwift/RxSwift/Observables/ElementAt.swift
+Pods/RxSwift/RxSwift/Observables/Do.swift
+Pods/RxSwift/RxSwift/Observables/DistinctUntilChanged.swift
+Pods/RxSwift/RxSwift/Observables/Dematerialize.swift
+Pods/RxSwift/RxSwift/Observables/DelaySubscription.swift
+Pods/RxSwift/RxSwift/Observables/Delay.swift
+Pods/RxSwift/RxSwift/Observables/Deferred.swift
+Pods/RxSwift/RxSwift/Observables/DefaultIfEmpty.swift
+Pods/RxSwift/RxSwift/Observables/Debug.swift
+Pods/RxSwift/RxSwift/Observables/Debounce.swift
+Pods/RxSwift/RxSwift/Observables/Create.swift
+Pods/RxSwift/RxSwift/Observables/Concat.swift
+Pods/RxSwift/RxSwift/Observables/CompactMap.swift
+Pods/RxSwift/RxSwift/Observables/CombineLatest.swift
+Pods/RxSwift/RxSwift/Observables/CombineLatest+Collection.swift
+Pods/RxSwift/RxSwift/Observables/CombineLatest+arity.swift
+Pods/RxSwift/RxSwift/Observables/Catch.swift
+Pods/RxSwift/RxSwift/Observables/Buffer.swift
+Pods/RxSwift/RxSwift/Observables/AsSingle.swift
+Pods/RxSwift/RxSwift/Observables/AsMaybe.swift
+Pods/RxSwift/RxSwift/Observables/Amb.swift
+Pods/RxSwift/RxSwift/Observables/AddRef.swift
+Pods/RxSwift/RxSwift/ObservableConvertibleType.swift
+Pods/RxSwift/RxSwift/Observable.swift
+Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift
+Pods/RxSwift/RxSwift/GroupedObservable.swift
+Pods/RxSwift/RxSwift/Extensions/Bag+Rx.swift
+Pods/RxSwift/RxSwift/Event.swift
+Pods/RxSwift/RxSwift/Errors.swift
+Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/SingleAssignmentDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/SerialDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/ScheduledDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/RefCountDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/NopDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/DisposeBase.swift
+Pods/RxSwift/RxSwift/Disposables/DisposeBag.swift
+Pods/RxSwift/RxSwift/Disposables/Disposables.swift
+Pods/RxSwift/RxSwift/Disposables/CompositeDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/BinaryDisposable.swift
+Pods/RxSwift/RxSwift/Disposables/AnonymousDisposable.swift
+Pods/RxSwift/RxSwift/Disposable.swift
+Pods/RxSwift/RxSwift/Deprecated.swift
+Pods/RxSwift/RxSwift/Date+Dispatch.swift
+Pods/RxSwift/RxSwift/ConnectableObservableType.swift
+Pods/RxSwift/RxSwift/Concurrency/SynchronizedUnsubscribeType.swift
+Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift
+Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift
+Pods/RxSwift/RxSwift/Concurrency/LockOwnerType.swift
+Pods/RxSwift/RxSwift/Concurrency/Lock.swift
+Pods/RxSwift/RxSwift/Concurrency/AsyncLock.swift
+Pods/RxSwift/RxSwift/Cancelable.swift
+Pods/RxSwift/RxSwift/AnyObserver.swift
+Pods/RxSwift/README.md
+Pods/RxSwift/Platform/RecursiveLock.swift
+Pods/RxSwift/Platform/Platform.Linux.swift
+Pods/RxSwift/Platform/Platform.Darwin.swift
+Pods/RxSwift/Platform/DispatchQueue+Extensions.swift
+Pods/RxSwift/Platform/DataStructures/Queue.swift
+Pods/RxSwift/Platform/DataStructures/PriorityQueue.swift
+Pods/RxSwift/Platform/DataStructures/InfiniteSequence.swift
+Pods/RxSwift/Platform/DataStructures/Bag.swift
+Pods/RxSwift/Platform/AtomicInt.swift
+Pods/RxSwift/LICENSE.md
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Pods.xcodeproj/xcuserdata/tandogan.xcuserdatad/xcschemes/UPCarouselFlowLayout.xcscheme
 Pods/Pods.xcodeproj/project.pbxproj
-*.pbxproj
+Pods/Manifest.lock
+Pods/Alamofire/Source/Validation.swift
+Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+Pods/Alamofire/Source/URLRequest+Alamofire.swift
+Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+Pods/Alamofire/Source/StringEncoding+Alamofire.swift
+Pods/Alamofire/Source/SessionDelegate.swift
+Pods/Alamofire/Source/Session.swift
+Pods/Alamofire/Source/ServerTrustEvaluation.swift
+Pods/Alamofire/Source/RetryPolicy.swift
+Pods/Alamofire/Source/Result+Alamofire.swift
+Pods/Alamofire/Source/ResponseSerialization.swift
+Pods/Alamofire/Source/Response.swift
+Pods/Alamofire/Source/RequestTaskMap.swift
+Pods/Alamofire/Source/RequestInterceptor.swift
+Pods/Alamofire/Source/Request.swift
+Pods/Alamofire/Source/RedirectHandler.swift
+Pods/Alamofire/Source/Protected.swift
+Pods/Alamofire/Source/ParameterEncoding.swift
+Pods/Alamofire/Source/ParameterEncoder.swift
+Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+Pods/Alamofire/Source/Notifications.swift
+Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Pods/Alamofire/Source/MultipartUpload.swift
+Pods/Alamofire/Source/MultipartFormData.swift
+Pods/Alamofire/Source/HTTPMethod.swift
+Pods/Alamofire/Source/HTTPHeaders.swift
+Pods/Alamofire/Source/EventMonitor.swift
+Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Pods/Alamofire/Source/Combine.swift
+Pods/Alamofire/Source/CachedResponseHandler.swift
+Pods/Alamofire/Source/AuthenticationInterceptor.swift
+Pods/Alamofire/Source/AlamofireExtended.swift
+Pods/Alamofire/Source/Alamofire.swift
+Pods/Alamofire/Source/AFError.swift
+Pods/Alamofire/README.md
+Pods/Alamofire/LICENSE
