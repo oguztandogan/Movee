@@ -1,5 +1,5 @@
 //
-//  MoviesViewController+CollectionView.swift
+//  OldMoviesViewController+CollectionView.swift
 //  Movee
 //
 //  Created by Oguz Tandogan on 6.11.2019.
@@ -10,7 +10,7 @@ import UIKit
 import Kingfisher
 import Foundation
 
-extension MoviesViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+extension OldMoviesViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return nowPlayingMovies.count

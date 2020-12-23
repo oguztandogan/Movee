@@ -1,5 +1,5 @@
 //
-//  MoviesViewController+TableCell.swift
+//  OldMoviesViewController+TableCell.swift
 //  Movee
 //
 //  Created by Oguz Tandogan on 5.11.2019.
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Kingfisher
 
-extension MoviesViewController: UITableViewDelegate,UITableViewDataSource {
+extension OldMoviesViewController: UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         

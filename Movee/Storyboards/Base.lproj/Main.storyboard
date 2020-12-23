@@ -27,7 +27,7 @@
         <!--Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MoviesViewController" customModule="Movee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="OldMoviesViewController" customModule="Movee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dJF-Hr-Tde">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -738,10 +738,10 @@
             </objects>
             <point key="canvasLocation" x="4841" y="572"/>
         </scene>
-        <!--Movies View Controller-->
+        <!--Old Movies View Controller-->
         <scene sceneID="O9p-bZ-9aJ">
             <objects>
-                <viewController id="nag-a5-xuh" customClass="MoviesViewController" customModule="Movee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nag-a5-xuh" customClass="OldMoviesViewController" customModule="Movee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ubd-xo-RP2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

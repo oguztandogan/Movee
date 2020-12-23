@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import MapKit
 
-class MoviesViewController: BaseViewController {
+class OldMoviesViewController: BaseViewController {
 
     enum Constants {
         static let ratingLabelRadius = 10
@@ -81,7 +81,7 @@ class MoviesViewController: BaseViewController {
 
 
 
-extension MoviesViewController: MoviesDomainModelDelegate {
+extension OldMoviesViewController: MoviesDomainModelDelegate {
     func fetchedPopularMoviesList(popularMoviesList: [MovieUIModel]) {
         self.popularMovies = popularMoviesList
         DispatchQueue.main.async { [weak self] in
