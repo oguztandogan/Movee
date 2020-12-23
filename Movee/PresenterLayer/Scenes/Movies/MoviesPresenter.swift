@@ -9,6 +9,7 @@
 //
 
 import Foundation
+import MoveeWebService
 
 final class MoviesPresenter {
 
@@ -19,6 +20,9 @@ final class MoviesPresenter {
     private let interactor: MoviesInteractorInterface
     private let wireframe: MoviesWireframeInterface
 
+    private let nowPlayingMoviesCallback = NowPlayingMoviesCallback()
+    private let popularMoviesCallback = PopularMoviesCallback()
+    
     // MARK: - Lifecycle -
 
     init(view: MoviesViewInterface, formatter: MoviesFormatterInterface, interactor: MoviesInteractorInterface, wireframe: MoviesWireframeInterface) {
@@ -27,9 +31,29 @@ final class MoviesPresenter {
         self.interactor = interactor
         self.wireframe = wireframe
     }
+    
+    func getNowPlayingMovies() {
+        nowPlayingMoviesCallback.commonResult { [weak self] (result) in
+            self?.handleNowPlayingMovies(result: result)
+        }
+        interactor.fetchNowPlayingMovies(callback: nowPlayingMoviesCallback, params: MoviesRequestModel())
+    }
+    
+    private func handleNowPlayingMovies(result: Result<MoviesResponseModel, BaseErrorResponse>) {
+        switch result {
+        case .failure(let error):
+            print(error)
+        case .success(let success):
+            print(success)
+        }
+    }
 }
 
 // MARK: - Extensions -
 
 extension MoviesPresenter: MoviesPresenterInterface {
+    
+    func viewDidLoad() {
+        getNowPlayingMovies()
+    }
 }

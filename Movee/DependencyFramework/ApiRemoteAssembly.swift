@@ -15,5 +15,6 @@ class ApiRemoteAssembly: Assembly {
     func assemble(container: Container) {
         container.autoregister(LoginOperationsRemoteInterface.self, initializer: LoginOperationsRemote.init).inObjectScope(.weak)
         container.autoregister(BasicTokenOperationsRemoteInterface.self, initializer: BasicTokenOperationsRemote.init).inObjectScope(.weak)
+        container.autoregister(MoviesOperationsRemoteInterface.self, initializer: MoviesOperationsRemote.init).inObjectScope(.weak)
     }
 }

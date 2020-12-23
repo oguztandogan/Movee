@@ -9,6 +9,7 @@
 //
 
 import UIKit
+import MoveeWebService
 
 protocol MoviesWireframeInterface: WireframeInterface {
 }
@@ -17,10 +18,13 @@ protocol MoviesViewInterface: ViewInterface {
 }
 
 protocol MoviesPresenterInterface: PresenterInterface {
+    func getNowPlayingMovies()
 }
 
 protocol MoviesFormatterInterface: FormatterInterface {
 }
 
 protocol MoviesInteractorInterface: InteractorInterface {
+    func fetchPopularMovies(callback: PopularMoviesCallback, params: MoviesRequestModel)
+    func fetchNowPlayingMovies(callback: NowPlayingMoviesCallback, params: MoviesRequestModel)
 }

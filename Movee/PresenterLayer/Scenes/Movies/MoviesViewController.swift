@@ -13,12 +13,12 @@ import UIKit
 final class MoviesViewController: UIViewController {
     
     // MARK: - Outlets -
-    @IBOutlet weak var nowPlayingCollectionView: UICollectionView!
-    @IBOutlet weak var ratingLabel: UILabel!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var genreLabel: UILabel!
-    @IBOutlet weak var ratingView: UIView!
-    @IBOutlet weak var moviesView: UIView!
+//    @IBOutlet weak var nowPlayingCollectionView: UICollectionView!
+//    @IBOutlet weak var ratingLabel: UILabel!
+//    @IBOutlet weak var nameLabel: UILabel!
+//    @IBOutlet weak var genreLabel: UILabel!
+//    @IBOutlet weak var ratingView: UIView!
+//    @IBOutlet weak var moviesView: UIView!
     
 
     // MARK: - Public properties -
@@ -29,8 +29,16 @@ final class MoviesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavController()
+        presenter.viewDidLoad()
     }
 
+    private func setupNavController() {
+        navigationController?.navigationBar.isTranslucent = true
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+    }
+    
 }
 
 // MARK: - Extensions -

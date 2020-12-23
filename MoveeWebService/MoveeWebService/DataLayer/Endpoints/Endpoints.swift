@@ -78,4 +78,20 @@ public enum Endpoints {
             }
         }
     }
+    
+    public enum MoviesPaths: GenericValueProtocol {
+        public typealias Value = String
+        
+        case getPopularMovies
+        case getNowPlayingMovies
+        
+        public var value: String {
+            switch self {
+            case .getNowPlayingMovies:
+                return String(format: "/now_playing")
+            case .getPopularMovies:
+                return String(format: "/popular")
+            }
+        }
+    }
 }

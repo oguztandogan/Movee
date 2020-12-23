@@ -54,6 +54,20 @@
 		220680222586CB3300A0DEEC /* BasicTokenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220680212586CB3300A0DEEC /* BasicTokenServices.swift */; };
 		220680262586CB3F00A0DEEC /* BasicTokenServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220680252586CB3F00A0DEEC /* BasicTokenServiceModule.swift */; };
 		220680322586CDB000A0DEEC /* BasicTokenRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220680312586CDB000A0DEEC /* BasicTokenRequestModel.swift */; };
+		A113FD5D2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD5C2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift */; };
+		A113FD632593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD622593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift */; };
+		A113FD672593F5DD002E8ABF /* MoviesOperationsRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD662593F5DD002E8ABF /* MoviesOperationsRemote.swift */; };
+		A113FD6B2593F5FA002E8ABF /* MoviesOperationsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD6A2593F5FA002E8ABF /* MoviesOperationsRepository.swift */; };
+		A113FD6F2593F611002E8ABF /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD6E2593F611002E8ABF /* MoviesService.swift */; };
+		A113FD732593F621002E8ABF /* PopularMoviesServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD722593F621002E8ABF /* PopularMoviesServiceModule.swift */; };
+		A113FD7E2593F714002E8ABF /* MoviesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD7D2593F714002E8ABF /* MoviesResponseModel.swift */; };
+		A113FD822593F721002E8ABF /* MoviesRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD812593F721002E8ABF /* MoviesRequestModel.swift */; };
+		A113FD862593F740002E8ABF /* NowPlayingMoviesUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD852593F740002E8ABF /* NowPlayingMoviesUsecase.swift */; };
+		A113FD8A2593F860002E8ABF /* MovieListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD892593F860002E8ABF /* MovieListResponseModel.swift */; };
+		A113FDB02593FD8C002E8ABF /* NowPlayingMoviesServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FDAF2593FD8C002E8ABF /* NowPlayingMoviesServiceModule.swift */; };
+		A113FDB42593FE9A002E8ABF /* PopularMoviesUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FDB32593FE9A002E8ABF /* PopularMoviesUsecase.swift */; };
+		A113FDB82593FEDD002E8ABF /* PopularMoviesCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FDB72593FEDD002E8ABF /* PopularMoviesCallback.swift */; };
+		A113FDBC2593FEEF002E8ABF /* NowPlayingMoviesCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FDBB2593FEEF002E8ABF /* NowPlayingMoviesCallback.swift */; };
 		E9E47A635B779D1C5AB817F6 /* Pods_MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58148EFC83AE13395DB9804 /* Pods_MoveeWebService.framework */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +134,20 @@
 		220680312586CDB000A0DEEC /* BasicTokenRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTokenRequestModel.swift; sourceTree = "<group>"; };
 		349A999EBBCBBBE118FA115B /* Pods-MoveeWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.release.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.release.xcconfig"; sourceTree = "<group>"; };
 		45B097A469A5E7FD207F41A4 /* Pods-MoveeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.debug.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig"; sourceTree = "<group>"; };
+		A113FD5C2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOperationsRemoteInterface.swift; sourceTree = "<group>"; };
+		A113FD622593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOperationsRepositoryInterface.swift; sourceTree = "<group>"; };
+		A113FD662593F5DD002E8ABF /* MoviesOperationsRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOperationsRemote.swift; sourceTree = "<group>"; };
+		A113FD6A2593F5FA002E8ABF /* MoviesOperationsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOperationsRepository.swift; sourceTree = "<group>"; };
+		A113FD6E2593F611002E8ABF /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
+		A113FD722593F621002E8ABF /* PopularMoviesServiceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesServiceModule.swift; sourceTree = "<group>"; };
+		A113FD7D2593F714002E8ABF /* MoviesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponseModel.swift; sourceTree = "<group>"; };
+		A113FD812593F721002E8ABF /* MoviesRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRequestModel.swift; sourceTree = "<group>"; };
+		A113FD852593F740002E8ABF /* NowPlayingMoviesUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMoviesUsecase.swift; sourceTree = "<group>"; };
+		A113FD892593F860002E8ABF /* MovieListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListResponseModel.swift; sourceTree = "<group>"; };
+		A113FDAF2593FD8C002E8ABF /* NowPlayingMoviesServiceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMoviesServiceModule.swift; sourceTree = "<group>"; };
+		A113FDB32593FE9A002E8ABF /* PopularMoviesUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesUsecase.swift; sourceTree = "<group>"; };
+		A113FDB72593FEDD002E8ABF /* PopularMoviesCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesCallback.swift; sourceTree = "<group>"; };
+		A113FDBB2593FEEF002E8ABF /* NowPlayingMoviesCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMoviesCallback.swift; sourceTree = "<group>"; };
 		B58148EFC83AE13395DB9804 /* Pods_MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -187,6 +215,7 @@
 		22067F8E2586B1E600A0DEEC /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				A113FD572593F508002E8ABF /* Movies */,
 				220680052586C98E00A0DEEC /* BasicToken */,
 				22067F8F2586B1E600A0DEEC /* Endpoints */,
 				22067F912586B1E600A0DEEC /* Login */,
@@ -266,6 +295,7 @@
 		22067FA62586B1E600A0DEEC /* DomainLayer */ = {
 			isa = PBXGroup;
 			children = (
+				A113FD782593F6AA002E8ABF /* Movies */,
 				22067FA72586B1E600A0DEEC /* BasicToken */,
 				22067FAE2586B1E600A0DEEC /* SupportingFiles */,
 				22067FC22586B1E600A0DEEC /* Login */,
@@ -459,6 +489,90 @@
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		A113FD572593F508002E8ABF /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD582593F525002E8ABF /* Interface */,
+				A113FD592593F53E002E8ABF /* Remote */,
+				A113FD5A2593F545002E8ABF /* Repositories */,
+				A113FD5B2593F54F002E8ABF /* ServiceModules */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		A113FD582593F525002E8ABF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD5C2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift */,
+				A113FD622593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		A113FD592593F53E002E8ABF /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD662593F5DD002E8ABF /* MoviesOperationsRemote.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		A113FD5A2593F545002E8ABF /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD6A2593F5FA002E8ABF /* MoviesOperationsRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A113FD5B2593F54F002E8ABF /* ServiceModules */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD6E2593F611002E8ABF /* MoviesService.swift */,
+				A113FD722593F621002E8ABF /* PopularMoviesServiceModule.swift */,
+				A113FDAF2593FD8C002E8ABF /* NowPlayingMoviesServiceModule.swift */,
+			);
+			path = ServiceModules;
+			sourceTree = "<group>";
+		};
+		A113FD782593F6AA002E8ABF /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD792593F6BA002E8ABF /* Callbacks */,
+				A113FD7B2593F6D4002E8ABF /* Models */,
+				A113FD7C2593F6DD002E8ABF /* Usecases */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		A113FD792593F6BA002E8ABF /* Callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				A113FDB72593FEDD002E8ABF /* PopularMoviesCallback.swift */,
+				A113FDBB2593FEEF002E8ABF /* NowPlayingMoviesCallback.swift */,
+			);
+			path = Callbacks;
+			sourceTree = "<group>";
+		};
+		A113FD7B2593F6D4002E8ABF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD7D2593F714002E8ABF /* MoviesResponseModel.swift */,
+				A113FD812593F721002E8ABF /* MoviesRequestModel.swift */,
+				A113FD892593F860002E8ABF /* MovieListResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A113FD7C2593F6DD002E8ABF /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				A113FD852593F740002E8ABF /* NowPlayingMoviesUsecase.swift */,
+				A113FDB32593FE9A002E8ABF /* PopularMoviesUsecase.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
 		D768C188B58C1A308486A3F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -611,22 +725,34 @@
 				22067FEC2586B1E700A0DEEC /* LoginRequestModel.swift in Sources */,
 				22067FE62586B1E700A0DEEC /* BaseResponseProtocol.swift in Sources */,
 				22067FEE2586B1E700A0DEEC /* LoginUsecase.swift in Sources */,
+				A113FD732593F621002E8ABF /* PopularMoviesServiceModule.swift in Sources */,
 				22067FE92586B1E700A0DEEC /* BaseErrorResponse.swift in Sources */,
+				A113FDB42593FE9A002E8ABF /* PopularMoviesUsecase.swift in Sources */,
+				A113FD822593F721002E8ABF /* MoviesRequestModel.swift in Sources */,
 				22067FDB2586B1E700A0DEEC /* BasicTokenResponseModel.swift in Sources */,
 				22067FD32586B1E700A0DEEC /* EncodableExtension.swift in Sources */,
 				220680222586CB3300A0DEEC /* BasicTokenServices.swift in Sources */,
+				A113FDBC2593FEEF002E8ABF /* NowPlayingMoviesCallback.swift in Sources */,
 				22067FEA2586B1E700A0DEEC /* ApiConnectionErrorType.swift in Sources */,
 				22067FE52586B1E700A0DEEC /* BaseUseCaseInterface.swift in Sources */,
 				22067FDA2586B1E700A0DEEC /* BasicTokenCallback.swift in Sources */,
+				A113FDB02593FD8C002E8ABF /* NowPlayingMoviesServiceModule.swift in Sources */,
+				A113FD862593F740002E8ABF /* NowPlayingMoviesUsecase.swift in Sources */,
 				22067FE32586B1E700A0DEEC /* UseCaseCallbackInteractor.swift in Sources */,
 				22067FE42586B1E700A0DEEC /* CodableDataProtocol.swift in Sources */,
 				22067FD22586B1E700A0DEEC /* ApiInterceptor.swift in Sources */,
+				A113FD7E2593F714002E8ABF /* MoviesResponseModel.swift in Sources */,
+				A113FD6B2593F5FA002E8ABF /* MoviesOperationsRepository.swift in Sources */,
 				22067FDD2586B1E700A0DEEC /* BaseUseCase.swift in Sources */,
 				22067FCA2586B1E700A0DEEC /* Endpoints.swift in Sources */,
+				A113FD672593F5DD002E8ABF /* MoviesOperationsRemote.swift in Sources */,
+				A113FD632593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift in Sources */,
 				220680142586CA3800A0DEEC /* BasicTokenOperationsRepositoryInterface.swift in Sources */,
+				A113FD5D2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift in Sources */,
 				22067FE82586B1E700A0DEEC /* GenericErrorResponseModule.swift in Sources */,
 				22067FD72586B1E700A0DEEC /* ApiAdapter.swift in Sources */,
 				22067FD42586B1E700A0DEEC /* ApiManager.swift in Sources */,
+				A113FDB82593FEDD002E8ABF /* PopularMoviesCallback.swift in Sources */,
 				22067FDF2586B1E700A0DEEC /* UseCaseCallback.swift in Sources */,
 				220680262586CB3F00A0DEEC /* BasicTokenServiceModule.swift in Sources */,
 				22067FD82586B1E700A0DEEC /* ApiServiceProvider.swift in Sources */,
@@ -634,8 +760,10 @@
 				22067FD12586B1E700A0DEEC /* HttpClientInterface.swift in Sources */,
 				22067FE22586B1E700A0DEEC /* SingleUseCase.swift in Sources */,
 				220680322586CDB000A0DEEC /* BasicTokenRequestModel.swift in Sources */,
+				A113FD8A2593F860002E8ABF /* MovieListResponseModel.swift in Sources */,
 				22067FE12586B1E700A0DEEC /* UseCaseListener.swift in Sources */,
 				220680102586CA1500A0DEEC /* BasicTokenOperationsRemoteInterface.swift in Sources */,
+				A113FD6F2593F611002E8ABF /* MoviesService.swift in Sources */,
 				22067FD52586B1E700A0DEEC /* ApiEventMonitor.swift in Sources */,
 				22067FCB2586B1E700A0DEEC /* LoginOperationsRemoteInterface.swift in Sources */,
 				22067FD62586B1E700A0DEEC /* ApiRetrier.swift in Sources */,

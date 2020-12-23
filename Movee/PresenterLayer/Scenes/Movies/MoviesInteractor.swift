@@ -9,11 +9,26 @@
 //
 
 import Foundation
+import MoveeWebService
 
-final class MoviesInteractor {
+final class MoviesInteractor: AssemblerWireframeInteractorProtocol {
+    
+    private var nowPlayingMoviesUsecase: NowPlayingMoviesUsecase?
+    private var popularMoviesUsecase: PopularMoviesUsecase?
 }
 
 // MARK: - Extensions -
 
 extension MoviesInteractor: MoviesInteractorInterface {
+    
+    func fetchPopularMovies(callback: PopularMoviesCallback, params: MoviesRequestModel) {
+        popularMoviesUsecase = returnResolver().resolve(PopularMoviesUsecase.self)
+        popularMoviesUsecase?.execute(useCaseCallBack: callback, params: params)
+    }
+    
+    func fetchNowPlayingMovies(callback: NowPlayingMoviesCallback, params: MoviesRequestModel) {
+        nowPlayingMoviesUsecase = returnResolver().resolve(NowPlayingMoviesUsecase.self)
+        nowPlayingMoviesUsecase?.execute(useCaseCallBack: callback, params: params)
+    }
+    
 }

@@ -43,7 +43,7 @@
         <!--Movies-->
         <scene sceneID="N6m-s1-r6b">
             <objects>
-                <viewController id="a2a-fW-m8X" customClass="MoviesViewController" customModule="Movee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MoviesViewController" id="a2a-fW-m8X" customClass="MoviesViewController" customModule="Movee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PpL-TY-1fq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -131,10 +131,6 @@
                                                     <size key="customSize" width="375" height="373"/>
                                                 </collectionViewCell>
                                             </cells>
-                                            <connections>
-                                                <outlet property="dataSource" destination="a2a-fW-m8X" id="52k-Up-itx"/>
-                                                <outlet property="delegate" destination="a2a-fW-m8X" id="4HE-8t-wWw"/>
-                                            </connections>
                                         </collectionView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjL-bb-lc2">
                                             <rect key="frame" x="24" y="512" width="327" height="34"/>
@@ -378,10 +374,6 @@
                                         <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="a2a-fW-m8X" id="af3-90-IK5"/>
-                                    <outlet property="delegate" destination="a2a-fW-m8X" id="VC6-dm-2b9"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MrH-Eb-bmU"/>
@@ -395,14 +387,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Movies" id="BgF-tJ-kPC"/>
                     <navigationItem key="navigationItem" id="eaV-Nd-Q5m"/>
-                    <connections>
-                        <outlet property="genreLabel" destination="ASB-zq-68p" id="4Xd-RU-Urq"/>
-                        <outlet property="movieNameLabel" destination="bjL-bb-lc2" id="ylJ-M0-pph"/>
-                        <outlet property="moviesView" destination="PpL-TY-1fq" id="sVJ-wS-GZq"/>
-                        <outlet property="nowPlayingCollectionView" destination="fRQ-v8-3nO" id="w4g-ch-mey"/>
-                        <outlet property="ratingLabel" destination="lnP-CR-p7e" id="QLn-Ak-Xxj"/>
-                        <outlet property="ratingLabelView" destination="DUu-20-YrA" id="QUX-8T-Gta"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WZm-Bn-aT8" sceneMemberID="firstResponder"/>
             </objects>
