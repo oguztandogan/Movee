@@ -10,6 +10,6 @@ import Foundation
 public class PopularMoviesServiceModule: ApiServiceProvider<MoviesRequestModel> {
     
     init(request: MoviesRequestModel) {
-        super.init(method: .get, path: AuthenticationPaths.getToken.value, pathType: .auth, isAuthRequested: true, data: request)
+        super.init(method: .get, path: MoviesPaths.getPopularMovies.value, pathType: .movies, isAuthRequested: true, data: request)
     }
 }
