@@ -11,5 +11,6 @@ import RxSwift
 public protocol LoginOperationsRepositoryInterface {
     
     func getAuthenticatedToken(params: LoginRequestModel) -> Single<LoginResponseModel>
-    
+    func getSessionId(params: LoginRequestModel) -> Single<SessionResponseModel>
+
 }

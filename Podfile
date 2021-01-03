@@ -9,10 +9,11 @@ target 'Movee' do
   project 'Movee.xcodeproj'
 
   # Pods for Movee
-pod 'Kingfisher', '~> 5.0'
+pod 'Kingfisher'
 pod 'SwiftKeychainWrapper'
 pod 'Swinject'
 pod 'Alamofire'
+pod 'AlamofireImage'
 pod 'RxSwift'
 pod 'SwinjectAutoregistration'
 end
@@ -21,6 +22,9 @@ target 'MoveeComponents' do
    workspace 'Movee'
    project 'MoveeComponents/MoveeComponents.xcodeproj'
    use_frameworks!
+pod 'Alamofire'
+pod 'AlamofireImage'
+pod 'Kingfisher'
 end
 
 target 'MoveeWebService' do

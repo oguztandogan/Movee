@@ -39,12 +39,28 @@ final class MoviesPresenter {
         interactor.fetchNowPlayingMovies(callback: nowPlayingMoviesCallback, params: MoviesRequestModel())
     }
     
-    private func handleNowPlayingMovies(result: Result<MoviesResponseModel, BaseErrorResponse>) {
+    private func handleNowPlayingMovies(result: Result<NowPlayingMoviesResponseModel, BaseErrorResponse>) {
         switch result {
         case .failure(let error):
             print(error)
         case .success(let success):
-            print(success)
+            formatter.loadNowPlayingMoviesData(model: success)
+        }
+    }
+    
+    func getPopularMovies() {
+        popularMoviesCallback.commonResult { [weak self] result in
+            self?.handlePopularMovies(result: result)
+        }
+        interactor.fetchPopularMovies(callback: popularMoviesCallback, params: MoviesRequestModel())
+    }
+    
+    private func handlePopularMovies(result: Result<PopularMoviesResponseModel, BaseErrorResponse>) {
+        switch result {
+        case .failure(let error):
+            print(error)
+        case .success(let success):
+            formatter.loadPopularMoviesData(model: success)
         }
     }
 }

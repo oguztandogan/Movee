@@ -12,6 +12,7 @@ public enum HttpHeaderFields: GenericValueProtocol {
     public typealias Value = (String, String)
     
     case contentType
+
     
     public var value: (String, String) {
         switch self {

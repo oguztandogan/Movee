@@ -17,5 +17,6 @@ class UsecaseAssembly: Assembly {
         container.autoregister(BasicTokenUsecase.self, initializer: BasicTokenUsecase.init).inObjectScope(.weak)
         container.autoregister(NowPlayingMoviesUsecase.self, initializer: NowPlayingMoviesUsecase.init).inObjectScope(.weak)
         container.autoregister(PopularMoviesUsecase.self, initializer: PopularMoviesUsecase.init).inObjectScope(.weak)
+        container.autoregister(SessionUsecase.self, initializer: SessionUsecase.init).inObjectScope(.weak)
     }
 }

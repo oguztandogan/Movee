@@ -18,5 +18,6 @@ class ManagerAssembly: Assembly {
         container.autoregister(ApiInterceptor.self, initializer: ApiInterceptor.init).inObjectScope(.container)
         container.autoregister(ApiEventMonitor.self, initializer: ApiEventMonitor.init).inObjectScope(.container)
         container.autoregister(HttpClientInterface.self, initializer: ApiManager.init).inObjectScope(.container)
+        container.autoregister(TokenProvider.self, initializer: TokenProvider.init).inObjectScope(.container)
     }
 }

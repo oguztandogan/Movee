@@ -9,21 +9,21 @@
 //
 
 import UIKit
+import MoveeComponents
 
 final class MoviesViewController: UIViewController {
     
     // MARK: - Outlets -
-//    @IBOutlet weak var nowPlayingCollectionView: UICollectionView!
-//    @IBOutlet weak var ratingLabel: UILabel!
-//    @IBOutlet weak var nameLabel: UILabel!
-//    @IBOutlet weak var genreLabel: UILabel!
-//    @IBOutlet weak var ratingView: UIView!
-//    @IBOutlet weak var moviesView: UIView!
     
 
     // MARK: - Public properties -
 
     var presenter: MoviesPresenterInterface!
+    
+    // MARK: - Private Properties -
+    
+    private var tableView = TableViewComponent()
+    private var popularMoviesComponent = PopularMoviesCardComponent()
 
     // MARK: - Lifecycle -
 

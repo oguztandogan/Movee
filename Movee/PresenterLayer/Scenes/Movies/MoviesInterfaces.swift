@@ -22,6 +22,8 @@ protocol MoviesPresenterInterface: PresenterInterface {
 }
 
 protocol MoviesFormatterInterface: FormatterInterface {
+    func loadNowPlayingMoviesData(model: NowPlayingMoviesResponseModel?)
+    func loadPopularMoviesData(model: PopularMoviesResponseModel?)
 }
 
 protocol MoviesInteractorInterface: InteractorInterface {

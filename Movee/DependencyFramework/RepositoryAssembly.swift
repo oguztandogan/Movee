@@ -13,8 +13,8 @@ import MoveeWebService
 
 class RepositoryAssembly: Assembly {
     func assemble(container: Container) {
-        container.autoregister(LoginOperationsRepositoryInterface.self, initializer: LoginOperationsRepository.init).inObjectScope(.container)
-        container.autoregister(BasicTokenOperationsRepositoryInterface.self, initializer: BasicTokenOperationsRepository.init).inObjectScope(.container)
-        container.autoregister(MoviesOperationsRepositoryInterface.self, initializer: MoviesOperationsRepository.init).inObjectScope(.container)
+        container.autoregister(LoginOperationsRepositoryInterface.self, initializer: LoginOperationsRepository.init).inObjectScope(.weak)
+        container.autoregister(BasicTokenOperationsRepositoryInterface.self, initializer: BasicTokenOperationsRepository.init).inObjectScope(.weak)
+        container.autoregister(MoviesOperationsRepositoryInterface.self, initializer: MoviesOperationsRepository.init).inObjectScope(.weak)
     }
 }

@@ -7,24 +7,25 @@
 
 import Foundation
 
-public class MovieListModel: Codable {
+public class MovieListModel: BaseResponseProtocol {
     
-    public let posterPath: String?
-    public let id: Int?
-    public let title: String?
-    public let voteAverage: Double?
-    public let overview: String?
-    public let releaseDate: String?
-    public let backdropPath: String?
-
+    public var error: BaseErrorResponse?
+    public var posterPath: String?
+    public var id: Int?
+    public var title: String?
+    public var voteAverage: Double?
+    public var overview: String?
+    public var releaseDate: String?
+    public var backdropPath: String?
+    
     public init(posterPath: String?, id: Int?, title: String?, voteAverage: Double?, overview: String?, releaseDate: String?, backdropPath: String?) {
-    self.posterPath = posterPath
-    self.id = id
-    self.title = title
-    self.voteAverage = voteAverage
-    self.overview = overview
-    self.releaseDate = releaseDate
-    self.backdropPath = backdropPath
+        self.posterPath = posterPath
+        self.id = id
+        self.title = title
+        self.voteAverage = voteAverage
+        self.overview = overview
+        self.releaseDate = releaseDate
+        self.backdropPath = backdropPath
     }
     
     public enum CodingKeys: String, CodingKey {

@@ -68,14 +68,14 @@ public enum Endpoints {
         public typealias Value = String
         
         case loginUrl(LoginRequestModel)
-        case loginSessionUrl
+        case loginSessionUrl(SessionRequestModel)
         
         public var value: String {
             switch self {
             case .loginUrl:
-                return String(format: "/token/validate_with_login?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb")
+                return "/token/validate_with_login"
             case .loginSessionUrl:
-                return String(format: "/session/new?api_key=85f6ed635a992836f8ba2fd6fb5fa5cb")
+                return String(format: "/session/new")
             }
         }
     }

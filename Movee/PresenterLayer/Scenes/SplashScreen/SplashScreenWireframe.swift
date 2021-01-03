@@ -42,7 +42,7 @@ extension SplashScreenWireframe: SplashScreenWireframeInterface {
     }
     
     private func presentLogin() {
-        navigationController?.setRootWireframe(MoviesWireframe())
+        navigationController?.setRootWireframe(LoginPageWireframe())
         
     }
 }

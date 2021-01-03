@@ -9,11 +9,47 @@
 //
 
 import UIKit
+import MoveeComponents
+import MoveeWebService
 
 final class MoviesFormatter {
+
+    private(set) var nowPlayingMoviesResponseModel: NowPlayingMoviesResponseModel?
+    private(set) var popularMoviesResponseModel: PopularMoviesResponseModel?
 }
 
 // MARK: - Extensions -
 
 extension MoviesFormatter: MoviesFormatterInterface {
+    
+    func loadNowPlayingMoviesData(model: NowPlayingMoviesResponseModel?) {
+        nowPlayingMoviesResponseModel = model
+    }
+    
+    func loadPopularMoviesData(model: PopularMoviesResponseModel?) {
+        popularMoviesResponseModel = model
+        popularMoviesResponseModel.
+    }
+    
+    func formatPopularMoviesCardData(posterImageUrlString: String?) -> PopularMoviesCardComponentData {
+        let placeholderImage = UIImage(named: "arrowBack")
+        let titleLabel = CommonLabelComponentData(text: popularMoviesResponseModel?.results.pos,
+                                                  textColor: <#T##UIColor#>,
+                                                  textFont: <#T##UIFont?#>,
+                                                  kernValue: <#T##CGFloat#>,
+                                                  lineSpacing: <#T##CGFloat#>,
+                                                  allignment: <#T##NSTextAlignment#>)
+        guard let imageUrlString = posterImageUrlString,
+              let imageUrl = URL(string: imageUrlString) else {
+            
+            
+        }
+        
+        let popularMoviesCardData = PopularMoviesCardComponentData(posterImage: ,
+                                                                   posterImageUrl: imageUrl,
+                                                                   titleLabel: <#T##CommonLabelComponentData?#>,
+                                                                   subtitleLabel: <#T##CommonLabelComponentData?#>,
+                                                                   dateView: <#T##DateComponentData?#>,
+                                                                   backgroundColor: <#T##UIColor?#>)
+    }
 }

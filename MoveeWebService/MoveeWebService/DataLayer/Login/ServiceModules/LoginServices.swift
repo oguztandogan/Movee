@@ -16,4 +16,7 @@ public class LoginServices {
     func getLoginParsedResultServiceModule(params: LoginRequestModel) -> LoginServiceModule {
         return LoginServiceModule(request: params)
     }
+    func getSessionParsedResultsServiceModule(params: SessionRequestModel) -> SessionServiceModule {
+        return SessionServiceModule(request: params)
+    }
 }

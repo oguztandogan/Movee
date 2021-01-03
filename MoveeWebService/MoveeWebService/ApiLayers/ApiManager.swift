@@ -18,14 +18,14 @@ public class ApiManager: HttpClientInterface {
     private var jsonDecoder = JSONDecoder()
     
     public init(interceptor: ApiInterceptor, eventMonitors: ApiEventMonitor) {
-
-            let configuration = URLSessionConfiguration.ephemeral
-            configuration.timeoutIntervalForRequest = 60
-            configuration.requestCachePolicy = .reloadIgnoringCacheData
-
-            session = Session(configuration: configuration, startRequestsImmediately: true, interceptor: interceptor, eventMonitors: [eventMonitors])
-
-        }
+        
+        let configuration = URLSessionConfiguration.ephemeral
+        configuration.timeoutIntervalForRequest = 60
+        configuration.requestCachePolicy = .reloadIgnoringCacheData
+        
+        session = Session(configuration: configuration, startRequestsImmediately: true, interceptor: interceptor, eventMonitors: [eventMonitors])
+        
+    }
     
     // MARK: - Single Stream Methods -
     public func executeRequest<R>(urlRequestConvertible: URLRequestConvertible) -> Single<R> where R: CodableDataProtocol{
@@ -43,7 +43,8 @@ public class ApiManager: HttpClientInterface {
         
         switch alamofireResponseData.result {
         case .failure(let error):
-            single(.error(GenericErrorResponseModule(errorResponse: BaseErrorResponse(errorCode: returnErrorCode(error: error), errorMessage: error.localizedDescription, success: false), apiConnectionErrorType: .serverError(returnErrorCode(error: error)))))
+            single(.failure(GenericErrorResponseModule(errorResponse: BaseErrorResponse(statusCode: returnErrorCode(error: error), statusMessage: error.localizedDescription, success: false), apiConnectionErrorType: .serverError(returnErrorCode(error: error)))))
+            print(error)
             
         case .success(let data):
             if let data = data {

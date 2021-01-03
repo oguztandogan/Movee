@@ -10,6 +10,6 @@ import RxSwift
 
 public protocol MoviesOperationsRepositoryInterface {
     
-    func getPopularMovies(params: MoviesRequestModel) -> Single<MoviesResponseModel>
-    func getNowPlayingMovies(params: MoviesRequestModel) -> Single<MoviesResponseModel>
+    func getPopularMovies(params: MoviesRequestModel) -> Single<PopularMoviesResponseModel>
+    func getNowPlayingMovies(params: MoviesRequestModel) -> Single<NowPlayingMoviesResponseModel>
 }

@@ -31,7 +31,6 @@
 		2222F0582586A8E600CE7BA5 /* ApiRemoteAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0572586A8E600CE7BA5 /* ApiRemoteAssembly.swift */; };
 		2222F05A2586A94000CE7BA5 /* ApiProviderServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F0592586A94000CE7BA5 /* ApiProviderServiceAssembly.swift */; };
 		2222F05C2586AAD000CE7BA5 /* AssemblerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222F05B2586AAD000CE7BA5 /* AssemblerExtension.swift */; };
-		222300C62586D37000D1C5BB /* deneme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300C52586D37000D1C5BB /* deneme.swift */; };
 		222300F22587CD2200D1C5BB /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222300EB2587CD2200D1C5BB /* SplashScreen.storyboard */; };
 		222300F32587CD2200D1C5BB /* SplashScreenInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300EC2587CD2200D1C5BB /* SplashScreenInterfaces.swift */; };
 		222300F42587CD2200D1C5BB /* SplashScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222300ED2587CD2200D1C5BB /* SplashScreenPresenter.swift */; };
@@ -78,6 +77,8 @@
 		2252E0022397FC5E00E2F27A /* SearchingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252E0012397FC5E00E2F27A /* SearchingModel.swift */; };
 		2252E0042397FEE900E2F27A /* SearchingUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252E0032397FEE900E2F27A /* SearchingUIModel.swift */; };
 		2252E0062398079100E2F27A /* SearchingTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252E0052398079100E2F27A /* SearchingTableView.swift */; };
+		2255BA2D25A244E20067B36E /* NowPlayingMoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA2C25A244E20067B36E /* NowPlayingMoviesCollectionViewCell.swift */; };
+		2255BA2F25A244EE0067B36E /* PopularMoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA2E25A244EE0067B36E /* PopularMoviesTableViewCell.swift */; };
 		225CE7E325665B6F00FDFE16 /* MoveeWebService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225CE7E225665B6F00FDFE16 /* MoveeWebService.framework */; };
 		225CE7E425665B6F00FDFE16 /* MoveeWebService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 225CE7E225665B6F00FDFE16 /* MoveeWebService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2262508B2387BC160013DE7A /* CreditsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262508A2387BC160013DE7A /* CreditsModel.swift */; };
@@ -117,7 +118,7 @@
 		22E27793239FE3B6006474DD /* LoginPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27792239FE3B6006474DD /* LoginPage1ViewController.swift */; };
 		22E27795239FE3C3006474DD /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E27794239FE3C3006474DD /* UserProfileViewController.swift */; };
 		22E57D7223A0C810002D3B29 /* TokenResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E57D7123A0C810002D3B29 /* TokenResponseModel.swift */; };
-		5B67DA5F72808A5F114FCAD1 /* Pods_Movee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677DBE2624345810969D4A5D /* Pods_Movee.framework */; };
+		6383EE4D1BA1B7960599192F /* Pods_Movee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489C253315C376A20E2C714 /* Pods_Movee.framework */; };
 		A10C15F72563E71D0034E76D /* LoginInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F12563E71D0034E76D /* LoginInterfaces.swift */; };
 		A10C15F82563E71D0034E76D /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F22563E71D0034E76D /* LoginPresenter.swift */; };
 		A10C15F92563E71D0034E76D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C15F32563E71D0034E76D /* LoginViewController.swift */; };
@@ -179,7 +180,6 @@
 		2222F0572586A8E600CE7BA5 /* ApiRemoteAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRemoteAssembly.swift; sourceTree = "<group>"; };
 		2222F0592586A94000CE7BA5 /* ApiProviderServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderServiceAssembly.swift; sourceTree = "<group>"; };
 		2222F05B2586AAD000CE7BA5 /* AssemblerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblerExtension.swift; sourceTree = "<group>"; };
-		222300C52586D37000D1C5BB /* deneme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deneme.swift; sourceTree = "<group>"; };
 		222300EB2587CD2200D1C5BB /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		222300EC2587CD2200D1C5BB /* SplashScreenInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenInterfaces.swift; sourceTree = "<group>"; };
 		222300ED2587CD2200D1C5BB /* SplashScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenPresenter.swift; sourceTree = "<group>"; };
@@ -229,6 +229,8 @@
 		2252E0012397FC5E00E2F27A /* SearchingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingModel.swift; sourceTree = "<group>"; };
 		2252E0032397FEE900E2F27A /* SearchingUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingUIModel.swift; sourceTree = "<group>"; };
 		2252E0052398079100E2F27A /* SearchingTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingTableView.swift; sourceTree = "<group>"; };
+		2255BA2C25A244E20067B36E /* NowPlayingMoviesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMoviesCollectionViewCell.swift; sourceTree = "<group>"; };
+		2255BA2E25A244EE0067B36E /* PopularMoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesTableViewCell.swift; sourceTree = "<group>"; };
 		225CE7E225665B6F00FDFE16 /* MoveeWebService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoveeWebService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262508A2387BC160013DE7A /* CreditsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsModel.swift; sourceTree = "<group>"; };
 		2262508C2387EFCF0013DE7A /* CreditsUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsUIModel.swift; sourceTree = "<group>"; };
@@ -269,9 +271,8 @@
 		22E27792239FE3B6006474DD /* LoginPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage1ViewController.swift; sourceTree = "<group>"; };
 		22E27794239FE3C3006474DD /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		22E57D7123A0C810002D3B29 /* TokenResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponseModel.swift; sourceTree = "<group>"; };
-		31141132F9CCDBF71104AE81 /* Pods-Movee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.release.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.release.xcconfig"; sourceTree = "<group>"; };
-		5C65ECDB2FA6053DDAE02CA8 /* Pods-Movee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.debug.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig"; sourceTree = "<group>"; };
-		677DBE2624345810969D4A5D /* Pods_Movee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8489C253315C376A20E2C714 /* Pods_Movee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9C9EB5673B73CAC9281397 /* Pods-Movee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.debug.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.debug.xcconfig"; sourceTree = "<group>"; };
 		A10C15F12563E71D0034E76D /* LoginInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterfaces.swift; sourceTree = "<group>"; };
 		A10C15F22563E71D0034E76D /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		A10C15F32563E71D0034E76D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -289,6 +290,7 @@
 		A1D52F182566FEA70099E8A2 /* TokenRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequestModel.swift; sourceTree = "<group>"; };
 		A1D52F1A2566FF860099E8A2 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
 		A1D52F1C2567028D0099E8A2 /* SessionIdRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionIdRequestModel.swift; sourceTree = "<group>"; };
+		D1D59D9878E3BE3261417DBB /* Pods-Movee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movee.release.xcconfig"; path = "Target Support Files/Pods-Movee/Pods-Movee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,7 +301,7 @@
 				225CE7E325665B6F00FDFE16 /* MoveeWebService.framework in Frameworks */,
 				225201B425653458005898AE /* MoveeComponents.framework in Frameworks */,
 				221A2A6D2565259E00107716 /* Utilities.framework in Frameworks */,
-				5B67DA5F72808A5F114FCAD1 /* Pods_Movee.framework in Frameworks */,
+				6383EE4D1BA1B7960599192F /* Pods_Movee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +472,15 @@
 				224FD987239E7AE60018A6A1 /* NoResultsBackgroundView.xib */,
 			);
 			path = SearchingTableView;
+			sourceTree = "<group>";
+		};
+		2255BA2B25A244C30067B36E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2255BA2C25A244E20067B36E /* NowPlayingMoviesCollectionViewCell.swift */,
+				2255BA2E25A244EE0067B36E /* PopularMoviesTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		226250892387BBEB0013DE7A /* CreditsModels */ = {
@@ -701,7 +712,7 @@
 				221A2A6C2565259E00107716 /* Utilities.framework */,
 				221A2A1F2565173C00107716 /* MoveeComponents.framework */,
 				221A29A72565150000107716 /* MoveeComponents.app */,
-				677DBE2624345810969D4A5D /* Pods_Movee.framework */,
+				8489C253315C376A20E2C714 /* Pods_Movee.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -709,8 +720,8 @@
 		655C8977A56502B2F8EBCBF7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5C65ECDB2FA6053DDAE02CA8 /* Pods-Movee.debug.xcconfig */,
-				31141132F9CCDBF71104AE81 /* Pods-Movee.release.xcconfig */,
+				8A9C9EB5673B73CAC9281397 /* Pods-Movee.debug.xcconfig */,
+				D1D59D9878E3BE3261417DBB /* Pods-Movee.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -719,7 +730,6 @@
 			isa = PBXGroup;
 			children = (
 				A10C15F02563E6F10034E76D /* Scenes */,
-				222300C52586D37000D1C5BB /* deneme.swift */,
 			);
 			path = PresenterLayer;
 			sourceTree = "<group>";
@@ -740,9 +750,9 @@
 		A10C15F02563E6F10034E76D /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				A113FD482593E2C4002E8ABF /* Movies */,
 				2212B6D1257DA3D300786B76 /* SplashScreen */,
 				22B204A9257D1A7200562C5F /* Login1 */,
+				A113FD482593E2C4002E8ABF /* Movies */,
 				A10C15EE2563E67C0034E76D /* Login */,
 			);
 			path = Scenes;
@@ -776,6 +786,7 @@
 		A113FD482593E2C4002E8ABF /* Movies */ = {
 			isa = PBXGroup;
 			children = (
+				2255BA2B25A244C30067B36E /* Cells */,
 				A113FD492593E2C4002E8ABF /* MoviesPresenter.swift */,
 				A113FD4A2593E2C4002E8ABF /* MoviesFormatter.swift */,
 				A113FD4B2593E2C4002E8ABF /* MoviesViewController.swift */,
@@ -812,12 +823,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22C343FA236B115D0083645B /* Build configuration list for PBXNativeTarget "Movee" */;
 			buildPhases = (
-				5DF3FCFBCC65AD798B687816 /* [CP] Check Pods Manifest.lock */,
+				1C8A7DE2C483E201BBFADBA6 /* [CP] Check Pods Manifest.lock */,
 				22C343E2236B11540083645B /* Sources */,
 				22C343E3236B11540083645B /* Frameworks */,
 				22C343E4236B11540083645B /* Resources */,
 				22CA7D95256417110091FD79 /* Embed Frameworks */,
-				FBA3C7E5FD53BDEAC5ACB52A /* [CP] Embed Pods Frameworks */,
+				EF01993FFCDAF1E08D35E960 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -885,7 +896,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5DF3FCFBCC65AD798B687816 /* [CP] Check Pods Manifest.lock */ = {
+		1C8A7DE2C483E201BBFADBA6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -907,7 +918,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FBA3C7E5FD53BDEAC5ACB52A /* [CP] Embed Pods Frameworks */ = {
+		EF01993FFCDAF1E08D35E960 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -945,8 +956,8 @@
 				2297246F2375551600222BDD /* TmDBService.swift in Sources */,
 				A113FD512593E2C5002E8ABF /* MoviesFormatter.swift in Sources */,
 				2220C36F237AC77800206CBA /* MovieUIModel.swift in Sources */,
+				2255BA2F25A244EE0067B36E /* PopularMoviesTableViewCell.swift in Sources */,
 				224E44F7236C15CD000E4D57 /* MoveeCollectionCell.swift in Sources */,
-				222300C62586D37000D1C5BB /* deneme.swift in Sources */,
 				22CA7D70256411EF0091FD79 /* PresenterInterface.swift in Sources */,
 				2252E0022397FC5E00E2F27A /* SearchingModel.swift in Sources */,
 				222F04FD257D1BD10008F106 /* LoginPageViewController.swift in Sources */,
@@ -1012,6 +1023,7 @@
 				22440E5A237E91E900D7A6AF /* SeriesGenreModel.swift in Sources */,
 				2222F0562586A89900CE7BA5 /* UsecaseAssembly.swift in Sources */,
 				222F04FE257D1BD10008F106 /* LoginPageFormatter.swift in Sources */,
+				2255BA2D25A244E20067B36E /* NowPlayingMoviesCollectionViewCell.swift in Sources */,
 				22C343EC236B11540083645B /* SceneDelegate.swift in Sources */,
 				2252E0042397FEE900E2F27A /* SearchingUIModel.swift in Sources */,
 				2216526C23994A6D00D74773 /* SeriesSearchingTableViewCell.swift in Sources */,
@@ -1193,7 +1205,7 @@
 		};
 		22C343FB236B115D0083645B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C65ECDB2FA6053DDAE02CA8 /* Pods-Movee.debug.xcconfig */;
+			baseConfigurationReference = 8A9C9EB5673B73CAC9281397 /* Pods-Movee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1213,7 +1225,7 @@
 		};
 		22C343FC236B115D0083645B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31141132F9CCDBF71104AE81 /* Pods-Movee.release.xcconfig */;
+			baseConfigurationReference = D1D59D9878E3BE3261417DBB /* Pods-Movee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -22,6 +22,10 @@ public class LoginOperationsRemote: LoginOperationsRemoteInterface {
         return apiManager.executeRequest(urlRequestConvertible: service.getLoginParsedResultServiceModule(params: params))
     }
     
+    public func getSessionId(params: SessionRequestModel) -> Single<SessionResponseModel> {
+        return apiManager.executeRequest(urlRequestConvertible: service.getSessionParsedResultsServiceModule(params: params))
+    }
+    
     deinit {
         print("DEINIT LoginOperationsRemote")
     }

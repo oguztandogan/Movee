@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class LoginCallback: UseCaseCallback<LoginResponseModel> {
+public class LoginCallback: UseCaseCallback<SessionResponseModel> {
     
     public override init() {
         

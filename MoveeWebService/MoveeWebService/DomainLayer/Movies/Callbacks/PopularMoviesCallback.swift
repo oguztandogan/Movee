@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class PopularMoviesCallback: UseCaseCallback<MoviesResponseModel> {
+public class PopularMoviesCallback: UseCaseCallback<PopularMoviesResponseModel> {
     
     public override init() {
         

@@ -20,10 +20,4 @@ public class BasicTokenOperationsRepository: BasicTokenOperationsRepositoryInter
     public func getBasicToken(params: BasicTokenRequestModel) -> Single<BasicTokenResponseModel> {
         return apiRemote.getBasicToken(params: params)
     }
-//    public func getBasicToken(params: BasicTokenRequestModel) -> Single<LoginResponseModel> {
-//        return apiRemote.getBasicToken(params: params).flatMap { (basicTokenResponse) -> Single<LoginResponseModel> in
-////            self.tokenProvider = basictoken
-//            return self.apiRemote.getLoginToken(params: params)
-//        }
-//    }
 }

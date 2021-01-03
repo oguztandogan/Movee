@@ -16,11 +16,11 @@ public class MoviesOperationsRepository: MoviesOperationsRepositoryInterface {
         self.apiRemote = apiRemote
     }
 
-    public func getPopularMovies(params: MoviesRequestModel) -> Single<MoviesResponseModel> {
+    public func getPopularMovies(params: MoviesRequestModel) -> Single<PopularMoviesResponseModel> {
         return apiRemote.getPopularMovies(params: params)
     }
     
-    public func getNowPlayingMovies(params: MoviesRequestModel) -> Single<MoviesResponseModel> {
+    public func getNowPlayingMovies(params: MoviesRequestModel) -> Single<NowPlayingMoviesResponseModel> {
         return apiRemote.getNowPlayingMovies(params: params)
     }
 

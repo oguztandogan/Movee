@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class NowPlayingMoviesCallback: UseCaseCallback<MoviesResponseModel> {
+public class NowPlayingMoviesCallback: UseCaseCallback<NowPlayingMoviesResponseModel> {
     
     public override init() {
         

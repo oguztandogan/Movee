@@ -36,23 +36,21 @@ extension LoginPageWireframe: LoginPageWireframeInterface {
     
     func navigate(to option: LoginPageNavigationOption) {
         switch option {
-        case .home:
-            openHome()
+        case .mainPage:
+            navigateToMovies()
         case .register:
-            presentRegister()
+            navigateToRegister()
         case .forgotPassword:
             print("asdf")
         }
 
     }
 
-    private func openHome() {
-//        let wireframe = HomeWireframe()
-//
-//        navigationController?.pushWireframe(wireframe)
+    private func navigateToMovies() {
+        navigationController?.setRootWireframe(MoviesWireframe())
     }
 
-    private func presentRegister() {
+    private func navigateToRegister() {
 //        let wireframe = RegisterWireframe()
 //
 //        let wireframeNavigationController = PokedexNavigationController()

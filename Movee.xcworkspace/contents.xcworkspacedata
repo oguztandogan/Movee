@@ -8,10 +8,10 @@
       location = "group:MoveeComponents/MoveeComponents.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Utilities/Utilities.xcodeproj">
+      location = "group:MoveeWebService/MoveeWebService.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MoveeWebService/MoveeWebService.xcodeproj">
+      location = "group:Utilities/Utilities.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

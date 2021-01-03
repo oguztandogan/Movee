@@ -13,53 +13,15 @@ import MoveeWebService
 
 final class LoginPageInteractor: AssemblerWireframeInteractorProtocol {
     
-    private var usecase: LoginUsecase?
+    private var usecase: SessionUsecase?
 }
 
 // MARK: - Extensions -
 
 extension LoginPageInteractor: LoginPageInteractorInterface {
     
-//    func authenticateWithUserCredentials(username: String?, password: String?) {
-//        TmDBService.instance.getToken(completion: { response in
-//            let loginRequestModel = LoginRequestModel(username: response.request_token,
-//                                                      password: password,
-//                                                      request_token: username)
-//            TmDBService.instance.createSessionWithLogin(requestModel: loginRequestModel, completion: { requestToken, response1  in
-//                guard let isSuccess = response1?.success else {
-//                    fatalError("error")
-//                }
-//                if isSuccess {
-//                    TmDBService.instance.createSessionID(requestModel: response1?.request_token, completion: { savedToken, sessionId in
-//                        guard let isSuccess = response1?.success else {
-//                            fatalError("error")
-//                        }
-//                        if isSuccess {
-//                            TmDBService.instance.getAccountDetails(requestModel: sessionId.session_id, completion: { accountDetails in
-//                                DispatchQueue.main.async {
-//                                    if let accountId = accountDetails.id {
-//                                        let accountIdString = String(accountId)
-//                                        UserDefaults.standard.set(accountIdString, forKey: "AccountId")
-//                                        UserDefaults.standard.set(true, forKey: "IsLoggedIn")
-//                                    }
-//                                }
-//                            })
-//                        } else {
-//                            fatalError("error")
-//                        }
-//                    })
-//
-//                } else {
-//                    fatalError("error")
-//                }
-//
-//            })
-//        })
-//
-//    }
-    
-    func getAuthenticatedSessionId(callback: LoginCallback, params: LoginRequestModel) {
-        usecase = returnResolver().resolve(LoginUsecase.self)
+    func getSessionId(callback: LoginCallback, params: LoginRequestModel) {
+        usecase = returnResolver().resolve(SessionUsecase.self)
         usecase?.execute(useCaseCallBack: callback, params: params)
     }
     

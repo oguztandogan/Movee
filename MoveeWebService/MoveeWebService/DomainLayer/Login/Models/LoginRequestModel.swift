@@ -12,6 +12,7 @@ public class LoginRequestModel: CodableDataProtocol {
     private(set) var username: String?
     private(set) var password: String?
     private(set) var requestToken: String?
+//    private(set) var apiKey: String = Endpoints.ApiKey.apiKey.value
     
     public init(username: String? = nil, password: String? = nil, requestToken: String? = nil) {
         self.username = username
@@ -23,5 +24,6 @@ public class LoginRequestModel: CodableDataProtocol {
         case username = "username"
         case password = "password"
         case requestToken = "request_token"
+//        case apiKey = "api_key"
     }
 }

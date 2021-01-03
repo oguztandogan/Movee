@@ -7,12 +7,16 @@
 
 import Foundation
 
-public class MoviesResponseModel: BaseResponseProtocol {
+public class PopularMoviesResponseModel: BaseResponseProtocol {
     
     public var error: BaseErrorResponse?
-    private (set) var results: [MovieListModel?]
+    private (set) public var results: [MovieListModel?]
     
     public init(results: [MovieListModel?]) {
         self.results = results
+    }
+    
+    public enum CodingKeys: String, CodingKey {
+        case results = "results"
     }
 }

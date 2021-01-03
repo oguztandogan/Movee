@@ -11,5 +11,6 @@ import RxSwift
 public protocol LoginOperationsRemoteInterface {
     
     func getAuthenticatedToken(params: LoginRequestModel) -> Single<LoginResponseModel>
+    func getSessionId(params: SessionRequestModel) -> Single<SessionResponseModel>
 
 }

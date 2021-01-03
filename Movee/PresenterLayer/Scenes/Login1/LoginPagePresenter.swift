@@ -12,6 +12,7 @@ import Foundation
 import MoveeComponents
 import Utilities
 import MoveeWebService
+import SwiftKeychainWrapper
 
 final class LoginPagePresenter {
 
@@ -31,21 +32,6 @@ final class LoginPagePresenter {
         self.interactor = interactor
         self.wireframe = wireframe
     }
-    
-    private func getLoginSessionId() {
-        loginCallback.commonResult { [weak self] (result) in
-            self?.handleLoginResponse(result: result)
-        }
-        interactor.getAuthenticatedSessionId(callback: loginCallback, params: LoginRequestModel())
-    }
-    private func handleLoginResponse(result: Result<LoginResponseModel, BaseErrorResponse>) {
-        switch result {
-        case .failure(let error):
-            print(error)
-        case .success(let success):
-            print(success)
-        }
-    }
 }
 
 // MARK: - Extensions -
@@ -53,10 +39,26 @@ final class LoginPagePresenter {
 extension LoginPagePresenter: LoginPagePresenterInterface {
     
     func viewDidLoad() {
-        getLoginSessionId()
     }
     
     func loadLoginData(username: String?, password: String?) {
 //        interactor.authenticateWithUserCredentials(username: username, password: password)
+    }
+    func getLoginSessionId(username: String?, password: String?) {
+        loginCallback.commonResult { [weak self] (result) in
+            self?.handleLoginResponse(result: result)
+        }
+        interactor.getSessionId(callback: loginCallback, params: LoginRequestModel(username: username, password: password, requestToken: KeychainWrapper.standard.string(forKey: "BasicToken")))
+    }
+//    KeychainWrapper.standard.set(success.requestToken ?? "", forKey: "BasicToken")
+
+    func handleLoginResponse(result: Result<SessionResponseModel, BaseErrorResponse>) {
+        switch result {
+        case .failure(let error):
+            print(error)
+        case .success(let success):
+            print(success)
+            wireframe.navigate(to: .mainPage)
+        }
     }
 }

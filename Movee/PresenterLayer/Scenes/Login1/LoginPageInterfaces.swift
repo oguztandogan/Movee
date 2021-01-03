@@ -14,23 +14,26 @@ import Utilities
 import MoveeWebService
 
 enum LoginPageNavigationOption {
-    case home
+    case mainPage
     case register
     case forgotPassword
 }
 
 protocol LoginPageWireframeInterface: WireframeInterface {
+    func navigate(to option: LoginPageNavigationOption)
 }
 
 protocol LoginPageViewInterface: ViewInterface {
 }
 
 protocol LoginPagePresenterInterface: PresenterInterface {
-    func loadLoginData(username: String?, password: String?)}
+    func loadLoginData(username: String?, password: String?)
+    func getLoginSessionId(username: String?, password: String?)
+}
 
 protocol LoginPageFormatterInterface: FormatterInterface {
 }
 
 protocol LoginPageInteractorInterface: InteractorInterface {
-    func getAuthenticatedSessionId(callback: LoginCallback, params: LoginRequestModel)
+    func getSessionId(callback: LoginCallback, params: LoginRequestModel)
 }

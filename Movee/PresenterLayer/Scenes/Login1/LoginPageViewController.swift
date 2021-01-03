@@ -45,13 +45,7 @@ final class LoginPageViewController: UIViewController {
     
     // MARK: - Actions -
     @IBAction func loginButtonAction(_ sender: Any) {
-        presenter?.loadLoginData(username: emailInputTextField.text, password: passwordInputTextField.text)
-        if let username = emailInputTextField.text {
-            UserDefaults.standard.set(username, forKey: "Username")
-        }
-        if let password = passwordInputTextField.text {
-            UserDefaults.standard.set(password, forKey: "Password")
-        }
+        presenter?.getLoginSessionId(username: emailInputTextField.text, password: passwordInputTextField.text)
     }
     
     @IBAction func forgotPasswordButtonAction(_ sender: Any) {
@@ -71,6 +65,4 @@ final class LoginPageViewController: UIViewController {
 // MARK: - Extensions -
 
 extension LoginPageViewController: LoginPageViewInterface {
-    
-
 }

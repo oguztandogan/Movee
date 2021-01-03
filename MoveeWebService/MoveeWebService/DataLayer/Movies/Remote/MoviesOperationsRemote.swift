@@ -18,11 +18,11 @@ public class MoviesOperationsRemote: MoviesOperationsRemoteInterface {
         self.service = service
     }
 
-    public func getPopularMovies(params: MoviesRequestModel) -> Single<MoviesResponseModel> {
+    public func getPopularMovies(params: MoviesRequestModel) -> Single<PopularMoviesResponseModel> {
         return apiManager.executeRequest(urlRequestConvertible: service.getPopularMoviesParsedResultModule(params: params))
     }
     
-    public func getNowPlayingMovies(params: MoviesRequestModel) -> Single<MoviesResponseModel> {
+    public func getNowPlayingMovies(params: MoviesRequestModel) -> Single<NowPlayingMoviesResponseModel> {
         return apiManager.executeRequest(urlRequestConvertible: service.getNowPlayingMoviesParsedResultModule(params: params))
     }
     

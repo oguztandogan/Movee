@@ -8,7 +8,7 @@
 import Foundation
 import RxSwift
 
-public class PopularMoviesUsecase: SingleUseCase<MoviesRequestModel, MoviesResponseModel> {
+public class PopularMoviesUsecase: SingleUseCase<MoviesRequestModel, PopularMoviesResponseModel> {
     
     private let repository: MoviesOperationsRepositoryInterface!
     
@@ -16,7 +16,7 @@ public class PopularMoviesUsecase: SingleUseCase<MoviesRequestModel, MoviesRespo
         self.repository = repository
     }
     
-    override func generateUseCase(parameter: MoviesRequestModel) -> Single<MoviesResponseModel>? {
+    override func generateUseCase(parameter: MoviesRequestModel) -> Single<PopularMoviesResponseModel>? {
         return repository.getPopularMovies(params: parameter)
     }
 }

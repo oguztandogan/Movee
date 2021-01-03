@@ -8,7 +8,16 @@
 import Foundation
 import Alamofire
 
+public enum UrlPathError: Error {
+    
+    case missingUrl
+}
+
 public class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
+    
+//    private var tokenProvider: TokenProvider? = {
+//        return swinjectresolver().resolve(TokenProvider.self)
+//    }()
     
     private var method: HTTPMethod
     private var path: String?
@@ -36,7 +45,12 @@ public class ApiServiceProvider<T: CodableDataProtocol>: URLRequestConvertible {
         var url = try pathType.value.asURL()
         
         if let path = path {
-            url = url.appendingPathComponent(path)
+            let queryItem = [URLQueryItem(name: "api_key", value: Endpoints.ApiKey.apiKey.value)]
+            var urlComponents = URLComponents(string: url.appendingPathComponent(path).absoluteString)
+            urlComponents?.queryItems = queryItem
+            guard let urlUnwrapped = urlComponents?.url else { throw UrlPathError.missingUrl }
+            url = urlUnwrapped
+//            url = url.appendingPathComponent(path)
         }
          
         var request = URLRequest(url: url)

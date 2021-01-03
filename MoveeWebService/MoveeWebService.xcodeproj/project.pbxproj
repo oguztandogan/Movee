@@ -54,6 +54,13 @@
 		220680222586CB3300A0DEEC /* BasicTokenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220680212586CB3300A0DEEC /* BasicTokenServices.swift */; };
 		220680262586CB3F00A0DEEC /* BasicTokenServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220680252586CB3F00A0DEEC /* BasicTokenServiceModule.swift */; };
 		220680322586CDB000A0DEEC /* BasicTokenRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220680312586CDB000A0DEEC /* BasicTokenRequestModel.swift */; };
+		22A003992598E91A0075F7AD /* SessionServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A003982598E91A0075F7AD /* SessionServiceModule.swift */; };
+		22A0039D2598E95B0075F7AD /* SessionRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A0039C2598E95B0075F7AD /* SessionRequestModel.swift */; };
+		22A003A12598E9660075F7AD /* SessionResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A003A02598E9660075F7AD /* SessionResponseModel.swift */; };
+		22A003B92598EF4B0075F7AD /* SessionUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A003B82598EF4B0075F7AD /* SessionUsecase.swift */; };
+		22A003BD2599069D0075F7AD /* SessionCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A003BC2599069D0075F7AD /* SessionCallback.swift */; };
+		22A003C2259B41590075F7AD /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A003C1259B41590075F7AD /* TokenProvider.swift */; };
+		22A003C8259BCA8D0075F7AD /* NowPlayingMoviesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A003C7259BCA8D0075F7AD /* NowPlayingMoviesResponseModel.swift */; };
 		A113FD5D2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD5C2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift */; };
 		A113FD632593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD622593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift */; };
 		A113FD672593F5DD002E8ABF /* MoviesOperationsRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113FD662593F5DD002E8ABF /* MoviesOperationsRemote.swift */; };
@@ -132,6 +139,13 @@
 		220680212586CB3300A0DEEC /* BasicTokenServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTokenServices.swift; sourceTree = "<group>"; };
 		220680252586CB3F00A0DEEC /* BasicTokenServiceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTokenServiceModule.swift; sourceTree = "<group>"; };
 		220680312586CDB000A0DEEC /* BasicTokenRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTokenRequestModel.swift; sourceTree = "<group>"; };
+		22A003982598E91A0075F7AD /* SessionServiceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionServiceModule.swift; sourceTree = "<group>"; };
+		22A0039C2598E95B0075F7AD /* SessionRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRequestModel.swift; sourceTree = "<group>"; };
+		22A003A02598E9660075F7AD /* SessionResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResponseModel.swift; sourceTree = "<group>"; };
+		22A003B82598EF4B0075F7AD /* SessionUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUsecase.swift; sourceTree = "<group>"; };
+		22A003BC2599069D0075F7AD /* SessionCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCallback.swift; sourceTree = "<group>"; };
+		22A003C1259B41590075F7AD /* TokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
+		22A003C7259BCA8D0075F7AD /* NowPlayingMoviesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMoviesResponseModel.swift; sourceTree = "<group>"; };
 		349A999EBBCBBBE118FA115B /* Pods-MoveeWebService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.release.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.release.xcconfig"; sourceTree = "<group>"; };
 		45B097A469A5E7FD207F41A4 /* Pods-MoveeWebService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeWebService.debug.xcconfig"; path = "Target Support Files/Pods-MoveeWebService/Pods-MoveeWebService.debug.xcconfig"; sourceTree = "<group>"; };
 		A113FD5C2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesOperationsRemoteInterface.swift; sourceTree = "<group>"; };
@@ -194,6 +208,7 @@
 		22067F742586B19900A0DEEC /* MoveeWebService */ = {
 			isa = PBXGroup;
 			children = (
+				22A003C0259B414C0075F7AD /* Managers */,
 				22067F9C2586B1E600A0DEEC /* ApiLayers */,
 				22067F8E2586B1E600A0DEEC /* DataLayer */,
 				22067FA62586B1E600A0DEEC /* DomainLayer */,
@@ -264,6 +279,7 @@
 			children = (
 				22067F982586B1E600A0DEEC /* LoginServices.swift */,
 				22067F992586B1E600A0DEEC /* LoginServiceModule.swift */,
+				22A003982598E91A0075F7AD /* SessionServiceModule.swift */,
 			);
 			path = ServiceModules;
 			sourceTree = "<group>";
@@ -279,14 +295,14 @@
 		22067F9C2586B1E600A0DEEC /* ApiLayers */ = {
 			isa = PBXGroup;
 			children = (
-				22067F9D2586B1E600A0DEEC /* HttpClientInterface.swift */,
-				22067F9E2586B1E600A0DEEC /* ApiInterceptor.swift */,
-				22067F9F2586B1E600A0DEEC /* EncodableExtension.swift */,
-				22067FA02586B1E600A0DEEC /* ApiManager.swift */,
-				22067FA12586B1E600A0DEEC /* ApiEventMonitor.swift */,
-				22067FA22586B1E600A0DEEC /* ApiRetrier.swift */,
 				22067FA32586B1E600A0DEEC /* ApiAdapter.swift */,
+				22067FA12586B1E600A0DEEC /* ApiEventMonitor.swift */,
+				22067F9E2586B1E600A0DEEC /* ApiInterceptor.swift */,
+				22067FA02586B1E600A0DEEC /* ApiManager.swift */,
+				22067FA22586B1E600A0DEEC /* ApiRetrier.swift */,
 				22067FA42586B1E600A0DEEC /* ApiServiceProvider.swift */,
+				22067F9F2586B1E600A0DEEC /* EncodableExtension.swift */,
+				22067F9D2586B1E600A0DEEC /* HttpClientInterface.swift */,
 				22067FA52586B1E600A0DEEC /* HttpHeaderFields.swift */,
 			);
 			path = ApiLayers;
@@ -413,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				22067FC42586B1E600A0DEEC /* LoginCallback.swift */,
+				22A003BC2599069D0075F7AD /* SessionCallback.swift */,
 			);
 			path = Callbacks;
 			sourceTree = "<group>";
@@ -422,6 +439,8 @@
 			children = (
 				22067FC62586B1E600A0DEEC /* LoginRequestModel.swift */,
 				22067FC72586B1E600A0DEEC /* LoginResponseModel.swift */,
+				22A0039C2598E95B0075F7AD /* SessionRequestModel.swift */,
+				22A003A02598E9660075F7AD /* SessionResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -430,6 +449,7 @@
 			isa = PBXGroup;
 			children = (
 				22067FC92586B1E600A0DEEC /* LoginUsecase.swift */,
+				22A003B82598EF4B0075F7AD /* SessionUsecase.swift */,
 			);
 			path = Usecases;
 			sourceTree = "<group>";
@@ -477,6 +497,14 @@
 				220680172586CA9800A0DEEC /* BasicTokenOperationsRemote.swift */,
 			);
 			path = Remote;
+			sourceTree = "<group>";
+		};
+		22A003C0259B414C0075F7AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				22A003C1259B41590075F7AD /* TokenProvider.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		94918B23C00F3818427D6E7F /* Pods */ = {
@@ -558,6 +586,7 @@
 			isa = PBXGroup;
 			children = (
 				A113FD7D2593F714002E8ABF /* MoviesResponseModel.swift */,
+				22A003C7259BCA8D0075F7AD /* NowPlayingMoviesResponseModel.swift */,
 				A113FD812593F721002E8ABF /* MoviesRequestModel.swift */,
 				A113FD892593F860002E8ABF /* MovieListResponseModel.swift */,
 			);
@@ -741,6 +770,7 @@
 				22067FE32586B1E700A0DEEC /* UseCaseCallbackInteractor.swift in Sources */,
 				22067FE42586B1E700A0DEEC /* CodableDataProtocol.swift in Sources */,
 				22067FD22586B1E700A0DEEC /* ApiInterceptor.swift in Sources */,
+				22A003A12598E9660075F7AD /* SessionResponseModel.swift in Sources */,
 				A113FD7E2593F714002E8ABF /* MoviesResponseModel.swift in Sources */,
 				A113FD6B2593F5FA002E8ABF /* MoviesOperationsRepository.swift in Sources */,
 				22067FDD2586B1E700A0DEEC /* BaseUseCase.swift in Sources */,
@@ -749,6 +779,7 @@
 				A113FD632593F5B5002E8ABF /* MoviesOperationsRepositoryInterface.swift in Sources */,
 				220680142586CA3800A0DEEC /* BasicTokenOperationsRepositoryInterface.swift in Sources */,
 				A113FD5D2593F58F002E8ABF /* MoviesOperationsRemoteInterface.swift in Sources */,
+				22A003C8259BCA8D0075F7AD /* NowPlayingMoviesResponseModel.swift in Sources */,
 				22067FE82586B1E700A0DEEC /* GenericErrorResponseModule.swift in Sources */,
 				22067FD72586B1E700A0DEEC /* ApiAdapter.swift in Sources */,
 				22067FD42586B1E700A0DEEC /* ApiManager.swift in Sources */,
@@ -765,11 +796,16 @@
 				220680102586CA1500A0DEEC /* BasicTokenOperationsRemoteInterface.swift in Sources */,
 				A113FD6F2593F611002E8ABF /* MoviesService.swift in Sources */,
 				22067FD52586B1E700A0DEEC /* ApiEventMonitor.swift in Sources */,
+				22A003992598E91A0075F7AD /* SessionServiceModule.swift in Sources */,
+				22A003BD2599069D0075F7AD /* SessionCallback.swift in Sources */,
 				22067FCB2586B1E700A0DEEC /* LoginOperationsRemoteInterface.swift in Sources */,
 				22067FD62586B1E700A0DEEC /* ApiRetrier.swift in Sources */,
+				22A0039D2598E95B0075F7AD /* SessionRequestModel.swift in Sources */,
 				22067FDE2586B1E700A0DEEC /* BaseRequest.swift in Sources */,
 				22067FCD2586B1E700A0DEEC /* LoginOperationsRepository.swift in Sources */,
+				22A003C2259B41590075F7AD /* TokenProvider.swift in Sources */,
 				22067FDC2586B1E700A0DEEC /* BasicTokenUsecase.swift in Sources */,
+				22A003B92598EF4B0075F7AD /* SessionUsecase.swift in Sources */,
 				22067FCE2586B1E700A0DEEC /* LoginServices.swift in Sources */,
 				22067FE02586B1E700A0DEEC /* BaseResponse.swift in Sources */,
 				220680182586CA9800A0DEEC /* BasicTokenOperationsRemote.swift in Sources */,

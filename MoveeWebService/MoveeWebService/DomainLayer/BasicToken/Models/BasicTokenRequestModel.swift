@@ -9,13 +9,13 @@ import Foundation
 
 public class BasicTokenRequestModel: CodableDataProtocol {
 
-    private(set) var apiKey: String? = Endpoints.ApiKey.apiKey.value
-    
+//    private(set) var apiKey: String? = Endpoints.ApiKey.apiKey.value
+
     public init() {}
     
-    public enum CodingKeys: String, CodingKey {
-
-        case apiKey = "api_key"
-    }
+//    public enum CodingKeys: String, CodingKey {
+//
+//        case apiKey = "api_key"
+//    }
 }
 
