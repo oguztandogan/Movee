@@ -47,6 +47,10 @@
 		2255BA3725A2459E0067B36E /* PopularMoviesCardComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA3625A2459E0067B36E /* PopularMoviesCardComponentData.swift */; };
 		2255BA3C25A24A1C0067B36E /* DateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA3B25A24A1C0067B36E /* DateComponent.swift */; };
 		2255BA4225A24A270067B36E /* DateComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA4125A24A270067B36E /* DateComponentData.swift */; };
+		A114830F25A34BB200B10822 /* TableViewComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114830E25A34BB200B10822 /* TableViewComponentProtocol.swift */; };
+		A114831425A353FE00B10822 /* GenericStackViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831325A353FE00B10822 /* GenericStackViewComponent.swift */; };
+		A114831825A3544300B10822 /* GenericStackViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831725A3544300B10822 /* GenericStackViewComponentData.swift */; };
+		A114831C25A3545300B10822 /* GenericStackViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831B25A3545300B10822 /* GenericStackViewTableViewCell.swift */; };
 		A1D52F0E2565BA4B0099E8A2 /* LoginPageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F0D2565BA4A0099E8A2 /* LoginPageComponent.swift */; };
 		A1D52F122565BA7D0099E8A2 /* LoginPageComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F112565BA7D0099E8A2 /* LoginPageComponentData.swift */; };
 		D77102425DD8ABB612653B8A /* Pods_MoveeComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B75FF13D206C98E0D48BCF /* Pods_MoveeComponents.framework */; };
@@ -107,6 +111,10 @@
 		2255BA3625A2459E0067B36E /* PopularMoviesCardComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesCardComponentData.swift; sourceTree = "<group>"; };
 		2255BA3B25A24A1C0067B36E /* DateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponent.swift; sourceTree = "<group>"; };
 		2255BA4125A24A270067B36E /* DateComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentData.swift; sourceTree = "<group>"; };
+		A114830E25A34BB200B10822 /* TableViewComponentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewComponentProtocol.swift; sourceTree = "<group>"; };
+		A114831325A353FE00B10822 /* GenericStackViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewComponent.swift; sourceTree = "<group>"; };
+		A114831725A3544300B10822 /* GenericStackViewComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewComponentData.swift; sourceTree = "<group>"; };
+		A114831B25A3545300B10822 /* GenericStackViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewTableViewCell.swift; sourceTree = "<group>"; };
 		A1D52F0D2565BA4A0099E8A2 /* LoginPageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageComponent.swift; sourceTree = "<group>"; };
 		A1D52F112565BA7D0099E8A2 /* LoginPageComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageComponentData.swift; sourceTree = "<group>"; };
 		A235D6ECDB54652377CC8878 /* Pods-MoveeComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeComponents.release.xcconfig"; path = "Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				2255BA3A25A249F50067B36E /* DateComponent */,
+				A114831225A353B200B10822 /* GenericStackViewRowComponent */,
 				2255BA2225A21BDE0067B36E /* TableViewComponent */,
 				2255B9F4259FBEE50067B36E /* CollectionViewComponent */,
 				2211D76E2565592A00AFEAB2 /* CommonTextFieldComponent */,
@@ -324,6 +333,7 @@
 			children = (
 				2255BA2325A21BFA0067B36E /* TableViewComponent.swift */,
 				2255BA2725A21C3A0067B36E /* TableViewComponentData.swift */,
+				A114830E25A34BB200B10822 /* TableViewComponentProtocol.swift */,
 			);
 			path = TableViewComponent;
 			sourceTree = "<group>";
@@ -361,6 +371,16 @@
 				F8B75FF13D206C98E0D48BCF /* Pods_MoveeComponents.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A114831225A353B200B10822 /* GenericStackViewRowComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A114831325A353FE00B10822 /* GenericStackViewComponent.swift */,
+				A114831725A3544300B10822 /* GenericStackViewComponentData.swift */,
+				A114831B25A3545300B10822 /* GenericStackViewTableViewCell.swift */,
+			);
+			path = GenericStackViewRowComponent;
 			sourceTree = "<group>";
 		};
 		CAC17F2E164735A966C31F33 /* Pods */ = {
@@ -508,8 +528,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2255BA3325A245940067B36E /* PopularMoviesCardComponent.swift in Sources */,
+				A114831C25A3545300B10822 /* GenericStackViewTableViewCell.swift in Sources */,
 				A1D52F0E2565BA4B0099E8A2 /* LoginPageComponent.swift in Sources */,
 				221A2A172565172200107716 /* ViewControllerTypeProtocol.swift in Sources */,
+				A114831825A3544300B10822 /* GenericStackViewComponentData.swift in Sources */,
 				2211D73C25653B4000AFEAB2 /* BaseView.swift in Sources */,
 				2255BA0525A2158A0067B36E /* GenericCollectionViewCell.swift in Sources */,
 				221A2A192565172200107716 /* GenericDataProtocol.swift in Sources */,
@@ -534,9 +556,11 @@
 				2211D778256559EB00AFEAB2 /* CommonTextFieldComponentData.swift in Sources */,
 				221A2A162565172200107716 /* InteractivePopGestureDelegate.swift in Sources */,
 				221A2A1A2565172200107716 /* GenericCellDataProtocol.swift in Sources */,
+				A114831425A353FE00B10822 /* GenericStackViewComponent.swift in Sources */,
 				2255BA4225A24A270067B36E /* DateComponentData.swift in Sources */,
 				2211D774256559DF00AFEAB2 /* CommonTextFieldComponent.swift in Sources */,
 				2211D7702565594F00AFEAB2 /* DynamicAttributedTextField.swift in Sources */,
+				A114830F25A34BB200B10822 /* TableViewComponentProtocol.swift in Sources */,
 				2255BA3725A2459E0067B36E /* PopularMoviesCardComponentData.swift in Sources */,
 				2211D7342565387700AFEAB2 /* BaseViewControllers.swift in Sources */,
 				2211D738256539D900AFEAB2 /* ProtocolBasedComponentView.swift in Sources */,
