@@ -34,7 +34,6 @@
 		221A2A682565259600107716 /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221A2A672565259600107716 /* Utilities.framework */; };
 		2255B9F6259FBEFC0067B36E /* CollectionViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255B9F5259FBEFC0067B36E /* CollectionViewComponent.swift */; };
 		2255B9FA259FBF0C0067B36E /* CollectionViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255B9F9259FBF0C0067B36E /* CollectionViewComponentData.swift */; };
-		2255B9FE259FC20E0067B36E /* CollectionViewCellComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255B9FD259FC20E0067B36E /* CollectionViewCellComponent.swift */; };
 		2255BA0525A2158A0067B36E /* GenericCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA0425A2158A0067B36E /* GenericCollectionViewCell.swift */; };
 		2255BA0B25A215950067B36E /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA0A25A215950067B36E /* GenericTableViewCell.swift */; };
 		2255BA0F25A215C90067B36E /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA0E25A215C90067B36E /* BaseTableViewCell.swift */; };
@@ -48,9 +47,8 @@
 		2255BA3C25A24A1C0067B36E /* DateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA3B25A24A1C0067B36E /* DateComponent.swift */; };
 		2255BA4225A24A270067B36E /* DateComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2255BA4125A24A270067B36E /* DateComponentData.swift */; };
 		A114830F25A34BB200B10822 /* TableViewComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114830E25A34BB200B10822 /* TableViewComponentProtocol.swift */; };
-		A114831425A353FE00B10822 /* GenericStackViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831325A353FE00B10822 /* GenericStackViewComponent.swift */; };
-		A114831825A3544300B10822 /* GenericStackViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831725A3544300B10822 /* GenericStackViewComponentData.swift */; };
-		A114831C25A3545300B10822 /* GenericStackViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831B25A3545300B10822 /* GenericStackViewTableViewCell.swift */; };
+		A114831425A353FE00B10822 /* GenericStackViewRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831325A353FE00B10822 /* GenericStackViewRowComponent.swift */; };
+		A114831825A3544300B10822 /* GenericStackViewRowComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114831725A3544300B10822 /* GenericStackViewRowComponentData.swift */; };
 		A1D52F0E2565BA4B0099E8A2 /* LoginPageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F0D2565BA4A0099E8A2 /* LoginPageComponent.swift */; };
 		A1D52F122565BA7D0099E8A2 /* LoginPageComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D52F112565BA7D0099E8A2 /* LoginPageComponentData.swift */; };
 		D77102425DD8ABB612653B8A /* Pods_MoveeComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B75FF13D206C98E0D48BCF /* Pods_MoveeComponents.framework */; };
@@ -98,7 +96,6 @@
 		221A2A672565259600107716 /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2255B9F5259FBEFC0067B36E /* CollectionViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewComponent.swift; sourceTree = "<group>"; };
 		2255B9F9259FBF0C0067B36E /* CollectionViewComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewComponentData.swift; sourceTree = "<group>"; };
-		2255B9FD259FC20E0067B36E /* CollectionViewCellComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellComponent.swift; sourceTree = "<group>"; };
 		2255BA0425A2158A0067B36E /* GenericCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewCell.swift; sourceTree = "<group>"; };
 		2255BA0A25A215950067B36E /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
 		2255BA0E25A215C90067B36E /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
@@ -112,9 +109,8 @@
 		2255BA3B25A24A1C0067B36E /* DateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponent.swift; sourceTree = "<group>"; };
 		2255BA4125A24A270067B36E /* DateComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentData.swift; sourceTree = "<group>"; };
 		A114830E25A34BB200B10822 /* TableViewComponentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewComponentProtocol.swift; sourceTree = "<group>"; };
-		A114831325A353FE00B10822 /* GenericStackViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewComponent.swift; sourceTree = "<group>"; };
-		A114831725A3544300B10822 /* GenericStackViewComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewComponentData.swift; sourceTree = "<group>"; };
-		A114831B25A3545300B10822 /* GenericStackViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewTableViewCell.swift; sourceTree = "<group>"; };
+		A114831325A353FE00B10822 /* GenericStackViewRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewRowComponent.swift; sourceTree = "<group>"; };
+		A114831725A3544300B10822 /* GenericStackViewRowComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericStackViewRowComponentData.swift; sourceTree = "<group>"; };
 		A1D52F0D2565BA4A0099E8A2 /* LoginPageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageComponent.swift; sourceTree = "<group>"; };
 		A1D52F112565BA7D0099E8A2 /* LoginPageComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageComponentData.swift; sourceTree = "<group>"; };
 		A235D6ECDB54652377CC8878 /* Pods-MoveeComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveeComponents.release.xcconfig"; path = "Target Support Files/Pods-MoveeComponents/Pods-MoveeComponents.release.xcconfig"; sourceTree = "<group>"; };
@@ -297,7 +293,6 @@
 			isa = PBXGroup;
 			children = (
 				2255B9F5259FBEFC0067B36E /* CollectionViewComponent.swift */,
-				2255B9FD259FC20E0067B36E /* CollectionViewCellComponent.swift */,
 				2255B9F9259FBF0C0067B36E /* CollectionViewComponentData.swift */,
 			);
 			path = CollectionViewComponent;
@@ -376,9 +371,8 @@
 		A114831225A353B200B10822 /* GenericStackViewRowComponent */ = {
 			isa = PBXGroup;
 			children = (
-				A114831325A353FE00B10822 /* GenericStackViewComponent.swift */,
-				A114831725A3544300B10822 /* GenericStackViewComponentData.swift */,
-				A114831B25A3545300B10822 /* GenericStackViewTableViewCell.swift */,
+				A114831325A353FE00B10822 /* GenericStackViewRowComponent.swift */,
+				A114831725A3544300B10822 /* GenericStackViewRowComponentData.swift */,
 			);
 			path = GenericStackViewRowComponent;
 			sourceTree = "<group>";
@@ -528,10 +522,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2255BA3325A245940067B36E /* PopularMoviesCardComponent.swift in Sources */,
-				A114831C25A3545300B10822 /* GenericStackViewTableViewCell.swift in Sources */,
 				A1D52F0E2565BA4B0099E8A2 /* LoginPageComponent.swift in Sources */,
 				221A2A172565172200107716 /* ViewControllerTypeProtocol.swift in Sources */,
-				A114831825A3544300B10822 /* GenericStackViewComponentData.swift in Sources */,
+				A114831825A3544300B10822 /* GenericStackViewRowComponentData.swift in Sources */,
 				2211D73C25653B4000AFEAB2 /* BaseView.swift in Sources */,
 				2255BA0525A2158A0067B36E /* GenericCollectionViewCell.swift in Sources */,
 				221A2A192565172200107716 /* GenericDataProtocol.swift in Sources */,
@@ -549,14 +542,13 @@
 				2255B9F6259FBEFC0067B36E /* CollectionViewComponent.swift in Sources */,
 				2211D758256551F700AFEAB2 /* TitleWithInputComponent.swift in Sources */,
 				2255BA0B25A215950067B36E /* GenericTableViewCell.swift in Sources */,
-				2255B9FE259FC20E0067B36E /* CollectionViewCellComponent.swift in Sources */,
 				2255BA2825A21C3A0067B36E /* TableViewComponentData.swift in Sources */,
 				2211D76B2565543B00AFEAB2 /* CommonLabelComponentData.swift in Sources */,
 				2255BA1F25A21A960067B36E /* GenericViewTypeAliases.swift in Sources */,
 				2211D778256559EB00AFEAB2 /* CommonTextFieldComponentData.swift in Sources */,
 				221A2A162565172200107716 /* InteractivePopGestureDelegate.swift in Sources */,
 				221A2A1A2565172200107716 /* GenericCellDataProtocol.swift in Sources */,
-				A114831425A353FE00B10822 /* GenericStackViewComponent.swift in Sources */,
+				A114831425A353FE00B10822 /* GenericStackViewRowComponent.swift in Sources */,
 				2255BA4225A24A270067B36E /* DateComponentData.swift in Sources */,
 				2211D774256559DF00AFEAB2 /* CommonTextFieldComponent.swift in Sources */,
 				2211D7702565594F00AFEAB2 /* DynamicAttributedTextField.swift in Sources */,

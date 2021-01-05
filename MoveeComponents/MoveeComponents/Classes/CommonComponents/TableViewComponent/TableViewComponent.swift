@@ -53,7 +53,7 @@ public class TableViewComponent: ProtocolBasedComponentView<TableViewComponentPr
     }
     
     private func registerTableViewCell() {
-        tableView.genericRegister(GenericStackViewTableViewCell.self)
+        tableView.genericRegister(GenericTableViewCell.self)
     }
     
     private func getNumberOfItems() -> Int {
@@ -76,7 +76,7 @@ public class TableViewComponent: ProtocolBasedComponentView<TableViewComponentPr
     
     private func listenSelectedRatingButton(selectedType: GenericViewType) {
         print("selectedTyper : \(selectedType)")
-        selectedViewTypeCompletion?(selectedType)
+        selectedViewTypeCompletion(selectedType)
     }
     
 }
@@ -89,13 +89,13 @@ extension TableViewComponent: UITableViewDelegate, UITableViewDataSource {
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let data = getRelatedItems(indexPath: indexPath) else { fatalError() }
-        let cell: GenericStackViewTableViewCell = tableView.genericDequeReusableCell(for: indexPath)
+        let cell: GenericTableViewCell = tableView.genericDequeReusableCell(for: indexPath)
         cell.setCellData(data: data)
         return cell
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cell: GenericStackViewTableViewCell = table.genericCellFotItem(at: indexPath)
+        let cell: GenericTableViewCell = table.genericCellFotItem(at: indexPath)
         cell.subscribeSelectedCellType(completion: listenSelectedRatingButton(selectedType: ))
     }
     
